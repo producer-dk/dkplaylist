@@ -36,3 +36,5 @@ INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,
 INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES ('g6-1Sdt8-BZJOE','g6','LAiV Crescendo VERSE','DAC / 앰프','1Sdt8-BZJOE','HOURS','SHINee','rw4GJDo8zJk','2026-08-25');
 INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES ('g6-eO3zsYsDnbI','g6','LAiV Crescendo VERSE','DAC / 앰프','eO3zsYsDnbI','Camera','Charli xcx','rw4GJDo8zJk','2026-08-25');
 INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES ('g6-YkG62bOqCwg','g6','LAiV Crescendo VERSE','DAC / 앰프','YkG62bOqCwg','NENDO','Caffeine Junkie','rw4GJDo8zJk','2026-08-25');
+CREATE TABLE IF NOT EXISTS lookup_cache (key TEXT PRIMARY KEY,payload TEXT NOT NULL,expires_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS lookup_limits (key TEXT PRIMARY KEY,used INTEGER NOT NULL DEFAULT 0);
