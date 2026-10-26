@@ -13,7 +13,28 @@ const sessionCookie=(token,seconds)=>'__Host-dk_session='+token+'; Path=/; HttpO
 async function account(env,sub){if(!env?.DB)throw Error('Database unavailable');await env.DB.prepare('INSERT OR IGNORE INTO users (id,google_sub) VALUES (?,?)').bind(crypto.randomUUID(),sub).run();return env.DB.prepare('SELECT id,nickname FROM users WHERE google_sub=?').bind(sub).first()}
 function nicknameValue(value){if(typeof value!=='string')return null;const n=value.normalize('NFC').trim().replace(/ +/g,' ');if([...n].length<2||[...n].length>20||!/^\p{L}[\p{L}\p{N} _-]*$/u.test(n)&&!/^\p{N}[\p{L}\p{N} _-]*$/u.test(n))return null;return n}
 function mbTrack(t){return{trackId:'mb:'+t.id,title:t.title,artist:(t['artist-credit']||[]).map(a=>(a.artist?.name||a.name||'')+(a.joinphrase||'')).join(''),album:t.releases?.[0]?.title||t.disambiguation||'',country:'KR',url:'https://musicbrainz.org/recording/'+t.id,source:'MusicBrainz'}}
-async function cachedJson(env,key,url){const hit=await env.DB.prepare('SELECT payload FROM lookup_cache WHERE key=? AND expires_at>?').bind(key,Date.now()).first();if(hit)return JSON.parse(hit.payload);if(url.startsWith('https://musicbrainz.org/')){await env.DB.prepare('INSERT OR IGNORE INTO lookup_limits (key,used) VALUES (?,0)').bind('musicbrainz-window').run();if(!await env.DB.prepare('UPDATE lookup_limits SET used=? WHERE key=? AND used<? RETURNING used').bind(Date.now(),'musicbrainz-window',Date.now()-1100).first())throw Error('Catalog busy')}const r=await fetch(url,{headers:{'User-Agent':'dkPlaylist/0.5 (https://dkplaylist.com)','Accept':'application/json'},signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error('Lookup HTTP '+r.status);const value=await r.json();await env.DB.prepare('INSERT OR REPLACE INTO lookup_cache (key,payload,expires_at) VALUES (?,?,?)').bind(key,JSON.stringify(value),Date.now()+21600000).run();return value}
+function catalogFailure(provider,stage,extra={}){console.error(JSON.stringify({event:'catalog_failure',provider,stage,...extra}))}
+async function cachedJson(env,key,url){
+ const u=new URL(url),provider=u.hostname==='itunes.apple.com'?'Apple '+(u.searchParams.get('country')||'unknown'):'MusicBrainz';
+ let stage='cache_read',status,contentType;
+ try{
+  const hit=await env.DB.prepare('SELECT payload FROM lookup_cache WHERE key=? AND expires_at>?').bind(key,Date.now()).first();
+  if(hit){stage='cache_parse';return JSON.parse(hit.payload)}
+  if(u.hostname==='musicbrainz.org'){
+   stage='rate_limit';
+   await env.DB.prepare('INSERT OR IGNORE INTO lookup_limits (key,used) VALUES (?,0)').bind('musicbrainz-window').run();
+   if(!await env.DB.prepare('UPDATE lookup_limits SET used=? WHERE key=? AND used<? RETURNING used').bind(Date.now(),'musicbrainz-window',Date.now()-1100).first())throw Error('Catalog busy');
+  }
+  stage='fetch';
+  const r=await fetch(url,{headers:{'User-Agent':'dkPlaylist/0.5 (https://dkplaylist.com)','Accept':'application/json'},signal:AbortSignal.timeout(12000)});
+  status=r.status;contentType=(r.headers.get('content-type')||'').slice(0,100);
+  stage='http_status';if(!r.ok)throw Error('Lookup HTTP '+r.status);
+  stage='response_parse';const value=await r.json();
+  stage='cache_write';
+  await env.DB.prepare('INSERT OR REPLACE INTO lookup_cache (key,payload,expires_at) VALUES (?,?,?)').bind(key,JSON.stringify(value),Date.now()+21600000).run();
+  return value;
+ }catch(e){catalogFailure(provider,stage,{status,contentType,timeout:e?.name==='TimeoutError'||e?.name==='AbortError'});throw e}
+}
 async function lookupTrack(env,id,country='KR'){if(/^mb:[0-9a-f-]{36}$/.test(String(id))){const mbid=String(id).slice(3);const t=await cachedJson(env,'mbtrack:'+mbid,'https://musicbrainz.org/ws/2/recording/'+mbid+'?inc=artist-credits+releases&fmt=json');return mbTrack(t)}if(!/^\d{1,16}$/.test(String(id))||!['KR','US','JP'].includes(country))throw Error('Invalid catalog selection');const d=await cachedJson(env,'track:'+country+':'+id,'https://itunes.apple.com/lookup?id='+id+'&entity=song&country='+country);const t=d.results?.find(t=>t.kind==='song'&&String(t.trackId)===String(id));if(!t)throw Error('Catalog track unavailable');return{trackId:t.trackId,title:t.trackName,artist:t.artistName,album:t.collectionName,country,url:t.trackViewUrl}}
 async function reserveLookup(env,key,limit){await env.DB.prepare('INSERT OR IGNORE INTO lookup_limits (key,used) VALUES (?,0)').bind(key).run();const r=await env.DB.prepare('UPDATE lookup_limits SET used=used+1 WHERE key=? AND used<? RETURNING used').bind(key,limit).first();return !!r}
 async function searchMusic(req,env,user,b,path){await env.DB.prepare('DELETE FROM lookup_cache WHERE expires_at<?').bind(Date.now()).run();const day=new Date().toISOString().slice(0,10);if(!await reserveLookup(env,'user:'+user.id+':'+day,60))return json({error:'오늘 검색 한도에 도달했습니다. 유튜브 링크를 직접 입력하거나 내일 다시 이용해 주세요.'},429);
@@ -24,7 +45,7 @@ async function searchMusic(req,env,user,b,path){await env.DB.prepare('DELETE FRO
    try{
     const term=title+' '+artist;
     const d=await cachedJson(env,'music:v2:'+country+':'+term.toLowerCase(),'https://itunes.apple.com/search?entity=song&media=music&limit=20&country='+country+'&term='+encodeURIComponent(term));
-    if(!Array.isArray(d.results))throw Error('Invalid catalog response');
+    if(!Array.isArray(d.results)){catalogFailure('Apple '+country,'response_shape');throw Error('Invalid catalog response')}
     for(const t of d.results.filter(t=>t.kind==='song')){
      if(!tracks.some(x=>String(x.trackId)===String(t.trackId)))tracks.push({trackId:t.trackId,title:t.trackName,artist:t.artistName,album:t.collectionName,country,url:t.trackViewUrl,source:'Apple'});
     }
