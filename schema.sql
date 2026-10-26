@@ -38,3 +38,7 @@ INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,
 INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES ('g6-YkG62bOqCwg','g6','LAiV Crescendo VERSE','DAC / 앰프','YkG62bOqCwg','NENDO','Caffeine Junkie','rw4GJDo8zJk','2026-08-25');
 CREATE TABLE IF NOT EXISTS lookup_cache (key TEXT PRIMARY KEY,payload TEXT NOT NULL,expires_at INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS lookup_limits (key TEXT PRIMARY KEY,used INTEGER NOT NULL DEFAULT 0);
+
+-- Full Reference Player archive; ambiguous product mappings stay out of entries.
+CREATE TABLE IF NOT EXISTS reference_sources (id TEXT PRIMARY KEY,source_url TEXT NOT NULL,broadcast TEXT,source_date TEXT NOT NULL,subject TEXT NOT NULL,payload TEXT NOT NULL,gear_id TEXT NOT NULL DEFAULT '',status TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS reference_sources_status ON reference_sources(status);
