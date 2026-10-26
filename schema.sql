@@ -42,3 +42,8 @@ CREATE TABLE IF NOT EXISTS lookup_limits (key TEXT PRIMARY KEY,used INTEGER NOT 
 -- Full Reference Player archive; ambiguous product mappings stay out of entries.
 CREATE TABLE IF NOT EXISTS reference_sources (id TEXT PRIMARY KEY,source_url TEXT NOT NULL,broadcast TEXT,source_date TEXT NOT NULL,subject TEXT NOT NULL,payload TEXT NOT NULL,gear_id TEXT NOT NULL DEFAULT '',status TEXT NOT NULL);
 CREATE INDEX IF NOT EXISTS reference_sources_status ON reference_sources(status);
+CREATE TABLE IF NOT EXISTS reference_products(source_id TEXT NOT NULL REFERENCES reference_sources(id),gear_id TEXT NOT NULL,PRIMARY KEY(source_id,gear_id));
+CREATE INDEX IF NOT EXISTS reference_products_gear ON reference_products(gear_id);
+INSERT OR IGNORE INTO reference_products(source_id,gear_id) SELECT id,gear_id FROM reference_sources WHERE gear_id<>'';
+CREATE TABLE IF NOT EXISTS sessions(token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id),expires_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS sessions_expiry ON sessions(expires_at);
