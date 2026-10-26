@@ -5,7 +5,7 @@ Apply each output SQL batch transactionally through D1 query. Reruns are idempot
 """
 import json,sys,hashlib
 from pathlib import Path
-from import_reference import video,key
+from import_reference import clean_song_text,video,key
 
 def quote(v):
  return 'NULL' if v is None else "'"+str(v).replace("'","''")+"'"
@@ -14,11 +14,11 @@ def prepare(rows,specs):
  for spec in specs:
   source=next(r for r in rows if r['id']==spec['id']);assert source['subject']==spec['subject']
   gid=spec.get('existingId') or 'ref-'+hashlib.sha256(key(spec['name']).encode()).hexdigest()[:16]
-  valid=[(t,video(t.get('url'))) for t in source['song'] if video(t.get('url')) and t.get('title','').strip() and t.get('artist','').strip()]
+  valid=[(t,video(t.get('url'))) for t in source.get('song',[]) if video(t.get('url')) and clean_song_text(t.get('title')) and clean_song_text(t.get('artist'))]
   assert valid,'No playable tracks; leave source pending'
   sql=[]
   for t,v in valid:
-   values=[gid+'-'+v,gid,spec['name'],spec['category'],v,t['title'].strip(),t['artist'].strip(),video(source['url']),source['date']]
+   values=[gid+'-'+v,gid,spec['name'],spec['category'],v,clean_song_text(t['title']),clean_song_text(t['artist']),video(source['url']),source['date']]
    if spec.get('existingId'):
     sql.append('INSERT OR IGNORE INTO entries(id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) SELECT '+','.join(map(quote,values[:2]))+',gear_name,category,'+','.join(map(quote,values[4:]))+' FROM entries WHERE gear_id='+quote(gid)+' LIMIT 1;')
    else:sql.append('INSERT OR IGNORE INTO entries(id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES ('+','.join(map(quote,values))+');')
