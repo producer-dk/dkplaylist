@@ -1,0 +1,12 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const h=JSON.parse(fs.readFileSync('worker.js','utf8').split('\n')[0].slice(13,-1));
+const ctx={};vm.createContext(ctx);
+vm.runInContext(h.match(/const GEAR_CATEGORIES=\[.*?\];/)[0]+h.slice(h.indexOf('function categoryGroups('),h.indexOf("$('.workspace').innerHTML")),ctx);
+const groups=ctx.categoryGroups([{category:'스피커'},{category:'DAP'},{category:'DAC / 앰프'},{category:'DDC / 클럭'},{category:'전원장치'}]);
+for(const c of ['전체','스피커','DAP','DAC','앰프','DDC / 클럭','전원장치','미분류'])assert(groups.includes(c));
+assert(ctx.categoryGroups([]).includes('미분류'));
+assert(!groups.includes('DAC / 앰프'));
+assert(ctx.matchesCategory('DAC / 앰프','DAC'));assert(ctx.matchesCategory('DAC / 앰프','앰프'));
+assert(!ctx.matchesCategory('DDC / 클럭','DAC'));assert(!ctx.matchesCategory('DAC / 앰프','헤드폰'));
+assert(ctx.matchesCategory('미분류','미분류'));assert(!ctx.matchesCategory('스피커','미분류'));
+console.log('PASS data-driven category filters, always-visible unclassified, combined DAC/amp and exact categories');
