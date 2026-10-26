@@ -20,6 +20,7 @@ def video(s):
 def prepare(source,existing):
  bybroadcast={e['broadcast']:e for e in existing if e.get('broadcast')}
  byname={key(e['gear_name']):e for e in existing}
+ byid={e['gear_id']:e for e in existing}
  known={(e['gear_id'],e['video']) for e in existing}
  statements=[];counts={'broadcasts':len(source),'source_tracks':sum(len(d.get('song',[])) for d in source),'new_entries':0,'matched_broadcasts':0,'pending_broadcasts':0,'unplayable_tracks':0}
  for d in source:
@@ -32,14 +33,9 @@ def prepare(source,existing):
     gear=byname.get(key(name))
     if not gear:
      gid='ref-'+hashlib.sha256(key(name).encode()).hexdigest()[:16]
-     # Categories only when explicitly stated; otherwise preserve as unclassified.
-     subject=d['subject'];category='미분류'
-     if '이어폰' in subject:category='이어폰'
-     elif '헤드폰' in subject or '헤드셋' in subject:category='헤드폰'
-     elif '스피커' in subject:category='스피커'
-     elif re.search(r'\bDAC\b',subject,re.I):category='DAC / 앰프'
-     elif '앰프' in subject:category='앰프'
-     gear={'gear_id':gid,'gear_name':name,'category':category};byname[key(name)]=gear
+     # Broadcast prose can mention comparison devices; do not infer a category
+     # from words such as 'headphone' in 'headphone amp'. Reuse existing IDs.
+     gear=byid.get(gid) or {'gear_id':gid,'gear_name':name,'category':'미분류'};byname[key(name)]=gear
   status='matched' if gear else 'needs_product_review';counts['matched_broadcasts' if gear else 'pending_broadcasts']+=1
   statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),d['date'],d['subject'],raw,gear['gear_id'] if gear else '',status]})
   for t in d.get('song',[]):
