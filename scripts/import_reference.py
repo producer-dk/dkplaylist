@@ -6,6 +6,10 @@ Only explicit single-product suffixes are promoted; all broadcasts stay in the a
 import sys,json,re,hashlib,unicodedata
 from urllib.parse import urlparse,parse_qs
 
+def clean_song_text(value):
+ text=re.sub(r'(?:<br\s*/?\s*>|&lt;br\s*/?\s*&gt;|&nbsp;)', ' ', str(value or ''), flags=re.I)
+ return re.sub(r'\s+', ' ', text).strip()
+
 def key(s):return re.sub(r'[^\w]','',unicodedata.normalize('NFKC',s).casefold())
 def video(s):
  s=str(s or '').strip()
@@ -39,7 +43,7 @@ def prepare(source,existing):
   status='matched' if gear else 'needs_product_review';counts['matched_broadcasts' if gear else 'pending_broadcasts']+=1
   statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),d['date'],d['subject'],raw,gear['gear_id'] if gear else '',status]})
   for t in d.get('song',[]):
-   v=video(t.get('url'));title=t.get('title','').strip();artist=t.get('artist','').strip()
+   v=video(t.get('url'));title=clean_song_text(t.get('title'));artist=clean_song_text(t.get('artist'))
    if not v or not title or not artist:counts['unplayable_tracks']+=1;continue
    if not gear:continue
    pair=(gear['gear_id'],v)
