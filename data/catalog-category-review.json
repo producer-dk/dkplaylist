@@ -1,0 +1,3206 @@
+[
+  {
+    "id": "ref-03878d0e3f76dc24",
+    "name": "1MORE FIT S30",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8f2c330962ebf104",
+    "name": "1MORE FIT S50",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-760aafa5396c5a65",
+    "name": "64 Audio Aspire 1",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-30238a82c6b1f5ce",
+    "name": "64 Audio Aspire 2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a7819d51426941f0",
+    "name": "64 Audio Aspire 3",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-12ed25bfb22e3b46",
+    "name": "64 Audio Ocean",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-279deb348b35c05c",
+    "name": "64 Audio U18S",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-2bf9043d82504ed1",
+    "name": "64 Audio U18T",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-329820142d1338f5",
+    "name": "64 Audio Volür",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-cbd562d68611bb86",
+    "name": "ACTIVO P1",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-fa2e1b6e6be86492",
+    "name": "ACTIVO Q1",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-cb039cd32aef0998",
+    "name": "AFUL Cantor",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f7497f49529b6b5f",
+    "name": "AFUL DAWN-X",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ab00d52a575eabf7",
+    "name": "AFUL Performer 8S",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7eb44c602d643448",
+    "name": "AME J1UR",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ddb7b7899f612f80",
+    "name": "AME J1UX",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-96e4e43084e685b1",
+    "name": "AME J2XR",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3773021dc62dfe1d",
+    "name": "AME J3H",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-80c736cbffedbe3f",
+    "name": "AZLA AMAP-2000",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d99ab5fd8e743eaf",
+    "name": "AZLA AMAP-A7",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f8f6cc0c9ad2bea1",
+    "name": "AZLA Le Celadon",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c44661fe25a4ce50",
+    "name": "Acoustune HS1657CU",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-24097a232dc135ea",
+    "name": "Acoustune HS1677SS",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-9d535fa370f54bff",
+    "name": "Acoustune HS1750CU",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-168a24cfb5fff971",
+    "name": "Acoustune HS1790TI",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-0e42dd0458a01c01",
+    "name": "Acoustune HS1900X SHINOGI (鎬)",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a0b56bbb35b6b0a9",
+    "name": "Acoustune HS2000 Air",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-2778cdcbeb02961c",
+    "name": "Agasound Sublimation Burnout",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f85098af32486dee",
+    "name": "Ampio G1",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-84a7d7562da70b49",
+    "name": "Anker AeroFit",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-484a330954f7b1af",
+    "name": "Anker AeroFit Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c1685d8755f3d21c",
+    "name": "Anker Liberty 4",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b555c05f771025fd",
+    "name": "Anker Liberty 4 Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-17dc9a5839486cd9",
+    "name": "Anker Liberty 5",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-92bdcd87b5d3a110",
+    "name": "Apple EarPods",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e8d1576abc1daf9e",
+    "name": "Astell&Kern HC3",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-ef24faef39daf67b",
+    "name": "Astell&Kern HC4",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-a0e2c98ab56b5663",
+    "name": "Astell&Kern SE200",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-f4218c9edda5af01",
+    "name": "Astell&Kern SP2000",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-fd0efb0cf42a1ee9",
+    "name": "Astell&Kern XB10",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-a4d5be371a97b8b7",
+    "name": "Audio-Technica AT-PHA55BT",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-7b9e42cadecde0f0",
+    "name": "AudioQuest DragonFly Black",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-e422ac4db068e5a0",
+    "name": "AudioQuest DragonFly Red",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-4f6df43feefb4e18",
+    "name": "Audioengine A1",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-1e37ea2010ebaba4",
+    "name": "Audioengine A2+",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-1b5c49579c2c1c2a",
+    "name": "Aune AC45",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-2779eec0dd67e3ea",
+    "name": "Aune AC55",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-94969e9cf31271a4",
+    "name": "Aune AR5000 MK2",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-699230354344011e",
+    "name": "Aune XC1",
+    "before": "미분류",
+    "after": "DDC / 클럭"
+  },
+  {
+    "id": "ref-b193cd97d1598b30",
+    "name": "BGVP Phantom",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-bb663c660dbb81c5",
+    "name": "Bakoon CAP-1001",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-5a780024a3d7c0ef",
+    "name": "Bakoon CAP-1003",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-b9ae437f653ba3bc",
+    "name": "Beats Powerbeats Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-2e3f61f36657276d",
+    "name": "Beats Studio Buds",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-96f8a3c84806bd94",
+    "name": "Binary Acoustics 1900",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3e0fc20d6977675c",
+    "name": "Binary Acoustics Chopin",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-38f697b8e549f81a",
+    "name": "Binary Acoustics EP321 MEMS",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-da661e7ad837b461",
+    "name": "Black Lion Audio PG-P (Type K)",
+    "before": "미분류",
+    "after": "전원장치"
+  },
+  {
+    "id": "ref-ac60f1d485a7f590",
+    "name": "Black Lion Audio Revolution 2x2",
+    "before": "미분류",
+    "after": "오디오 인터페이스"
+  },
+  {
+    "id": "ref-4b6fb45003b9906b",
+    "name": "Bose NC 700",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-d64f0d362a391d3f",
+    "name": "Bose QC Earbuds",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-16b9620c4651fa2b",
+    "name": "Bose QC35 II",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-5dcb57af003a6ead",
+    "name": "Bose SoundLink Mini II",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-a94f8fe3ff212371",
+    "name": "Bowers & Wilkins 607 S2",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-6fb1fb3ae1e2975a",
+    "name": "Bowers & Wilkins Pi7 S2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e75b8f61aae644b3",
+    "name": "Bowers & Wilkins Px7 S2e",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-44bf25dd3bc1559e",
+    "name": "Campfire Audio SUPERMOON",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-653ae3df54c4c6ea",
+    "name": "Canpur CP622B Ti",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-57236e734e3101ba",
+    "name": "Canpur CP752B",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-5d529cf8081a85ba",
+    "name": "Canpur Silver Flash",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6c109edfd22d3f86",
+    "name": "Cayin HA-300MK2",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-011b636d72a127cb",
+    "name": "Cayin Soul 170HA",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-411494dc4294541b",
+    "name": "Chord Hugo TT2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-bb54b7a3dba3c4e1",
+    "name": "Chord M-Scaler",
+    "before": "미분류",
+    "after": "DDC / 클럭"
+  },
+  {
+    "id": "ref-98c2ad9065f1ebd5",
+    "name": "Chord Mojo",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-9fd6296b24ca641d",
+    "name": "Chord Mojo 2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-71c95a9ac7c5e837",
+    "name": "Cozoy D1",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-30419fed19c4b8ab",
+    "name": "Cozoy D2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e1280f9765c8a2b4",
+    "name": "DALI Oberon 1",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-f7ddd8331a2788a3",
+    "name": "DITA MECHA",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-dc89eac3092901fc",
+    "name": "DITA Project M",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3298eb055b9a3a50",
+    "name": "DITA Project M2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e85b9aad018ce947",
+    "name": "DUNU DN142",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8d64ae057fd3f065",
+    "name": "DUNU DN242",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-0902d3937ca9808c",
+    "name": "DUNU Titan X",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8f81a42fe9139248",
+    "name": "DUNU x KOTO ITO",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a071dc763850968b",
+    "name": "Dan Clark Audio E3",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b8fd35bd97dceca5",
+    "name": "Dan Clark Audio Noire X",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-91a6eee3dcbe4139",
+    "name": "Dan Clark Audio Noire XO",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-050e0fa6e640b9da",
+    "name": "Dan Clark Audio Stealth",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-231e687ef393f890",
+    "name": "Denon AH-D7000",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-247934cc0024edfa",
+    "name": "Denon AH-D7100",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-17bed0475c51a202",
+    "name": "Denon AH-D7200",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-7c7da8d0018764ed",
+    "name": "Denon PerL Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-90d1d4d705bb3ffa",
+    "name": "EPZ K9",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3a21a53c486c61c1",
+    "name": "EPZ P50",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-5d5e602293a59454",
+    "name": "EVE Audio SC203",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-ba3ba69df534fbba",
+    "name": "EVE Audio TS107",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-a51903c075a93774",
+    "name": "EarStudio ES100",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-ec7a78a9c4866d29",
+    "name": "Elysian Acoustic Labs Apostle",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-081547f2c1d6cd62",
+    "name": "Elysian Acoustic Labs Pilgrim",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a52b7883bc47a24b",
+    "name": "Elysian Acoustic Labs Pilgrim Noir",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d82adfd9746ed0e1",
+    "name": "Eminent Ears Sapphire",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f8f59ae2a84de9cd",
+    "name": "Erzetich Bacillus Tilia",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-41139a1b64d235bd",
+    "name": "Erzetich Phobos",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-98f67b94e60d3a50",
+    "name": "Etymotic ER2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-2586a8d31486630a",
+    "name": "Etymotic ER3",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d1bf213a57668619",
+    "name": "FATfreq Maestro Mini",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ac23165a1d495daf",
+    "name": "FATfreq Quantum",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c595135f31032f65",
+    "name": "FAudio Chorus",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-75094bd454a29854",
+    "name": "FAudio Scale",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-24eb5400d8dbdf77",
+    "name": "FIIL Key Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3e4c06e5a19d65de",
+    "name": "Fender Indio 2",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-79740bdba49d3059",
+    "name": "Fender Newport 2",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-92c66329e6eef8b9",
+    "name": "FiR Audio Electron 10",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7db1c305bcc3bdeb",
+    "name": "FiR Audio Electron 12",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-659c3b94d9ede218",
+    "name": "FiR Audio Redux 6",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-dc154a1198ea282a",
+    "name": "FiiO BTR5",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-01988c31d1130a65",
+    "name": "FiiO DM15 R2R",
+    "before": "미분류",
+    "after": "CD 플레이어"
+  },
+  {
+    "id": "ref-ab2a3a897c86ea6e",
+    "name": "FiiO K11",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-ac3fba88ab7c4cf9",
+    "name": "FiiO M21",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-ed65a550404dd7c1",
+    "name": "FiiO M33 R2R",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-c55ebca7dfd73ff8",
+    "name": "FiiO X3 III",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-92caaa153f0005fa",
+    "name": "Final A6000",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-bac958868bb1e236",
+    "name": "Final D7000",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-9892abf8ecb216c2",
+    "name": "Final VR3000 Wireless",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-1e51f10562d60bb3",
+    "name": "Focal Celestee",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-2c0b03e183c8baa6",
+    "name": "Focal Clear MG",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-90a6e45bc9f9af3e",
+    "name": "Focal Elegia",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-79d3193c8b9df085",
+    "name": "Focal Stellia",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-6add9d3857342f59",
+    "name": "Focal Utopia",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-0e6b0a6228dba89c",
+    "name": "Forté Ears Violetta",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-91ea1b2903f1ed1f",
+    "name": "Fosi Audio DS2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-2a2e1ba8faadadaa",
+    "name": "Fosi Audio DS3",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-5645962508c0399f",
+    "name": "Fosi Audio GR40",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-a5183dd8271b5906",
+    "name": "Fosi Audio IM4",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-67c7269eb0ed65ca",
+    "name": "Fosi Audio MD3",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-12f278be7fde3979",
+    "name": "Fosi Audio SK02",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-1be18267202be10d",
+    "name": "Fosi Audio V3",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-f1306ba8851848bf",
+    "name": "Fostex TH-900",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-ca428ecc1ffd0985",
+    "name": "Fostex TH-909",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b4145110d48e8188",
+    "name": "GUSTARD A26",
+    "before": "미분류",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-7146c76ad4b01245",
+    "name": "GUSTARD R26",
+    "before": "미분류",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-5f3a1f9932ae865d",
+    "name": "Grado S550",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-0def22647521b1ce",
+    "name": "Grado S750",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-c57d85218536dac0",
+    "name": "Grado S950",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-250d40d1984ed55a",
+    "name": "Grado SR80e",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-31289c98206a971e",
+    "name": "Grado SR80x",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-7e58ba0925c4e4e8",
+    "name": "Grand Oriveti Supremacy",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-764100817a352c04",
+    "name": "HEDD TYPE 05 MK2",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-fd50dcc2e5a03f15",
+    "name": "HEDD TYPE 20 MK2",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-55873f7c3b661464",
+    "name": "HIFIMAN HE-R10D",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-a8d1b678583a1ac3",
+    "name": "HIFIMAN HE-R10P",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-e4e33fe05bebf223",
+    "name": "Harmonic Empire ChangLiao",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b7b5a55ae165fbad",
+    "name": "Harmonic Empire XiaoQiao",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b9372f8a47e7e5ad",
+    "name": "Harmony HP2A",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-4100478e3995e498",
+    "name": "Harmony µDAC",
+    "before": "미분류",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-28b24c5ba14a891d",
+    "name": "Harmony µDDC",
+    "before": "미분류",
+    "after": "DDC / 클럭"
+  },
+  {
+    "id": "ref-229292574092d5c4",
+    "name": "HiBy FC3",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-01bcd3b85e4bab4d",
+    "name": "HiBy R3",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-b7426eec4ca24126",
+    "name": "HiBy x FAudio Project ACE",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-9461530f3b01cdf4",
+    "name": "INTUAURA Luna Series Plume",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-94cf1d577aaca3a1",
+    "name": "I\\O Acoustics CIELO",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3ed93e93bc7fd9af",
+    "name": "JAVS AD1862N R2R 모듈",
+    "before": "미분류",
+    "after": "액세서리"
+  },
+  {
+    "id": "ref-6267cf328d2bd938",
+    "name": "JAVS Clean Power",
+    "before": "미분류",
+    "after": "전원장치"
+  },
+  {
+    "id": "ref-fc704bd6e73afa2d",
+    "name": "JAVS PCM 1702 R2R 리미티드 에디션",
+    "before": "미분류",
+    "after": "액세서리"
+  },
+  {
+    "id": "ref-64d3f919cb1441bc",
+    "name": "JAVS X7",
+    "before": "미분류",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-d356bf09f803b992",
+    "name": "JAVS X70",
+    "before": "미분류",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-1386fcca70777ac2",
+    "name": "JCALLY Galaxy Sonata",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-0156ec6aeb29f7fd",
+    "name": "JCALLY JM98MAX2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-e9ef101a0ccb4b25",
+    "name": "Jomo Audio Nautilus",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8c1b84292f4f27a0",
+    "name": "Jomo Audio Serenity",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-cd55c608b0dc4c65",
+    "name": "KBEAR Tourbillon Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-0b8021a3499a2183",
+    "name": "KEF LSX II",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-dbd00ebaae81590e",
+    "name": "KEF LSX II LT",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-9e5bf81589affabf",
+    "name": "KZ ZSN PRO X",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6519c49dec6d9815",
+    "name": "KZ ZST X",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d1ab579ad215220a",
+    "name": "Kinera Frigg",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-5ad4a5e5123ae3d6",
+    "name": "Kinera LOKI Divine Mark",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b83bddc6528e0ee6",
+    "name": "Kinera NOTT Phantom",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-2039c57c20d5f4f8",
+    "name": "Kiwi Ears Airoso",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-9c58f7690085f79e",
+    "name": "Kiwi Ears Astral",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f446c98d3e34e807",
+    "name": "Kiwi Ears Cadenza 2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e846d2287c6b1a9d",
+    "name": "Kiwi Ears Canta",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-153153bb594eeb79",
+    "name": "Kiwi Ears Halcyon",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7ba7155db06318bc",
+    "name": "Kiwi Ears Orchestra II",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-df80591877378e79",
+    "name": "Kiwi Ears Septet",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7e35268cecd7d324",
+    "name": "Kiwi Ears Étude",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-087dbe94f5706765",
+    "name": "Klipsch Cornwall IV",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-27db1beac78639b9",
+    "name": "Klipsch The Nines",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-bfda18f805c14241",
+    "name": "Klipsch The Sevens",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-f8c897999ac2ae72",
+    "name": "Koss KSC75",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-40fa7b848175d82e",
+    "name": "Koss Porta Pro",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-5ee2a2f725c419d0",
+    "name": "Kotori Audio Zephyr",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-560b0303bdeb8c9e",
+    "name": "LG V50",
+    "before": "미분류",
+    "after": "스마트폰"
+  },
+  {
+    "id": "ref-323546e3113e291a",
+    "name": "Leteciel Promise",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-5ea195066e5cc543",
+    "name": "Lowmaster BH301",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e9d43a6bf2eb7324",
+    "name": "Madoo Typ821",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ff4e4613ba380a07",
+    "name": "Madoo Typ831",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c713d746fd7650d3",
+    "name": "Madoo Typ930",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-2ae964be6e89adb9",
+    "name": "Marantz M1",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-f95ff818f7f0cac1",
+    "name": "Marantz MODEL 60n",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-dcc715255cd8fd57",
+    "name": "Marantz Model 30",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-f8e7d43263faea85",
+    "name": "Marantz SACD 30n",
+    "before": "미분류",
+    "after": "CD 플레이어"
+  },
+  {
+    "id": "ref-0777a26366995c74",
+    "name": "Marshall Emberton",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-4cac202fc20c8a07",
+    "name": "Meizu HiFi DAC",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-afe0c9df60d8e6d5",
+    "name": "Meizu HiFi DAC Pro",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-08df95decfb8a656",
+    "name": "Meze Audio 105 Silva",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-15694effe469fd9b",
+    "name": "Meze Audio 99 Classics",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-da7037640e3e9a18",
+    "name": "Meze Audio 99 Neo",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-2a158525e36a21b5",
+    "name": "Meze Audio ASTRU",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6417c724da30abfa",
+    "name": "MonsterEar House Of Girls",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d93e3823195f1fd8",
+    "name": "Moondrop Blessing 2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-de5408b8a5289644",
+    "name": "Moondrop Blessing 2 Dusk",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-12c3e262416f2a32",
+    "name": "Moondrop Chaconne",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-07e2ac759e5a0e77",
+    "name": "Moondrop KXXS",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-42fb525d9e50c298",
+    "name": "Moondrop KXXX",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f20f1c355f0ddb26",
+    "name": "Moondrop Liebesleid",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b8ed30cd48ca82c5",
+    "name": "Moondrop Nameless",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e214965cf9fc30ca",
+    "name": "Moondrop SSP",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-925b3c8b81285f5a",
+    "name": "Moondrop SSR",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-99c810df2f3bfe38",
+    "name": "Moondrop TYR",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-1cce57f31450af6d",
+    "name": "Moondrop VX Classic",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b6fe734d33928550",
+    "name": "NSKY Victoria 한국 특별판",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ecb02adea550d37e",
+    "name": "NiceHCK EBX25Ti",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-fc26bfcaab082ee7",
+    "name": "NiceHCK NX8Ti Limited Edition",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e23b84e34e63bb5e",
+    "name": "ODA Leviathan (Korea Edition)",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-9f92b28910e2df86",
+    "name": "ODA x 더그랩사운드 Aeos",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-325ea69fcc7fc2ce",
+    "name": "Oriveti O400",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-555943e78ba78980",
+    "name": "Oriveti O800",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e2c36bb20d9fa913",
+    "name": "Oriveti bleqk Dynabird",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-deacaded864b6c76",
+    "name": "Oriveti bleqk Purecaster",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d1fcfb4133ca427d",
+    "name": "PLUSSOUND Sonora",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-9d69c666ce0e3b38",
+    "name": "PLUSSOUND Volta",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6d281af722545186",
+    "name": "Positive Grid Spark GO",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-e148cdc0fc8275da",
+    "name": "Positive Grid Spark MINI",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-6279de59f00404e1",
+    "name": "Project Refine T18R",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b7565eb60387b355",
+    "name": "QCY HT01",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-5151776dc1e9764c",
+    "name": "QCY T12",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-4cc6f0314ba13d70",
+    "name": "QCY T5",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6767cf200dd4f1e4",
+    "name": "QCY T5 Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-38404bd4ed3e3f18",
+    "name": "QCY T5S",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-bf82c99291d549a4",
+    "name": "QCY T6",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-1f52b89db46569f3",
+    "name": "QDC 8 Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ea8f69277e1ad282",
+    "name": "QDC Emperor",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-78af359dbea606f6",
+    "name": "QDC Empress",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-5c791ced571e4f4d",
+    "name": "QoA Matador",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7053b864ca4850db",
+    "name": "Qudelix 5K",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-f6e3e941e78e723b",
+    "name": "Questyle M12i",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-f3004d3d22b7df34",
+    "name": "Questyle M15i",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-98c201a0a116dee7",
+    "name": "Questyle QCC 동글 (Pro)",
+    "before": "미분류",
+    "after": "블루투스 송신기"
+  },
+  {
+    "id": "ref-2eb0ddd01351967e",
+    "name": "REL S/812",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-3d94281349b75131",
+    "name": "REL Tzero MKIII",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-326eda1df6b2504c",
+    "name": "SIMGOT DEW4X",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-e2f89861e724feb7",
+    "name": "SIMGOT EA2000",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b72609958db134ca",
+    "name": "SIMGOT EA500",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-deae6da2b788e065",
+    "name": "SIMGOT EA500 DSP",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-52e87c52d2a7cb35",
+    "name": "SIMGOT EA500LM",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-fd95ddef87edabb7",
+    "name": "SIMGOT EG280",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-bb13fd3831cab711",
+    "name": "SIMGOT EK3",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-bf2078e097563151",
+    "name": "SIMGOT EN700 Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d8ac878314c33213",
+    "name": "SIMGOT EW200 DSP",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c8ae962afb76f60a",
+    "name": "SIMGOT EW300 DSP",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7c22c31d3cad5d92",
+    "name": "SIMGOT SuperMix 5",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-9585dc8b6c21969c",
+    "name": "SPL Phonitor XE",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-4bac5bc1c31dbd07",
+    "name": "SSL Fusion",
+    "before": "미분류",
+    "after": "음향 프로세서"
+  },
+  {
+    "id": "ref-595cfebc0982abf4",
+    "name": "Samsung Galaxy Buds Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-20dbf0ba59fd37d5",
+    "name": "Samsung Galaxy Buds2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-be84faf121e15b94",
+    "name": "Schiit Magni 3+",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-d059babbba6d582b",
+    "name": "Schiit Magni Heresy",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-303ee83c0ad7afed",
+    "name": "SeeAudio Kaguya 2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a6f2f411b8ed634e",
+    "name": "SeeAudio NEKO",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6778d81b712c0e92",
+    "name": "SeeAudio RINKO",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-cf34c4a162ef1575",
+    "name": "SeeAudio SeeU",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-68633ab7d5aed2d9",
+    "name": "SeeAudio YUME IV",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a74aa6c67b9b424b",
+    "name": "Sennheiser CX100",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a0a3415fa6284c4d",
+    "name": "Sennheiser CX300S",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3f3904d8c7caf7b3",
+    "name": "Sennheiser HD100",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-9e2b435b9af599c3",
+    "name": "Sennheiser HD300",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-e3e17fb73a2ca505",
+    "name": "Sennheiser HD400S",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-5292f6c963583c28",
+    "name": "Sennheiser HD550",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-20eeb005aad94e57",
+    "name": "Sennheiser HD560S",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b45157d81c857336",
+    "name": "Sennheiser HD569",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-e21f90a09680de0c",
+    "name": "Sennheiser HD599",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-f0b2b9735ea21fd1",
+    "name": "Sennheiser HD600",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-6631a256d76dd533",
+    "name": "Sennheiser HD620S",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-bbffe5d047e8d35f",
+    "name": "Sennheiser HD660S",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-09bc624a0cca6fee",
+    "name": "Sennheiser HD800S",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-056ad2178f5bb477",
+    "name": "Sennheiser Momentum True Wireless 2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ee101905665ad0fc",
+    "name": "Shanling EH1",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-529cf2c302d4face",
+    "name": "Shanling EH2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-d1d23e6d5ef46acb",
+    "name": "Shanling H7",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-4d1eb159af55931b",
+    "name": "Shanling JET1",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-1dca6e5b333ae38a",
+    "name": "Shanling M7T",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-0446aa137876b510",
+    "name": "Shanling M8T",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-b81053ef15ca6e4b",
+    "name": "Shanling M9 Plus",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-3b34425d195844b2",
+    "name": "Shanling TINO",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6743b2f4de7d640b",
+    "name": "Shanling UA1 II",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-62421b9563214207",
+    "name": "Shure AONIC 3",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-734830deda04390d",
+    "name": "Shure AONIC 4",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e0bd74e875ec8bbd",
+    "name": "Shure AONIC 40",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-37ebf5388ede9c34",
+    "name": "Shure AONIC 5",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-bc203b82864aa662",
+    "name": "Shure AONIC 50",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b03cde77f1fe278f",
+    "name": "Shure AONIC Free",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-03f7aa378b9cf23a",
+    "name": "Shure SRH1440",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-efac0f35a7524e62",
+    "name": "Shure SRH1540",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-059dd715ea80e003",
+    "name": "Shure SRH1840",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-9491f8cde9053381",
+    "name": "Shure SRH440A",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-fa554ef4c937fa93",
+    "name": "Shure SRH840A",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-726e004907511817",
+    "name": "Softears Cerberus",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6f7b0c31cd8071cd",
+    "name": "Softears Karma",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e6559e928e62ffed",
+    "name": "Softears RS10",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3a8639709a2a1a0e",
+    "name": "Softears RSV",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-03205bb2ac6f34e4",
+    "name": "Softears RSV MK2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-df14bdc81d49af37",
+    "name": "Softears SE6 Live",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ac65123995ea1314",
+    "name": "Softears Studio 2",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-77c744ce1f3156e4",
+    "name": "Sony 1000X THE COLLEXION",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-a8f7c3bb6a8cee1d",
+    "name": "Sony INZONE E9",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-339080446268134c",
+    "name": "Sony INZONE H3",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-2e586794c87d59fd",
+    "name": "Sony INZONE H9",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-e7adb412faad2959",
+    "name": "Sony INZONE H9 II",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-60be1f24aa8d759c",
+    "name": "Sony MDR-1ABT",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-d7f5decce816f9fd",
+    "name": "Sony MDR-G42",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-ed3b7a35322d3977",
+    "name": "Sony MDR-G45",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-abad53c08c304da1",
+    "name": "Sony MDR-Z7",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-f55f28d82f8f96c1",
+    "name": "Sony NW-A306",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-97ab25a78ac3c32c",
+    "name": "Sony NW-WM1AM2",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-acf29faf5f4e4069",
+    "name": "Sony NW-WM1ZM2",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-2d0ec17144c8c1d3",
+    "name": "Sony PHA-3",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-d0415a5f74d1c686",
+    "name": "Sony SRS-NB10",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-4c72574b4980349b",
+    "name": "Sony SRS-WS1",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-54162ec7fde7863c",
+    "name": "Sony SRS-XB13",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-84e21509a3bb6a8f",
+    "name": "Sony SRS-XB23",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-f83dbde027c83ea8",
+    "name": "Sony ULT FIELD 1",
+    "before": "미분류",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-c6461b928df03a96",
+    "name": "Sony ULT WEAR",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-7cd5195d9a3a5871",
+    "name": "Sony WF-1000XM6",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-41c424085d160141",
+    "name": "Sony WH-1000XM2",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b4175f5019c8cd1d",
+    "name": "Sony WH-1000XM3",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-dc4f2861b6a06448",
+    "name": "Sony WH-1000XM6",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-340ea3afbd825f93",
+    "name": "Sony WH-H900N",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-8ea0342e4f3fc115",
+    "name": "Soranik MEMS 422",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-cb4e80aa750a2ceb",
+    "name": "Soranik MEMS-3S 2025",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-47511c7169d81f99",
+    "name": "Sweear SP9 SR11",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-dd742ede3262aa71",
+    "name": "T+A HA200",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-fae4940f8b0ad40f",
+    "name": "T+A Solitaire P",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-eeeeb6ebd3f07dd8",
+    "name": "Tanchjim Origin",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-0f87da0d6f27222e",
+    "name": "Teac PD-D2610",
+    "before": "미분류",
+    "after": "CD 플레이어"
+  },
+  {
+    "id": "ref-4600303707a3b992",
+    "name": "TimeEar NH60 年華 (연화)",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7946273b4d277002",
+    "name": "Topping PA3s",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-ba72caddc92e771c",
+    "name": "Ultimate Ears UE150",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-3ab83604b405b434",
+    "name": "Ultimate Ears UE250",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c5b2c1cf22cdfb4c",
+    "name": "Ultimate Ears UE350",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-df71c0f48dd05e6e",
+    "name": "Ultrasone Edition 8 Carbon",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-1120af443023b7fb",
+    "name": "Ultrasone Edition 8 Julia",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-a2103f8872409bb7",
+    "name": "Ultrasone Edition 8 Palladium",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-c4f97533d41229b9",
+    "name": "Ultrasone Edition 8 Romeo",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-94d6eb01b488a564",
+    "name": "Ultrasone Edition 8 Ruthenium",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-fe31ed081014872c",
+    "name": "Ultrasone Fusion",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-8674e30255730c51",
+    "name": "Ultrasone IQ",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-875e6ee0940d660f",
+    "name": "Ultrasone IQ Pro",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-467aa14024cfe779",
+    "name": "Ultrasone Master Mk2",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-14b78c65ad764e76",
+    "name": "Ultrasone Pro 1480i",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-d9dec6b9b33e37bc",
+    "name": "Ultrasone Pro 480i",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b20c2ebb5e279392",
+    "name": "Ultrasone Pro 550i",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-1769c0c5c62caa6c",
+    "name": "Ultrasone Pro 580i",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-cd73fd062a1202af",
+    "name": "Ultrasone Pro 750i",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-bbe01181fea9bdd3",
+    "name": "Ultrasone Signature Pro",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-874a7be67c52929c",
+    "name": "Ultrasone Signature Studio",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-97146672790c155c",
+    "name": "Ultrasone TIO",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-15e1d874e24ba80e",
+    "name": "Unique Melody Asahi",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a4388228e256a82f",
+    "name": "Unique Melody From The Start",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-fbbdf3fb1c96d47a",
+    "name": "Unique Melody MAVEN II",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-390b9c3ee5f98a5f",
+    "name": "Unique Melody MEXT",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7788d8ba7823250f",
+    "name": "Unique Melody Mest Jet Black",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8b88ef290bffc17b",
+    "name": "Unique Melody Pentara",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-09a72187f3d8f576",
+    "name": "Unique Melody Stardust",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-0dc7c124b57477aa",
+    "name": "Unique Melody jaune Soleil (Korea Limited Edition)",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-306c23f2cdff8a24",
+    "name": "VISION EARS GO live!",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-06b622630607e2bc",
+    "name": "Yulong Asura",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-724e7de02a121223",
+    "name": "ZMF Caldera Closed LTD",
+    "before": "미분류",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-25a02b5cc07d35e0",
+    "name": "Zishan DSD",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-6bce2712a9d3da57",
+    "name": "Zuo Drum String Phanta",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-4d0f6dd811159508",
+    "name": "dCS Lina",
+    "before": "미분류",
+    "after": "오디오 세트"
+  },
+  {
+    "id": "ref-eb29980c5f974278",
+    "name": "iBasso DC02",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-783ba10ce87b38a5",
+    "name": "iBasso DC03",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-df30e0580e1e1a61",
+    "name": "iFi Diablo",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-42212f6525c3bb7f",
+    "name": "iFi GO link 2 Max",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-82958d7729835b77",
+    "name": "iFi Go Link",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-2f4538d05b7838ed",
+    "name": "iFi Go Pod Air",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-6751c70b33dbafcd",
+    "name": "iFi Go Pod Max",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-329f0ed1b5c6c9d9",
+    "name": "iFi Go link 2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-4143ebc4b6ccff88",
+    "name": "iFi HIP-DAC",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-0ab0febee3ad66a0",
+    "name": "iFi HIP-DAC 2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-162262ab81eecf85",
+    "name": "iFi NEO iDSD 2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-9116a7dfabd13423",
+    "name": "iFi NEO iDSD 3",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-ec09812d066bb227",
+    "name": "iFi UNO",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-3679e71a8aa27eaa",
+    "name": "iFi ZEN Air Blue 2",
+    "before": "미분류",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-8cbee5ca3ba48338",
+    "name": "iFi ZEN Air DAC 2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-707dc8a7103c9702",
+    "name": "iFi ZEN Blue",
+    "before": "미분류",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-1c7140a7f06ef7c4",
+    "name": "iFi ZEN CAN Signature 6XX",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-49ddfcf052eb3955",
+    "name": "iFi ZEN DAC",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-e96f0141f6806221",
+    "name": "iFi ZEN DAC Signature",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-e65d6e552e2d44ae",
+    "name": "iFi iDSD GR 2",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-9fd94ddf64b33a95",
+    "name": "iFi iDSD Phantom",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-2fb9aa6fa9b500b4",
+    "name": "iFi iDSD Signature",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-052a92612104f796",
+    "name": "iFi iDSD Valkyrie",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-87a26d49a1462bcf",
+    "name": "iFi iPower",
+    "before": "미분류",
+    "after": "전원장치"
+  },
+  {
+    "id": "ref-f7b59fa206b5fc8a",
+    "name": "iFi xCAN",
+    "before": "미분류",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-fedc0ce409c04ab6",
+    "name": "iFi xDSD",
+    "before": "미분류",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-25fb2f7c227314e8",
+    "name": "iKKO OH300",
+    "before": "미분류",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-fd36a0bf8383b3c1",
+    "name": "xDuoo X20",
+    "before": "미분류",
+    "after": "DAP"
+  },
+  {
+    "id": "ref-4ae557a461a6f297",
+    "name": "ADAM Audio D3V",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-3d428b14ec60b0d5",
+    "name": "AZLA Trinity",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d7ce67ebb017a39b",
+    "name": "Acoustune C:03 M:02G",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a8455b22eaa0bcef",
+    "name": "Acoustune HS3000",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c1e6295c8afa618e",
+    "name": "Acoustune HSX ONE",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8a7330af47280095",
+    "name": "Acoustune HSX1001",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d81e7c490b03ec49",
+    "name": "Allnic ASRA RHPA-7500",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-458e1943d92fc21f",
+    "name": "Allnic RD-7500 OTL/OCL DAC",
+    "before": "DAC / 앰프",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-8168645b34234f5a",
+    "name": "Anker AeroFit 2",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6ae54e2b92de74c8",
+    "name": "Anker Soundcore Space One",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "g4",
+    "name": "Audeze Maxwell 2 ANC",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-99f030a4ae4931f8",
+    "name": "Aune A17",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "g5",
+    "name": "Aune AR9000",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-9cbfda5ba862ef02",
+    "name": "Aune BX2",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-60f63fa9582f698d",
+    "name": "Aune IR300",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b9e3039b97716d20",
+    "name": "Aune N7D",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-7641c725901821b5",
+    "name": "Aune YUKI",
+    "before": "DAC / 앰프",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-6b7ba1d537574170",
+    "name": "Austrian Audio The Arranger",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-2bff01e461da6a6c",
+    "name": "Bowers & Wilkins Pi8",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-641e43b5756f29d9",
+    "name": "Bowers & Wilkins Px8",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-508158dd3e9e92b9",
+    "name": "Bowers & Wilkins Px8 S2",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-380ec4c2e65ada36",
+    "name": "Bowers & Wilkins Zeppelin Pro Edition",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-9af920c5f13ec38b",
+    "name": "Burson Conductor GT4",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-f1ef58742c1b997e",
+    "name": "Burson Soloist Voyager (Deluxe)",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-697f24a4bd69573a",
+    "name": "Canpur CP622B",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "g3",
+    "name": "Cayin HA-300 MK3",
+    "before": "앰프",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-5ae74c1c6268b861",
+    "name": "Cayin HA-3A",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-0c4f631575c664fb",
+    "name": "Cayin HA-6A MKII",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-f9c53be85d5dea62",
+    "name": "D-ACOUSTICS DIO",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-e607c77066d64052",
+    "name": "DALI Kupid",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-5bb309f80c5a4eaa",
+    "name": "DALI MENUET SE",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-250dfaf92d7e44e3",
+    "name": "DITA VENTURA",
+    "before": "스피커",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-4596100858861c1c",
+    "name": "DUNU Alpha3",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f4cd4acc56c8be71",
+    "name": "DUNU Mortise",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-862751dad511848c",
+    "name": "Dan Clark Audio Aeon 2 Noire",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-759fc710eb164c25",
+    "name": "Dan Clark Audio Aeon Core",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-ea1a63003d61eaab",
+    "name": "Denon N12",
+    "before": "스피커",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-242f2eac7b942ad7",
+    "name": "EPZ G20",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-415f1878c3776440",
+    "name": "Edifier M90",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-6623e971fb9cf813",
+    "name": "Edifier MR4 MKII",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-a285ad80e70e3e34",
+    "name": "Edifier MR5",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-2e285b1a7eaf25b0",
+    "name": "Erzetich Charybdis",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-505a42bc13608db5",
+    "name": "FAudio Mezzo",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-0d59e1c7c0d26d65",
+    "name": "FIIL CC PRO2",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-4d6972cf665f7cb1",
+    "name": "FIIL CC3",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-a5d9d4f764b4b3c0",
+    "name": "FSF BD01",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-d519603c2bfe76a7",
+    "name": "Feliks Audio Euforia EVO",
+    "before": "앰프",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-21bfe3d64bdd08fc",
+    "name": "FiiO FT7",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-4215152836070a29",
+    "name": "FiiO Jade Audio JT7",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-f7b8e710ddc116c4",
+    "name": "FiiO K17",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-14bf0fb640cd7903",
+    "name": "Final DX3000CL",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-9ddf1e148a13b5f7",
+    "name": "Final DX4000CL",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b4dca798163d7cb0",
+    "name": "Fosi Audio C3",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-c9cc3ed5d76b672b",
+    "name": "Fosi Audio GR70",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-65908d2c5abeea63",
+    "name": "Fosi Audio ZD3",
+    "before": "DAC / 앰프",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-53cb64a7b92b94ff",
+    "name": "Fosi Audio ZH3",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-b1f901c899b017f4",
+    "name": "Fosi Audio ZP3",
+    "before": "앰프",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-19a4a09656ca8ac0",
+    "name": "Fosi Audio i5",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-7a28275f130e58a0",
+    "name": "Grand Oriveti Eminency",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-46d7c2a5e0443b94",
+    "name": "HEDD HEDDphone D1",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-df03c93e84ce96dd",
+    "name": "HEDD HEDDphone TWO GT",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-4fa8ac9fe42a150b",
+    "name": "HiBy Golden 10th Anniversary Set",
+    "before": "이어폰",
+    "after": "오디오 세트"
+  },
+  {
+    "id": "ref-3d6bb36bf16ef65c",
+    "name": "HiBy W4",
+    "before": "DAC / 앰프",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-8818587bf80750ef",
+    "name": "ICELAB Lumira",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-66fd87d424b71216",
+    "name": "JAVS TAMRA",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-db70a3ef24128545",
+    "name": "Jomo Audio Nautic Stellar",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "g1",
+    "name": "Juzear Nimbus",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-6533e3c577db2899",
+    "name": "KEF LS60 Wireless",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "ref-a28de726f8df80b2",
+    "name": "KRK GoAux3",
+    "before": "스피커",
+    "after": "스피커"
+  },
+  {
+    "id": "g2",
+    "name": "Kennerton Vinneta",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-b5da9844c513634f",
+    "name": "Kinera Mimisbrunnr",
+    "before": "스피커",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-577351f773a381ed",
+    "name": "Kinera ThorKing",
+    "before": "앰프",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-dfb1d322ccb39808",
+    "name": "Kinera Verdandi TWS",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-b2b05a05ecc0896e",
+    "name": "Kiwi Ears Altruva",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-04f80d473ecb1a24",
+    "name": "Kiwi Ears Serene",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "g6",
+    "name": "LAiV Crescendo VERSE",
+    "before": "DAC / 앰프",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-0eb6dac6c62cbc63",
+    "name": "LOXJIE D40 PRO",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-63366d15d5999c7f",
+    "name": "Leteciel MIRA",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-1f4fc98f1787c515",
+    "name": "Luxsin X8",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-fd8d36aac5fc9138",
+    "name": "Luxsin X9",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-ec985c2fc27b34bc",
+    "name": "Madoo Typ622",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-46e33045f2d0048b",
+    "name": "Meze Audio ALBA",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-794b5ac66001b73a",
+    "name": "Meze Audio POET",
+    "before": "스피커",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-ed081b474bb4569b",
+    "name": "Meze Audio Strada",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-81e3145c2b597295",
+    "name": "Moondrop LAN",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-dd4ef63bb645b80b",
+    "name": "Moondrop MAY",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-f9822450e9b4c7c5",
+    "name": "Moondrop PAVANE",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-94c7ce5cc0fe35e2",
+    "name": "Moondrop ROBIN",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-0f1090b2d2acc3b2",
+    "name": "Muse HiFi Power",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-4f3d38a9d024f0fb",
+    "name": "Niimbus US5 Pro",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-4b54c800780f6a76",
+    "name": "ODA x 더그랩사운드 Amarantine (Korean Edition)",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-1ae8e2dfd7ae8e58",
+    "name": "Oriveti OH700VB",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-03fd0e377ba84977",
+    "name": "Pilium Elektra DAC",
+    "before": "DAC / 앰프",
+    "after": "DAC"
+  },
+  {
+    "id": "ref-18880805884cf845",
+    "name": "Questyle CMA18 Master",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-d689ef0523f2f043",
+    "name": "Questyle M15i Special Edition",
+    "before": "DAC / 앰프",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-ac9175729a646bb4",
+    "name": "RAAL 1995 Immanis",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-0e82acd5a2d73197",
+    "name": "SIMGOT ET142",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8b3787b00917bf30",
+    "name": "SIMGOT SuperMix 4",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-5863ba342382d98e",
+    "name": "SPL BIG",
+    "before": "이어폰",
+    "after": "음향 프로세서"
+  },
+  {
+    "id": "g0",
+    "name": "SeeAudio Bravo",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-90750535a1fe52b7",
+    "name": "SeeAudio YUME2",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-fd1839db99698883",
+    "name": "Shanling UA7",
+    "before": "DAC / 앰프",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-0062abae5e933a00",
+    "name": "Softears Studio4",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-faa648a713166c1f",
+    "name": "Sony MDR-M1",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-9798e1c560b1edc8",
+    "name": "Sony WF-1000XM5",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-7c40d2ab901baa76",
+    "name": "Spirit Torino Twin Pulse Beryllium",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-96fe57c00b23edbe",
+    "name": "Tangzu 상관완아2",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-ae69dd3aefce5da9",
+    "name": "TimeEar TEC-Ω",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-2719476df5698861",
+    "name": "Unique Melody Maven III",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-8807b6149a7b7843",
+    "name": "Unique Melody Mest Fortune",
+    "before": "스피커",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-e67431f4131c87b0",
+    "name": "Unique Melody Nuit Étoilée",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-c0d8b28267b6608d",
+    "name": "Unique Melody U-Free",
+    "before": "이어폰",
+    "after": "이어폰"
+  },
+  {
+    "id": "ref-4502d6b15a5c5e49",
+    "name": "Violectric HPA V222",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-b15bc9298a6eb235",
+    "name": "Violectric HPA V324",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-63d72190870c366b",
+    "name": "Yamaha YH-5000SE",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-6f2c9011b918ba7d",
+    "name": "ZMF Tessidera",
+    "before": "헤드폰",
+    "after": "헤드폰"
+  },
+  {
+    "id": "ref-d29abd0740417638",
+    "name": "iFi Diablo 2",
+    "before": "이어폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-c1027b942530bd04",
+    "name": "iFi GO bar Kensei",
+    "before": "DAC / 앰프",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-f01e4f4a478668d4",
+    "name": "iFi GO link Max",
+    "before": "DAC / 앰프",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-1ce8fc69ef983b16",
+    "name": "iFi Go Blu Air",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-2a3c86d27abbffff",
+    "name": "xDuoo MH-02",
+    "before": "헤드폰",
+    "after": "DAC / 앰프"
+  },
+  {
+    "id": "ref-33a29ec5ff563eeb",
+    "name": "xDuoo TA-66",
+    "before": "헤드폰",
+    "after": "앰프"
+  },
+  {
+    "id": "ref-915acac56d8d5e86",
+    "name": "유코텍 RE-3",
+    "before": "이어폰",
+    "after": "이어폰"
+  }
+]
