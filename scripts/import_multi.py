@@ -4,7 +4,7 @@ Use after the base import. Never alters votes, users, or existing entries.
 """
 import json,sys,hashlib,re
 from pathlib import Path
-from import_reference import key,video
+from import_reference import clean_song_text,key,video
 
 def canonical(name):
  name=re.sub(r'^Bowers & Wilkins\b','B&W',name,flags=re.I)
@@ -30,7 +30,7 @@ def prepare(source,existing,mapping):
    byname[k]=g;ids.append(g['gear_id'])
    batch.append({'sql':'INSERT OR IGNORE INTO reference_products(source_id,gear_id) VALUES (?,?)','params':[sid,g['gear_id']]})
    for t in d.get('song',[]):
-    v=video(t.get('url'));title=t.get('title','').strip();artist=t.get('artist','').strip()
+    v=video(t.get('url'));title=clean_song_text(t.get('title'));artist=clean_song_text(t.get('artist'))
     if not v or not title or not artist:continue
     pair=(g['gear_id'],v)
     if pair in pairs:continue
