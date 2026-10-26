@@ -25,9 +25,21 @@ async function cachedJson(env,key,url){
    await env.DB.prepare('INSERT OR IGNORE INTO lookup_limits (key,used) VALUES (?,0)').bind('musicbrainz-window').run();
    if(!await env.DB.prepare('UPDATE lookup_limits SET used=? WHERE key=? AND used<? RETURNING used').bind(Date.now(),'musicbrainz-window',Date.now()-1100).first())throw Error('Catalog busy');
   }
+  if(u.hostname==='itunes.apple.com'){
+   stage='cooldown';
+   const cooldown=await env.DB.prepare('SELECT used FROM lookup_limits WHERE key=?').bind('apple-retry-after').first();
+   if(cooldown&&cooldown.used>Date.now())throw Error('Catalog cooling down');
+  }
   stage='fetch';
   const r=await fetch(url,{headers:{'User-Agent':'dkPlaylist/0.5 (https://dkplaylist.com)','Accept':'application/json'},signal:AbortSignal.timeout(12000)});
   status=r.status;contentType=(r.headers.get('content-type')||'').slice(0,100);
+  if(r.status===429&&u.hostname==='itunes.apple.com'){
+   stage='cooldown_write';
+   const retry=r.headers.get('retry-after');
+   const delay=retry&&/^\d+$/.test(retry)?Number(retry)*1000:Date.parse(retry||'')-Date.now();
+   const until=Date.now()+Math.max(60000,Number.isFinite(delay)?delay:60000);
+   await env.DB.prepare('INSERT INTO lookup_limits (key,used) VALUES (?,?) ON CONFLICT(key) DO UPDATE SET used=MAX(used,excluded.used)').bind('apple-retry-after',until).run();
+  }
   stage='http_status';if(!r.ok)throw Error('Lookup HTTP '+r.status);
   stage='response_parse';const value=await r.json();
   stage='cache_write';
@@ -52,7 +64,7 @@ async function searchMusic(req,env,user,b,path){await env.DB.prepare('DELETE FRO
    }catch(e){failed=true;diagnostics.push('Apple-'+country+':'+(e.catalogCode||'result_processing'))}
   }
   if(!tracks.length){try{const safe=v=>v.replace(/[\\"\[\]{}():^~*?+!-]/g,' ');const query='recording:("'+safe(title)+'") AND artist:("'+safe(artist)+'")';const d=await cachedJson(env,'mbsearch:'+query.toLowerCase(),'https://musicbrainz.org/ws/2/recording/?query='+encodeURIComponent(query)+'&fmt=json&limit=6');const recordings=d.recordings||[];tracks=recordings.map(mbTrack);if(recordings.length)await env.DB.batch(recordings.map(t=>env.DB.prepare('INSERT OR REPLACE INTO lookup_cache (key,payload,expires_at) VALUES (?,?,?)').bind('mbtrack:'+t.id,JSON.stringify(t),Date.now()+21600000)))}catch(e){failed=true;diagnostics.push('MusicBrainz:'+(e.catalogCode||'result_processing'))}}
-  if(!tracks.length&&failed)return json({error:'일부 음원 검색 서비스에 연결하지 못했습니다. 잠시 후 다시 검색하거나 곡 정보를 직접 확인해 주세요. [진단: '+diagnostics.join(', ')+']'},503);
+  if(!tracks.length&&failed){const limited=diagnostics.some(x=>/Apple-.*:(?:http_status-429|cooldown)/.test(x));return json({error:(limited?'Apple 음원 검색이 요청 제한으로 잠시 중단됐고, 대체 검색에서도 후보를 찾지 못했습니다. 잠시 후 다시 시도하거나 아래에서 곡 정보를 직접 확인하고 링크를 입력해 주세요.':'일부 음원 검색 서비스에 연결하지 못했습니다. 잠시 후 다시 검색하거나 곡 정보를 직접 확인해 주세요.')+' [진단: '+diagnostics.join(', ')+']'},503)}
   return json({tracks,partial:failed});
  }
 
