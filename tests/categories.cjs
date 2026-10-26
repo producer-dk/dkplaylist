@@ -16,3 +16,5 @@ for(const c of ['DAP','이어폰'])assert(ctx.matchesCategory('DAP · 이어폰'
 assert(!ctx.matchesCategory('DAP · 이어폰','헤드폰'));
 const multi=ctx.categoryGroups([{category:'DAC · 앰프 · DDC / 클럭'},{category:'DAP · 이어폰'}]);assert(!multi.includes('오디오 세트'));assert(!multi.includes('DAP · 이어폰'));assert(multi.includes('DAP')&&multi.includes('이어폰')&&multi.includes('DDC / 클럭'));
 console.log('PASS shared device in multiple categories without a set category');
+
+assert.equal(ctx.categoryGroups([{category:'새 종류'},{category:'미분류'}]).at(-1),'미분류');
