@@ -33,14 +33,14 @@ async function cachedJson(env,key,url){
   stage='cache_write';
   await env.DB.prepare('INSERT OR REPLACE INTO lookup_cache (key,payload,expires_at) VALUES (?,?,?)').bind(key,JSON.stringify(value),Date.now()+21600000).run();
   return value;
- }catch(e){catalogFailure(provider,stage,{status,contentType,timeout:e?.name==='TimeoutError'||e?.name==='AbortError'});throw e}
+ }catch(e){catalogFailure(provider,stage,{status,contentType,timeout:e?.name==='TimeoutError'||e?.name==='AbortError'});const failure=new Error('Catalog lookup failed');failure.catalogCode=stage+(status?'-'+status:'');throw failure}
 }
 async function lookupTrack(env,id,country='KR'){if(/^mb:[0-9a-f-]{36}$/.test(String(id))){const mbid=String(id).slice(3);const t=await cachedJson(env,'mbtrack:'+mbid,'https://musicbrainz.org/ws/2/recording/'+mbid+'?inc=artist-credits+releases&fmt=json');return mbTrack(t)}if(!/^\d{1,16}$/.test(String(id))||!['KR','US','JP'].includes(country))throw Error('Invalid catalog selection');const d=await cachedJson(env,'track:'+country+':'+id,'https://itunes.apple.com/lookup?id='+id+'&entity=song&country='+country);const t=d.results?.find(t=>t.kind==='song'&&String(t.trackId)===String(id));if(!t)throw Error('Catalog track unavailable');return{trackId:t.trackId,title:t.trackName,artist:t.artistName,album:t.collectionName,country,url:t.trackViewUrl}}
 async function reserveLookup(env,key,limit){await env.DB.prepare('INSERT OR IGNORE INTO lookup_limits (key,used) VALUES (?,0)').bind(key).run();const r=await env.DB.prepare('UPDATE lookup_limits SET used=used+1 WHERE key=? AND used<? RETURNING used').bind(key,limit).first();return !!r}
 async function searchMusic(req,env,user,b,path){await env.DB.prepare('DELETE FROM lookup_cache WHERE expires_at<?').bind(Date.now()).run();const day=new Date().toISOString().slice(0,10);if(!await reserveLookup(env,'user:'+user.id+':'+day,60))return json({error:'오늘 검색 한도에 도달했습니다. 유튜브 링크를 직접 입력하거나 내일 다시 이용해 주세요.'},429);
  const title=typeof b.title==='string'?b.title.trim():'',artist=typeof b.artist==='string'?b.artist.trim():'';if(!title||!artist||title.length>120||artist.length>120)return json({error:'곡명과 아티스트를 입력해 주세요.'},400);
  if(path==='/api/music-search'){
-  let tracks=[],failed=false;
+  let tracks=[],failed=false;const diagnostics=[];
   for(const country of ['KR','US']){
    try{
     const term=title+' '+artist;
@@ -49,10 +49,10 @@ async function searchMusic(req,env,user,b,path){await env.DB.prepare('DELETE FRO
     for(const t of d.results.filter(t=>t.kind==='song')){
      if(!tracks.some(x=>String(x.trackId)===String(t.trackId)))tracks.push({trackId:t.trackId,title:t.trackName,artist:t.artistName,album:t.collectionName,country,url:t.trackViewUrl,source:'Apple'});
     }
-   }catch{failed=true}
+   }catch(e){failed=true;diagnostics.push('Apple-'+country+':'+(e.catalogCode||'result_processing'))}
   }
-  if(!tracks.length){try{const safe=v=>v.replace(/[\\"\[\]{}():^~*?+!-]/g,' ');const query='recording:("'+safe(title)+'") AND artist:("'+safe(artist)+'")';const d=await cachedJson(env,'mbsearch:'+query.toLowerCase(),'https://musicbrainz.org/ws/2/recording/?query='+encodeURIComponent(query)+'&fmt=json&limit=6');const recordings=d.recordings||[];tracks=recordings.map(mbTrack);if(recordings.length)await env.DB.batch(recordings.map(t=>env.DB.prepare('INSERT OR REPLACE INTO lookup_cache (key,payload,expires_at) VALUES (?,?,?)').bind('mbtrack:'+t.id,JSON.stringify(t),Date.now()+21600000)))}catch{failed=true}}
-  if(!tracks.length&&failed)return json({error:'일부 음원 검색 서비스에 연결하지 못했습니다. 잠시 후 다시 검색하거나 곡 정보를 직접 확인해 주세요.'},503);
+  if(!tracks.length){try{const safe=v=>v.replace(/[\\"\[\]{}():^~*?+!-]/g,' ');const query='recording:("'+safe(title)+'") AND artist:("'+safe(artist)+'")';const d=await cachedJson(env,'mbsearch:'+query.toLowerCase(),'https://musicbrainz.org/ws/2/recording/?query='+encodeURIComponent(query)+'&fmt=json&limit=6');const recordings=d.recordings||[];tracks=recordings.map(mbTrack);if(recordings.length)await env.DB.batch(recordings.map(t=>env.DB.prepare('INSERT OR REPLACE INTO lookup_cache (key,payload,expires_at) VALUES (?,?,?)').bind('mbtrack:'+t.id,JSON.stringify(t),Date.now()+21600000)))}catch(e){failed=true;diagnostics.push('MusicBrainz:'+(e.catalogCode||'result_processing'))}}
+  if(!tracks.length&&failed)return json({error:'일부 음원 검색 서비스에 연결하지 못했습니다. 잠시 후 다시 검색하거나 곡 정보를 직접 확인해 주세요. [진단: '+diagnostics.join(', ')+']'},503);
   return json({tracks,partial:failed});
  }
 
