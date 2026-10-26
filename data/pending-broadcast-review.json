@@ -1,0 +1,426 @@
+{
+  "reviewedAt": "2026-10-27",
+  "archivedBroadcasts": 905,
+  "linkedBroadcasts": 389,
+  "pendingBroadcasts": 516,
+  "preparedCandidateBroadcasts": 448,
+  "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
+  "remainingBreakdown": {
+    "방문기·리믹스 콘테스트·잡담": 3,
+    "음향 교육·소프트웨어·코덱 설명": 5,
+    "모델·대상 확인 필요": 15,
+    "곡 없음": 6,
+    "일반 라이브 추천곡": 38,
+    "재생 가능한 영상 링크 없음": 1
+  },
+  "remainingBroadcasts": [
+    {
+      "id": "d2a824148dc255fe5bae8674",
+      "subject": "하이파이, 헤드파이 환자들의 안식처 | 소곰 청음실 방문기",
+      "reason": "방문기·리믹스 콘테스트·잡담",
+      "tracks": 9
+    },
+    {
+      "id": "edf447aa26d7a08a2b8f4571",
+      "subject": "[음향] EQ 퀴즈! 당신의 주파수 감각을 테스트 해보세요!",
+      "reason": "음향 교육·소프트웨어·코덱 설명",
+      "tracks": 4
+    },
+    {
+      "id": "626a3ff5f72cc5a8a5ddc1e9",
+      "subject": "저음에 미친 회사 FATfreq x HBB 콜라보 = 저음 찍먹왕 탄생!",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 4
+    },
+    {
+      "id": "cf641b1d9d5b0fec43e07e56",
+      "subject": "이거, 헤드폰용? Marantz SACD30N 로 들어보는 Susvara, Hedd, Denon, ZMF, 그리고...",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 4
+    },
+    {
+      "id": "87c4edd033d6af1b431f375b",
+      "subject": "[음향PT] 매일 10번씩 보면 주파수 마스터! 음감 훈련",
+      "reason": "음향 교육·소프트웨어·코덱 설명",
+      "tracks": 2
+    },
+    {
+      "id": "3fc18d2af9d0ca27f822fb03",
+      "subject": "야! 너두 음향 아는척 할 수 있어! | EP.3 헤드폰 사운드 타겟 튜닝 (SoundID Reference)",
+      "reason": "음향 교육·소프트웨어·코덱 설명",
+      "tracks": 1
+    },
+    {
+      "id": "8177714112b710fa8ccda65e",
+      "subject": "theMIX 갓성비! 케이블 (이어폰, 헤드폰) / 이어팁 (일반, 에어팟) / 액세서리 할인 이벤트",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 1
+    },
+    {
+      "id": "32145bd8ead85152679ca2d4",
+      "subject": "헤드폰 케이블 차이는 어느 정도? 블라인드 테스트! (SONY MV1 기본 / 킴버 / 짝퉁 감별)",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 4
+    },
+    {
+      "id": "16530f8fb47c87e8a22b7d99",
+      "subject": "[특별기획] 디아블로 VS 피카츄 !! 블라인드 대결",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 4
+    },
+    {
+      "id": "a516027065191a7b6c76723b",
+      "subject": "반값! 갓성비 헤드폰 앰프 원픽! iFi ZEN CAN Air 특히 오인페에는 꼭! 붙여주세요",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "58854cb2792af066bc171978",
+      "subject": "기적의 진동제어 솔루션 DMSD 일단 들어봅시다! 비교 청음",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 6
+    },
+    {
+      "id": "302d9b6388309c3878ecec0d",
+      "subject": "힘세고 강한 동생 CORSA! 생긴건 똑같은데 소리는 완전 달라? (+런칭할인)",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 2
+    },
+    {
+      "id": "809adf3414a8f87f916fe187",
+      "subject": "스피커 달린 턴테이블 2종! 3만원대 중국산 + 70년대 빈티지 필립스!",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 3
+    },
+    {
+      "id": "d71d59c78f58c3b852a43f22",
+      "subject": "$60에 난리난 C1 모니터링 헤드폰? 전문가는 추천 못하는 이유",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 1
+    },
+    {
+      "id": "50930133b07dcbc7aae05236",
+      "subject": "이해할 수 없는 dk의 취미생활 (feat. 닌텐도 워크맨) 아재들이여 도와줘 (살려줘)",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 3
+    },
+    {
+      "id": "ffdb5a6e4ed5ce6a8886d55a",
+      "subject": "노라조 빵 리믹스 콘테스트의 멋진 작품들! 다함께 들어봅시다!",
+      "reason": "방문기·리믹스 콘테스트·잡담",
+      "tracks": 14
+    },
+    {
+      "id": "ebb29e4503858cb8e69fecd8",
+      "subject": "지금 이걸 왜 또 샀을까? 1more 무선 LDAC 넥밴드 이어폰",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 1
+    },
+    {
+      "id": "dbfd5cdb75846b8a8b70f098",
+      "subject": "2020 dk 셀프 감사제! 역대급 핫템 총출동! 늦지마세요!",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 1
+    },
+    {
+      "id": "42caa7641dc04192d5bcc961",
+      "subject": "[아무말] 때려쳐도 괜찮아",
+      "reason": "방문기·리믹스 콘테스트·잡담",
+      "tracks": 1
+    },
+    {
+      "id": "9b44443d11cb7a0d9e3ea4ea",
+      "subject": "금요일 라이브",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 3
+    },
+    {
+      "id": "70642251280fd8442f4812ad",
+      "subject": "내일 출근 안하니까 심야 라이브",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 2
+    },
+    {
+      "id": "c9b9badb0def0671155d5700",
+      "subject": "영디비 + 이숲 + dk 특별 라이브 / 무저항잭 무엇이든 물어보세요!?",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 4
+    },
+    {
+      "id": "2258b35f01b4df4ee4791ebb",
+      "subject": "세계 최초의 다이나믹 헤드폰! 조상님! (+ 25년된 워크맨 재테크)",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 3
+    },
+    {
+      "id": "35610eaa6adf8daea1230301",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 2
+    },
+    {
+      "id": "117f29bfba2cfe411d0d7d75",
+      "subject": "[노잼주의] 이어폰 평가 기준과 방법 / 마이파이 안됩니다!",
+      "reason": "음향 교육·소프트웨어·코덱 설명",
+      "tracks": 2
+    },
+    {
+      "id": "bcb4be485c1908d8f9fcf355",
+      "subject": "1more 이어폰 4종, 완전 혜자템! (+ 샨링 m0) 공동구매",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 2
+    },
+    {
+      "id": "582347a2e363f6456abc4c40",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "bd19029caaf3c1016b853a56",
+      "subject": "펜더 인디오 상세리뷰, 스테레오의 맛을 보시죠! (+ 몬트레이 신형) Fender Indio",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "17394c0a822bb08100f9a918",
+      "subject": "1인 방송에 필요한 모든 기능을 한방에!! 사운드블라스터 K3+ (2인 모니터 / 효과음 / 보이스오버 / 오토튠)",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "0ae8a461bacc53425cd73b50",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 1
+    },
+    {
+      "id": "6432bec3c6c56a229f626f2e",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 5
+    },
+    {
+      "id": "498da7baf6c3e2ac0955c12c",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "4fff582006aca0546fde666b",
+      "subject": "Fender 블루투스 스피커 리뷰 + 파격적인 펜더 최초 공식 프로모션 이벤트! (한정수량)",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "73919a43b22cde89adfd85cf",
+      "subject": "LG + 메리디안 엑스붐Go PK7 블루투스 스피커! 있는 그대로 들려드립니다! 드루와 들으러와",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "a6250d9c6d03dd7e33b80a0b",
+      "subject": "같은 DAC라고 같은 소리가 아닙니다! Zishan DSD 699 개조판! (+ 799 특가 구매방법)",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "0d8184d1eeea93e280e5a4b5",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 2
+    },
+    {
+      "id": "481658d4335cf709dcbae73e",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 3
+    },
+    {
+      "id": "246089a76528b8133e11a573",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 7
+    },
+    {
+      "id": "7256a49f72a7f8d0a1287019",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 5
+    },
+    {
+      "id": "dd8f094d1e9179b17c9e13a1",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "486c3ce1b02ce720547730ce",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 5
+    },
+    {
+      "id": "9c78539a5a964021f2969ae7",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 6
+    },
+    {
+      "id": "9c3ee78c81b3e86f1ae926d0",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 1
+    },
+    {
+      "id": "09670dc416ddd2de7723a3b1",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 3
+    },
+    {
+      "id": "4c486861805c7367377af553",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "1e2d234d8e917536f469e354",
+      "subject": "소니의 고음질 LDAC, 삼성 (혹은 다른 회사) 폰에서도 똑같을까? 무선 고음질 블루투스 코덱의 끝판왕!",
+      "reason": "음향 교육·소프트웨어·코덱 설명",
+      "tracks": 1
+    },
+    {
+      "id": "3208125f1cef643387d16184",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 1
+    },
+    {
+      "id": "447420c52af31805d99e88b3",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 3
+    },
+    {
+      "id": "db4a0c1202de0c894a43339d",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 5
+    },
+    {
+      "id": "25039a7a84f46ab904fa0fa2",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 1
+    },
+    {
+      "id": "9102a5b84f7996054b5f940d",
+      "subject": "[음향#6] 입문용 헤드폰 앰프 겸 DAC 추천! (드래곤플라이 / Q1 mk2) 휴대성 & 가성비 최고!",
+      "reason": "재생 가능한 영상 링크 없음",
+      "tracks": 1
+    },
+    {
+      "id": "234694412282744f615551ee",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "51b6e5f933a2b7ed07e7caaf",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 6
+    },
+    {
+      "id": "53e81cf76e51a8d0caddbc72",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 2
+    },
+    {
+      "id": "a7846e64626dc5ead0204344",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "0ec37ad4e141af9d7b49a633",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "e597d25c8d6cc0cfd5801ec4",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 6
+    },
+    {
+      "id": "3c657ce31f6758ac5c26ac7c",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 8
+    },
+    {
+      "id": "50285cb5ec92a407c24623ef",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "3413d605c57140fd377196ca",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "41104d904d5886370c2d9142",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "5b03829be59a2d59506a3948",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 5
+    },
+    {
+      "id": "b7b06e22d37d1df9f1459463",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "6047a8bf17c51e0840811aca",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 6
+    },
+    {
+      "id": "e6afe823fa5fa780badc2c60",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 1
+    },
+    {
+      "id": "8260459a6fac82fd7e821dc7",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 3
+    },
+    {
+      "id": "f2ec50aac24e68a73d469a98",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 4
+    },
+    {
+      "id": "752ce1fa456704a1181f78ea",
+      "subject": "실시간 라이브방송 추천곡",
+      "reason": "일반 라이브 추천곡",
+      "tracks": 5
+    }
+  ]
+}
