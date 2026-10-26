@@ -41,7 +41,7 @@ def prepare(source,existing):
      elif '앰프' in subject:category='앰프'
      gear={'gear_id':gid,'gear_name':name,'category':category};byname[key(name)]=gear
   status='matched' if gear else 'needs_product_review';counts['matched_broadcasts' if gear else 'pending_broadcasts']+=1
-  statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status=\'matched_multi\' THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status=\'matched_multi\' THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),d['date'],d['subject'],raw,gear['gear_id'] if gear else '',status]})
+  statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),d['date'],d['subject'],raw,gear['gear_id'] if gear else '',status]})
   for t in d.get('song',[]):
    v=video(t.get('url'));title=t.get('title','').strip();artist=t.get('artist','').strip()
    if not v or not title or not artist:counts['unplayable_tracks']+=1;continue
