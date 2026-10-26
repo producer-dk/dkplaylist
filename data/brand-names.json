@@ -91,7 +91,6 @@
     "LG",
     "LOXJIE",
     "Leteciel",
-    "Lowmaster",
     "Luxsin",
     "Madoo",
     "Marantz",
@@ -103,7 +102,6 @@
     "Muse HiFi",
     "NSKY",
     "NiceHCK",
-    "Niimbus",
     "ODA",
     "ODA x 더그랩사운드",
     "Oriveti",
@@ -138,6 +136,7 @@
     "Teac",
     "TimeEar",
     "Topping",
+    "UCOTECH",
     "Ultimate Ears",
     "Ultrasone",
     "Unique Melody",
@@ -152,8 +151,7 @@
     "iBasso",
     "iFi",
     "iKKO",
-    "xDuoo",
-    "유코텍"
+    "xDuoo"
   ],
   "aliases": {
     "B&W": "Bowers & Wilkins",
@@ -174,6 +172,9 @@
     "유니크 멜로디": "Unique Melody",
     "더그랩사운드 x ODA": "ODA x 더그랩사운드",
     "두누": "DUNU",
-    "댄클락": "Dan Clark Audio"
+    "댄클락": "Dan Clark Audio",
+    "유코텍": "UCOTECH",
+    "Niimbus": "Violectric",
+    "Lowmaster": "Oriveti"
   }
 }
