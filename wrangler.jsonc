@@ -2,9 +2,15 @@
   "name": "dkplaylist",
   "main": "worker.js",
   "compatibility_date": "2026-10-25",
-  "d1_databases": [{
-    "binding": "DB",
-    "database_name": "dkplaylist-db",
-    "database_id": "c5fa57e9-a29c-49c3-9009-99bc7e4ca59b"
-  }]
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "dkplaylist-db",
+      "database_id": "c5fa57e9-a29c-49c3-9009-99bc7e4ca59b"
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
 }
