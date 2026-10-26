@@ -47,3 +47,6 @@ CREATE INDEX IF NOT EXISTS reference_products_gear ON reference_products(gear_id
 INSERT OR IGNORE INTO reference_products(source_id,gear_id) SELECT id,gear_id FROM reference_sources WHERE gear_id<>'';
 CREATE TABLE IF NOT EXISTS sessions(token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id),expires_at INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS sessions_expiry ON sessions(expires_at);
+CREATE TABLE IF NOT EXISTS user_permissions(user_id TEXT PRIMARY KEY REFERENCES users(id),role TEXT NOT NULL CHECK(role IN ('member','admin','owner')));
+CREATE TABLE IF NOT EXISTS gear_metadata(gear_id TEXT PRIMARY KEY,brand TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS edit_history(id INTEGER PRIMARY KEY AUTOINCREMENT,actor_id TEXT NOT NULL REFERENCES users(id),kind TEXT NOT NULL,target_id TEXT NOT NULL,before_json TEXT NOT NULL,after_json TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
