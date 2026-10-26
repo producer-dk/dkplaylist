@@ -50,3 +50,8 @@ CREATE INDEX IF NOT EXISTS sessions_expiry ON sessions(expires_at);
 CREATE TABLE IF NOT EXISTS user_permissions(user_id TEXT PRIMARY KEY REFERENCES users(id),role TEXT NOT NULL CHECK(role IN ('member','admin','owner')));
 CREATE TABLE IF NOT EXISTS gear_metadata(gear_id TEXT PRIMARY KEY,brand TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS edit_history(id INTEGER PRIMARY KEY AUTOINCREMENT,actor_id TEXT NOT NULL REFERENCES users(id),kind TEXT NOT NULL,target_id TEXT NOT NULL,before_json TEXT NOT NULL,after_json TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+
+CREATE TABLE IF NOT EXISTS catalog_name_reviews (
+ review_id TEXT NOT NULL, gear_id TEXT NOT NULL, before_json TEXT NOT NULL,
+ after_json TEXT NOT NULL, reviewed_at TEXT NOT NULL DEFAULT (datetime('now')),
+ PRIMARY KEY(review_id,gear_id));
