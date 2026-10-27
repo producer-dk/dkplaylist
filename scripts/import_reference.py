@@ -7,7 +7,7 @@ import sys,json,re,hashlib,unicodedata
 from datetime import date
 from urllib.parse import urlparse,parse_qs
 
-IGNORED_BROADCASTS={'x8jvx29aay8','vbP9c1vEjak','QgKYHWZLDVI','_KM01HtciHY','Xnbttmp0jfo','tjmuMulKQeU','jSy-1zidWeQ','YBhh-v8HMas','NYhR_SmbHqg','87m3sh1NYUA'}
+IGNORED_BROADCASTS={'rUC7fayk1rM','x8jvx29aay8','vbP9c1vEjak','QgKYHWZLDVI','_KM01HtciHY','Xnbttmp0jfo','tjmuMulKQeU','jSy-1zidWeQ','YBhh-v8HMas','NYhR_SmbHqg','87m3sh1NYUA'}
 
 def is_ignored_source(row):
  return row.get('url') in IGNORED_BROADCASTS or (row.get('date')=='2019-09-03' and row.get('subject')=='영디비 + 이숲 + dk 특별 라이브 / 무저항잭 무엇이든 물어보세요!?')
