@@ -6,6 +6,8 @@ Only explicit single-product suffixes are promoted; all broadcasts stay in the a
 import sys,json,re,hashlib,unicodedata
 from urllib.parse import urlparse,parse_qs
 
+IGNORED_BROADCASTS={'vbP9c1vEjak','QgKYHWZLDVI','_KM01HtciHY'}
+
 def clean_song_text(value):
  text=re.sub(r'(?:<br\s*/?\s*>|&lt;br\s*/?\s*&gt;|&nbsp;)', ' ', str(value or ''), flags=re.I)
  return re.sub(r'\s+', ' ', text).strip()
@@ -15,6 +17,7 @@ def video(s):
  s=str(s or '').strip()
  if s.startswith(('http://','https://')):
   u=urlparse(s);host=u.hostname or ''
+  if host in ('soundcloud.com','www.soundcloud.com') and not u.username and not u.password and not u.port and re.fullmatch(r'/[A-Za-z0-9_-]+/[A-Za-z0-9_-]+/?',u.path) and not re.match(r'/(?:discover|you|search|charts|sets)/',u.path):return 'https://soundcloud.com'+u.path.rstrip('/')
   if host in ('youtube.com','www.youtube.com','m.youtube.com'):s=parse_qs(u.query).get('v',[''])[0]
   elif host=='youtu.be':s=u.path.strip('/')
   else:return None
@@ -28,6 +31,7 @@ def prepare(source,existing):
  known={(e['gear_id'],e['video']) for e in existing}
  statements=[];counts={'broadcasts':len(source),'source_tracks':sum(len(d.get('song',[])) for d in source),'new_entries':0,'matched_broadcasts':0,'pending_broadcasts':0,'unplayable_tracks':0}
  for d in source:
+  if d.get('url') in IGNORED_BROADCASTS:continue
   raw=json.dumps(d,ensure_ascii=False,separators=(',',':'));sid=hashlib.sha256((str(d.get('url'))+'|'+d['date']+'|'+d['subject']).encode()).hexdigest()[:24]
   gear=bybroadcast.get(d.get('url'));name=d['subject'].rsplit('|',1)[-1].strip()
   # A delimiter alone does not establish a product: reject prose and multi-product headings.
@@ -41,7 +45,7 @@ def prepare(source,existing):
      # from words such as 'headphone' in 'headphone amp'. Reuse existing IDs.
      gear=byid.get(gid) or {'gear_id':gid,'gear_name':name,'category':'미분류'};byname[key(name)]=gear
   status='matched' if gear else 'needs_product_review';counts['matched_broadcasts' if gear else 'pending_broadcasts']+=1
-  statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\') THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),d['date'],d['subject'],raw,gear['gear_id'] if gear else '',status]})
+  statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\',\'ignored\') THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\',\'ignored\') THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),d['date'],d['subject'],raw,gear['gear_id'] if gear else '',status]})
   for t in d.get('song',[]):
    v=video(t.get('url'));title=clean_song_text(t.get('title'));artist=clean_song_text(t.get('artist'))
    if not v or not title or not artist:counts['unplayable_tracks']+=1;continue
