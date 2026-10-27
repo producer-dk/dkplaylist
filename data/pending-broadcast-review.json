@@ -1,21 +1,15 @@
 {
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
-  "linkedBroadcasts": 395,
-  "pendingBroadcasts": 499,
+  "linkedBroadcasts": 396,
+  "pendingBroadcasts": 498,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "모델·대상 확인 필요": 13,
+    "모델·대상 확인 필요": 12,
     "일반 라이브 추천곡": 38
   },
   "remainingBroadcasts": [
-    {
-      "id": "cf641b1d9d5b0fec43e07e56",
-      "subject": "이거, 헤드폰용? Marantz SACD30N 로 들어보는 Susvara, Hedd, Denon, ZMF, 그리고...",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 4
-    },
     {
       "id": "8177714112b710fa8ccda65e",
       "subject": "theMIX 갓성비! 케이블 (이어폰, 헤드폰) / 이어팁 (일반, 에어팟) / 액세서리 할인 이벤트",
