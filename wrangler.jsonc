@@ -1,5 +1,5 @@
 {
-  "name": "dkplaylist",
+  "name": "dkplaylist-beta",
   "main": "worker.js",
   "compatibility_date": "2026-10-25",
   "d1_databases": [
@@ -12,5 +12,14 @@
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1
-  }
+  },
+  "vars": {
+    "APP_ENV": "beta"
+  },
+  "routes": [
+    {
+      "pattern": "beta.dkplaylist.com",
+      "custom_domain": true
+    }
+  ]
 }
