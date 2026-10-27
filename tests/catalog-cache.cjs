@@ -1,0 +1,30 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('worker.js','utf8');
+let now=1000000,reads=0,fail=false,valid=false,value=1;
+const items=new Map();
+const cache={async match(key){return items.get(key.url)?.clone()},async put(key,response){items.set(key.url,response.clone())},async delete(key){return items.delete(key.url)}};
+const ctx={URL,Request,Response,Headers,TextEncoder,Uint8Array,crypto:require('crypto').webcrypto,console,Date:{now:()=>now},caches:{default:cache},cookie:()=>'',verifySession:async()=>{if(!valid)throw Error('Invalid session')}};
+vm.createContext(ctx);vm.runInContext(source.slice(source.indexOf('// Cache only'),source.indexOf('function mediaId',source.indexOf('// Cache only'))),ctx);
+const req=(query='',headers={})=>new Request('https://beta.dkplaylist.com/api/catalog'+query,{headers});
+const read=async()=>{reads++;if(fail)throw Error('D1 unavailable');return new Response(JSON.stringify({gears:[{id:value}]}),{headers:{'content-type':'application/json','cache-control':'no-store'}})};
+const get=(q='',headers={})=>ctx.catalogResponse(req(q,headers),{},read);
+(async()=>{
+ let r=await get();assert.equal(r.headers.get('x-catalog-cache'),'MISS');const etag=r.headers.get('etag');assert.equal(reads,1);
+ r=await get('?arbitrary=123',{cookie:'private-user'});assert.equal(r.headers.get('x-catalog-cache'),'HIT');assert.equal(reads,1);assert(!r.headers.has('set-cookie'));
+ r=await get('',{'if-none-match':etag});assert.equal(r.status,304);assert.equal(await r.text(),'');assert.equal(reads,1);
+ await get('?refresh=1');assert.equal(reads,1,'anonymous bypass denied');
+ valid=true;value=2;r=await get('?refresh=1');assert.equal(r.headers.get('x-catalog-cache'),'REFRESH');assert.equal((await r.json()).gears[0].id,2);assert.equal(reads,2);
+ await ctx.invalidateCatalog(req());await get();assert.equal(reads,3);
+ now+=60001;await get();assert.equal(reads,4,'TTL refresh');
+ now+=60001;fail=true;r=await get();assert.equal(r.headers.get('x-catalog-cache'),'STALE');assert.equal(r.headers.get('cache-control'),'no-store');assert.equal(reads,5);
+ r=await get('',{'if-none-match':r.headers.get('etag')});assert.equal(r.status,200,'stale warning not lost to 304');assert.equal(reads,5,'failure backoff');
+ await assert.rejects(get('?refresh=1'));assert.equal(reads,6,'forced read never silently returns old data');
+ now+=30001;fail=false;value=3;r=await get();assert.equal(r.headers.get('x-catalog-cache'),'MISS');assert.equal((await r.json()).gears[0].id,3);
+ now+=86400001;fail=true;await assert.rejects(get());
+ items.clear();await assert.rejects(get());assert.equal(items.size,0,'failure never cached as success');
+ // Shared DB but separate site cache namespaces; cookie/query never enter keys.
+ assert.notEqual(ctx.catalogCacheKey(req()).url,ctx.catalogCacheKey(new Request('https://dkplaylist.com/api/catalog')).url);
+ const ui=JSON.parse(source.split('\n')[0].slice(13,-1));assert(ui.includes('refreshCatalog(true)'));assert(ui.includes('data._catalogStale'));assert(ui.includes("r.headers.get('x-catalog-cache')==='STALE'"));
+ assert.equal((source.match(/return catalogResponse\(req,env/g)||[]).length,1);
+ console.log('PASS catalog cache hit avoids DB, ETag 304, authenticated refresh, invalidation, TTL, stale fallback/backoff/expiry, host isolation');
+})().catch(e=>{console.error(e);process.exitCode=1});
