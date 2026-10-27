@@ -2,26 +2,14 @@
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
   "linkedBroadcasts": 397,
-  "pendingBroadcasts": 496,
+  "pendingBroadcasts": 493,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "모델·대상 확인 필요": 10,
+    "모델·대상 확인 필요": 7,
     "일반 라이브 추천곡": 38
   },
   "remainingBroadcasts": [
-    {
-      "id": "16530f8fb47c87e8a22b7d99",
-      "subject": "[특별기획] 디아블로 VS 피카츄 !! 블라인드 대결",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 4
-    },
-    {
-      "id": "58854cb2792af066bc171978",
-      "subject": "기적의 진동제어 솔루션 DMSD 일단 들어봅시다! 비교 청음",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 6
-    },
     {
       "id": "302d9b6388309c3878ecec0d",
       "subject": "힘세고 강한 동생 CORSA! 생긴건 똑같은데 소리는 완전 달라? (+런칭할인)",
@@ -39,12 +27,6 @@
       "subject": "$60에 난리난 C1 모니터링 헤드폰? 전문가는 추천 못하는 이유",
       "reason": "모델·대상 확인 필요",
       "tracks": 1
-    },
-    {
-      "id": "50930133b07dcbc7aae05236",
-      "subject": "이해할 수 없는 dk의 취미생활 (feat. 닌텐도 워크맨) 아재들이여 도와줘 (살려줘)",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 3
     },
     {
       "id": "ebb29e4503858cb8e69fecd8",
@@ -371,6 +353,24 @@
       "subject": "theMIX 갓성비! 케이블 (이어폰, 헤드폰) / 이어팁 (일반, 에어팟) / 액세서리 할인 이벤트",
       "reason": "모델·대상 확인 필요",
       "tracks": 1
+    },
+    {
+      "id": "16530f8fb47c87e8a22b7d99",
+      "subject": "[특별기획] 디아블로 VS 피카츄 !! 블라인드 대결",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 4
+    },
+    {
+      "id": "58854cb2792af066bc171978",
+      "subject": "기적의 진동제어 솔루션 DMSD 일단 들어봅시다! 비교 청음",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 6
+    },
+    {
+      "id": "50930133b07dcbc7aae05236",
+      "subject": "이해할 수 없는 dk의 취미생활 (feat. 닌텐도 워크맨) 아재들이여 도와줘 (살려줘)",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 3
     }
   ],
   "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)"
