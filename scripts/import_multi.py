@@ -4,7 +4,7 @@ Use after the base import. Never alters votes, users, or existing entries.
 """
 import json,sys,hashlib,re
 from pathlib import Path
-from import_reference import normalize_date,IGNORED_BROADCASTS,clean_song_text,key,video
+from import_reference import normalize_date,is_ignored_source,clean_song_text,key,video
 
 def canonical(name):
  name=re.sub(r'^Bowers & Wilkins\b','B&W',name,flags=re.I)
@@ -15,7 +15,7 @@ def canonical(name):
 def prepare(source,existing,mapping):
  byname={canonical(g['gear_name']):g for g in existing};batch=[];new=set();pairs=set()
  for d in source:
-  if d.get('url') in IGNORED_BROADCASTS:continue
+  if is_ignored_source(d):continue
   spec=mapping.get(d.get('url'))
   if not spec:continue
   assert d['subject']==spec['subject'],'Source title changed; review mapping'
