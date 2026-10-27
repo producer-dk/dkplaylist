@@ -4,9 +4,17 @@ Output is a D1 batch plan. Existing IDs, user entries and votes are never modifi
 Only explicit single-product suffixes are promoted; all broadcasts stay in the archive.
 """
 import sys,json,re,hashlib,unicodedata
+from datetime import date
 from urllib.parse import urlparse,parse_qs
 
 IGNORED_BROADCASTS={'vbP9c1vEjak','QgKYHWZLDVI','_KM01HtciHY'}
+
+def normalize_date(value):
+ s=str(value or '').strip()
+ m=re.fullmatch(r'(\d{4})[-.](\d{2})[-.]?(\d{2})',s)
+ if not m:return s
+ try:return date(*map(int,m.groups())).isoformat()
+ except ValueError:return s
 
 def clean_song_text(value):
  text=re.sub(r'(?:<br\s*/?\s*>|&lt;br\s*/?\s*&gt;|&nbsp;)', ' ', str(value or ''), flags=re.I)
@@ -45,7 +53,7 @@ def prepare(source,existing):
      # from words such as 'headphone' in 'headphone amp'. Reuse existing IDs.
      gear=byid.get(gid) or {'gear_id':gid,'gear_name':name,'category':'미분류'};byname[key(name)]=gear
   status='matched' if gear else 'needs_product_review';counts['matched_broadcasts' if gear else 'pending_broadcasts']+=1
-  statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\',\'ignored\') THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\',\'ignored\') THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),d['date'],d['subject'],raw,gear['gear_id'] if gear else '',status]})
+  statements.append({'sql':'INSERT INTO reference_sources (id,source_url,broadcast,source_date,subject,payload,gear_id,status) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,gear_id=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\',\'ignored\') THEN reference_sources.gear_id ELSE excluded.gear_id END,status=CASE WHEN reference_sources.status IN (\'matched_multi\',\'matched_reviewed\',\'ignored\') THEN reference_sources.status ELSE excluded.status END','params':[sid,'http://refplay.iptime.org:9000/song',d.get('url',''),normalize_date(d['date']),d['subject'],raw,gear['gear_id'] if gear else '',status]})
   for t in d.get('song',[]):
    v=video(t.get('url'));title=clean_song_text(t.get('title'));artist=clean_song_text(t.get('artist'))
    if not v or not title or not artist:counts['unplayable_tracks']+=1;continue
@@ -53,7 +61,7 @@ def prepare(source,existing):
    pair=(gear['gear_id'],v)
    if pair in known:continue
    known.add(pair);counts['new_entries']+=1
-   statements.append({'sql':'INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES (?,?,?,?,?,?,?,?,?)','params':[gear['gear_id']+'-'+v,gear['gear_id'],gear['gear_name'],gear['category'],v,title,artist,video(d.get('url')),d['date']]})
+   statements.append({'sql':'INSERT OR IGNORE INTO entries (id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES (?,?,?,?,?,?,?,?,?)','params':[gear['gear_id']+'-'+v,gear['gear_id'],gear['gear_name'],gear['category'],v,title,artist,video(d.get('url')),normalize_date(d['date'])]})
  return {'counts':counts,'batch':statements}
 
 if __name__=='__main__':
