@@ -9,6 +9,9 @@ from urllib.parse import urlparse,parse_qs
 
 IGNORED_BROADCASTS={'x8jvx29aay8','vbP9c1vEjak','QgKYHWZLDVI','_KM01HtciHY','Xnbttmp0jfo','tjmuMulKQeU','jSy-1zidWeQ','YBhh-v8HMas','NYhR_SmbHqg','87m3sh1NYUA'}
 
+def is_ignored_source(row):
+ return row.get('url') in IGNORED_BROADCASTS or (row.get('date')=='2019-09-03' and row.get('subject')=='영디비 + 이숲 + dk 특별 라이브 / 무저항잭 무엇이든 물어보세요!?')
+
 def normalize_date(value):
  s=str(value or '').strip()
  m=re.fullmatch(r'(\d{4})[-.](\d{2})[-.]?(\d{2})',s)
@@ -39,7 +42,7 @@ def prepare(source,existing):
  known={(e['gear_id'],e['video']) for e in existing}
  statements=[];counts={'broadcasts':len(source),'source_tracks':sum(len(d.get('song',[])) for d in source),'new_entries':0,'matched_broadcasts':0,'pending_broadcasts':0,'unplayable_tracks':0}
  for d in source:
-  if d.get('url') in IGNORED_BROADCASTS:continue
+  if is_ignored_source(d):continue
   raw=json.dumps(d,ensure_ascii=False,separators=(',',':'));sid=hashlib.sha256((str(d.get('url'))+'|'+d['date']+'|'+d['subject']).encode()).hexdigest()[:24]
   gear=bybroadcast.get(d.get('url'));name=d['subject'].rsplit('|',1)[-1].strip()
   # A delimiter alone does not establish a product: reject prose and multi-product headings.
