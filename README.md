@@ -1,3 +1,17 @@
+# Release environments
+
+- Beta: https://beta.dkplaylist.com — Worker `dkplaylist-beta`, branch `beta`.
+- Live: https://dkplaylist.com — Worker `dkplaylist`, branch `main`.
+- Both share `dkplaylist-db`; changes to catalog data and votes are real on both sites.
+- Code changes go to beta first, then to live only after the user explicitly approves that release. See AGENTS.md.
+- `wrangler.jsonc` defaults to beta, using the shared DB. Never overwrite production with a beta snapshot.
+- Beta is marked noindex and has a visible shared-data banner. Cookies remain host-only, so sign-in is separate per hostname.
+- Google OAuth must allow `https://beta.dkplaylist.com` as an authorized JavaScript origin. Beta needs its own `YOUTUBE_API_KEY` Worker secret for external video candidate searches. These settings are not assumed to copy between Workers.
+
+Catalog import (2026-10-27): 905 archived broadcasts, 847 linked, 58 deliberately excluded; 1,026 gear records and 3,524 gear/song pairs. Migrations 0026 and 0027 add 448 broadcasts (551 gear links), preserving existing users and votes.
+
+The remaining text below describes earlier import milestones, not current counts.
+
 # dkplaylist
 DK Playlist - Music and audio gear matching platform
 
