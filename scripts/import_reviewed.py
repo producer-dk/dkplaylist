@@ -5,7 +5,7 @@ Apply each output SQL batch transactionally through D1 query. Reruns are idempot
 """
 import json,sys,hashlib
 from pathlib import Path
-from import_reference import IGNORED_BROADCASTS,clean_song_text,video,key
+from import_reference import normalize_date,IGNORED_BROADCASTS,clean_song_text,video,key
 
 def quote(v):
  return 'NULL' if v is None else "'"+str(v).replace("'","''")+"'"
@@ -19,7 +19,7 @@ def prepare(rows,specs):
   assert valid,'No playable tracks; leave source pending'
   sql=[]
   for t,v in valid:
-   values=[gid+'-'+v,gid,spec['name'],spec['category'],v,clean_song_text(t['title']),clean_song_text(t['artist']),video(source['url']),source['date']]
+   values=[gid+'-'+v,gid,spec['name'],spec['category'],v,clean_song_text(t['title']),clean_song_text(t['artist']),video(source['url']),normalize_date(source['date'])]
    if spec.get('existingId'):
     sql.append('INSERT OR IGNORE INTO entries(id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) SELECT '+','.join(map(quote,values[:2]))+',gear_name,category,'+','.join(map(quote,values[4:]))+' FROM entries WHERE gear_id='+quote(gid)+' LIMIT 1;')
    else:sql.append('INSERT OR IGNORE INTO entries(id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES ('+','.join(map(quote,values))+');')
