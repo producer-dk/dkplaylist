@@ -1,10 +1,10 @@
 {
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
-  "linkedBroadcasts": 399,
-  "pendingBroadcasts": 448,
-  "preparedCandidateBroadcasts": 448,
-  "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
+  "linkedBroadcasts": 847,
+  "pendingBroadcasts": 0,
+  "preparedCandidateBroadcasts": 0,
+  "candidateStatus": "All 448 title-derived broadcasts imported into shared DB with user approval on 2026-10-27.",
   "remainingBreakdown": {
     "모델·대상 확인 필요": 0,
     "일반 라이브 추천곡": 0
@@ -360,5 +360,13 @@
       "tracks": 5
     }
   ],
-  "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)"
+  "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)",
+  "beta": {
+    "version": "0.10.0-beta.1",
+    "linkedBroadcasts": 847,
+    "ignoredBroadcasts": 58,
+    "pendingBroadcasts": 0,
+    "productionApproved": false,
+    "sharedDatabase": true
+  }
 }
