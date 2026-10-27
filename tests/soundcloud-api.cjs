@@ -6,6 +6,7 @@ async function call(path,body){const url=new URL('https://dkplaylist.com'+path);
 (async()=>{const video='https://soundcloud.com/4delight/no-one-else';let r=await call('/api/recommend',{mode:'gear',target:'g0',video:video+'?utm_source=share',title:'No One Else',artist:'카바티나 스토리',reviewed:true,allowSimilar:true});assert.equal(r.status,201,JSON.stringify(r));const id=r.body.id;assert.equal(db.prepare('SELECT video FROM entries WHERE id=?').get(id).video,video);assert.equal(db.prepare('SELECT COUNT(*) n FROM votes WHERE entry_id=?').get(id).n,1);
 r=await call('/api/music-search',{title:'No One Else',artist:'카바티나 스토리'});assert.equal(r.body.tracks[0].url,video);
 r=await call('/api/recommend',{mode:'gear',target:'g1',catalogId:'local:'+video});assert.equal(r.status,201,JSON.stringify(r));
+r=await call('/api/music-search',{title:'No One Else',artist:'카바티나 스토리'});assert.deepEqual(r.body.tracks[0].gears.map(g=>g.id).sort(),['g0','g1']);assert(r.body.tracks[0].gears.every(g=>g.name&&!('user_id' in g)));
 r=await call('/api/recommend',{mode:'gear',target:'g0',video,title:'No One Else',artist:'카바티나 스토리',reviewed:true});assert.equal(r.status,409);
 r=await call('/api/recommend',{mode:'gear',target:'g2',video:'https://soundcloud.com.evil/a/b',title:'bad',artist:'bad',reviewed:true});assert.equal(r.status,400);
 r=await call('/api/admin',{kind:'entry',id,video,date:'2018-05-03'});assert.equal(r.status,200,JSON.stringify(r));
