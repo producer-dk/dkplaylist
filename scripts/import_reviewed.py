@@ -5,7 +5,7 @@ Apply each output SQL batch transactionally through D1 query. Reruns are idempot
 """
 import json,sys,hashlib
 from pathlib import Path
-from import_reference import clean_song_text,video,key
+from import_reference import IGNORED_BROADCASTS,clean_song_text,video,key
 
 def quote(v):
  return 'NULL' if v is None else "'"+str(v).replace("'","''")+"'"
@@ -13,6 +13,7 @@ def prepare(rows,specs):
  batches=[];count=0
  for spec in specs:
   source=next(r for r in rows if r['id']==spec['id']);assert source['subject']==spec['subject']
+  if source.get('url') in IGNORED_BROADCASTS:continue
   gid=spec.get('existingId') or 'ref-'+hashlib.sha256(key(spec['name']).encode()).hexdigest()[:16]
   valid=[(t,video(t.get('url'))) for t in source.get('song',[]) if video(t.get('url')) and clean_song_text(t.get('title')) and clean_song_text(t.get('artist'))]
   assert valid,'No playable tracks; leave source pending'
