@@ -2,11 +2,10 @@
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
   "linkedBroadcasts": 394,
-  "pendingBroadcasts": 502,
+  "pendingBroadcasts": 501,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "음향 교육·소프트웨어·코덱 설명": 1,
     "모델·대상 확인 필요": 15,
     "일반 라이브 추천곡": 38
   },
@@ -111,12 +110,6 @@
       "id": "35610eaa6adf8daea1230301",
       "subject": "실시간 라이브방송 추천곡",
       "reason": "일반 라이브 추천곡",
-      "tracks": 2
-    },
-    {
-      "id": "117f29bfba2cfe411d0d7d75",
-      "subject": "[노잼주의] 이어폰 평가 기준과 방법 / 마이파이 안됩니다!",
-      "reason": "음향 교육·소프트웨어·코덱 설명",
       "tracks": 2
     },
     {
@@ -390,6 +383,12 @@
       "subject": "같은 DAC라고 같은 소리가 아닙니다! Zishan DSD 699 개조판! (+ 799 특가 구매방법)",
       "reason": "곡 없음",
       "tracks": 0
+    },
+    {
+      "id": "117f29bfba2cfe411d0d7d75",
+      "subject": "[노잼주의] 이어폰 평가 기준과 방법 / 마이파이 안됩니다!",
+      "reason": "음향 교육·소프트웨어·코덱 설명",
+      "tracks": 2
     }
   ],
   "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)"
