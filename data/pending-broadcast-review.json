@@ -2,11 +2,11 @@
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
   "linkedBroadcasts": 397,
-  "pendingBroadcasts": 493,
+  "pendingBroadcasts": 492,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "모델·대상 확인 필요": 7,
+    "모델·대상 확인 필요": 6,
     "일반 라이브 추천곡": 38
   },
   "remainingBroadcasts": [
@@ -31,12 +31,6 @@
     {
       "id": "ebb29e4503858cb8e69fecd8",
       "subject": "지금 이걸 왜 또 샀을까? 1more 무선 LDAC 넥밴드 이어폰",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 1
-    },
-    {
-      "id": "dbfd5cdb75846b8a8b70f098",
-      "subject": "2020 dk 셀프 감사제! 역대급 핫템 총출동! 늦지마세요!",
       "reason": "모델·대상 확인 필요",
       "tracks": 1
     },
@@ -371,6 +365,12 @@
       "subject": "이해할 수 없는 dk의 취미생활 (feat. 닌텐도 워크맨) 아재들이여 도와줘 (살려줘)",
       "reason": "모델·대상 확인 필요",
       "tracks": 3
+    },
+    {
+      "id": "dbfd5cdb75846b8a8b70f098",
+      "subject": "2020 dk 셀프 감사제! 역대급 핫템 총출동! 늦지마세요!",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 1
     }
   ],
   "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)"
