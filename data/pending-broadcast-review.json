@@ -1,12 +1,12 @@
 {
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
-  "linkedBroadcasts": 392,
-  "pendingBroadcasts": 504,
+  "linkedBroadcasts": 393,
+  "pendingBroadcasts": 503,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "음향 교육·소프트웨어·코덱 설명": 3,
+    "음향 교육·소프트웨어·코덱 설명": 2,
     "모델·대상 확인 필요": 15,
     "일반 라이브 추천곡": 38
   },
@@ -22,12 +22,6 @@
       "subject": "이거, 헤드폰용? Marantz SACD30N 로 들어보는 Susvara, Hedd, Denon, ZMF, 그리고...",
       "reason": "모델·대상 확인 필요",
       "tracks": 4
-    },
-    {
-      "id": "3fc18d2af9d0ca27f822fb03",
-      "subject": "야! 너두 음향 아는척 할 수 있어! | EP.3 헤드폰 사운드 타겟 튜닝 (SoundID Reference)",
-      "reason": "음향 교육·소프트웨어·코덱 설명",
-      "tracks": 1
     },
     {
       "id": "8177714112b710fa8ccda65e",
