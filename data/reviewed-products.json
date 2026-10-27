@@ -195,5 +195,13 @@
     "name": "Sonarworks SoundID Reference",
     "brand": "Sonarworks",
     "category": "소프트웨어"
+  },
+  {
+    "id": "1e2d234d8e917536f469e354",
+    "subject": "소니의 고음질 LDAC, 삼성 (혹은 다른 회사) 폰에서도 똑같을까? 무선 고음질 블루투스 코덱의 끝판왕!",
+    "name": "Sony MDR-1ABT",
+    "brand": "Sony",
+    "category": "헤드폰",
+    "existingId": "ref-60be1f24aa8d759c"
   }
 ]
