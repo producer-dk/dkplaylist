@@ -1,27 +1,15 @@
 {
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
-  "linkedBroadcasts": 396,
-  "pendingBroadcasts": 498,
+  "linkedBroadcasts": 397,
+  "pendingBroadcasts": 496,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "모델·대상 확인 필요": 12,
+    "모델·대상 확인 필요": 10,
     "일반 라이브 추천곡": 38
   },
   "remainingBroadcasts": [
-    {
-      "id": "8177714112b710fa8ccda65e",
-      "subject": "theMIX 갓성비! 케이블 (이어폰, 헤드폰) / 이어팁 (일반, 에어팟) / 액세서리 할인 이벤트",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 1
-    },
-    {
-      "id": "32145bd8ead85152679ca2d4",
-      "subject": "헤드폰 케이블 차이는 어느 정도? 블라인드 테스트! (SONY MV1 기본 / 킴버 / 짝퉁 감별)",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 4
-    },
     {
       "id": "16530f8fb47c87e8a22b7d99",
       "subject": "[특별기획] 디아블로 VS 피카츄 !! 블라인드 대결",
@@ -377,6 +365,12 @@
       "subject": "영디비 + 이숲 + dk 특별 라이브 / 무저항잭 무엇이든 물어보세요!?",
       "reason": "모델·대상 확인 필요",
       "tracks": 4
+    },
+    {
+      "id": "8177714112b710fa8ccda65e",
+      "subject": "theMIX 갓성비! 케이블 (이어폰, 헤드폰) / 이어팁 (일반, 에어팟) / 액세서리 할인 이벤트",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 1
     }
   ],
   "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)"
