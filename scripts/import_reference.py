@@ -7,7 +7,7 @@ import sys,json,re,hashlib,unicodedata
 from datetime import date
 from urllib.parse import urlparse,parse_qs
 
-IGNORED_BROADCASTS={'vbP9c1vEjak','QgKYHWZLDVI','_KM01HtciHY','Xnbttmp0jfo','tjmuMulKQeU','jSy-1zidWeQ','YBhh-v8HMas','NYhR_SmbHqg','87m3sh1NYUA'}
+IGNORED_BROADCASTS={'x8jvx29aay8','vbP9c1vEjak','QgKYHWZLDVI','_KM01HtciHY','Xnbttmp0jfo','tjmuMulKQeU','jSy-1zidWeQ','YBhh-v8HMas','NYhR_SmbHqg','87m3sh1NYUA'}
 
 def normalize_date(value):
  s=str(value or '').strip()
