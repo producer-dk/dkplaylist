@@ -1,0 +1,5547 @@
+{
+  "environment": "shared",
+  "reviewedAt": "2026-10-27",
+  "broadcasts": 448,
+  "productLinks": 551,
+  "newGearCandidates": 478,
+  "reusedGearIds": 33,
+  "validPairsBeforeExistingDedup": 1608,
+  "skippedTracks": [],
+  "brandUnconfirmed": [
+    {
+      "name": "TPA3116D2 앰프",
+      "sourceId": "8716d7910c8c4061ee615aa1"
+    }
+  ],
+  "products": [
+    {
+      "id": "ae35d4edadc35eb899a4cd1d",
+      "subject": "에어팟 프로 3 리뷰... 이걸 원했던거지?",
+      "name": "Apple AirPods Pro 3",
+      "brand": "Apple",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 0,
+      "gearId": "ref-63914e1ce67b95fe"
+    },
+    {
+      "id": "cefa785a644aab0b866191ec",
+      "subject": "킹 갓 그랜드 마에스트로 애니버서리 에디션 전세계 350대 한정판",
+      "name": "FATfreq Grand Maestro Anniversary Edition",
+      "brand": "FATfreq",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 1,
+      "gearId": "ref-57d5fa3639c7d8ea"
+    },
+    {
+      "id": "bba73aa4db25485d548b1f39",
+      "subject": "왕초보를 위한 턴테이블 TT13 BT, 가성비 풀옵션 네트워크 플레이어 S15",
+      "name": "FiiO TT13 BT",
+      "brand": "FiiO",
+      "category": "턴테이블",
+      "existingId": null,
+      "_draftIndex": 2,
+      "gearId": "ref-f24f381126f790db"
+    },
+    {
+      "id": "bba73aa4db25485d548b1f39",
+      "subject": "왕초보를 위한 턴테이블 TT13 BT, 가성비 풀옵션 네트워크 플레이어 S15",
+      "name": "FiiO S15",
+      "brand": "FiiO",
+      "category": "네트워크 플레이어",
+      "existingId": null,
+      "_draftIndex": 3,
+      "gearId": "ref-b3569e6813f2ceb3"
+    },
+    {
+      "id": "d8e6872d4c4b324ab169b2a5",
+      "subject": "그나마 대중 친화적인 하이엔드? Weiss DAC 204 (feat. 502 비교 청음)",
+      "name": "Weiss DAC 204",
+      "brand": "Weiss",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 4,
+      "gearId": "ref-f27d515dbf202f22"
+    },
+    {
+      "id": "d8e6872d4c4b324ab169b2a5",
+      "subject": "그나마 대중 친화적인 하이엔드? Weiss DAC 204 (feat. 502 비교 청음)",
+      "name": "Weiss DAC 502",
+      "brand": "Weiss",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 5,
+      "gearId": "ref-99c3c9f906fdd1cf"
+    },
+    {
+      "id": "4bb08f5921389d7b76a43193",
+      "subject": "한국형 수제 우드 이어폰 2탄? ODA x 더그랩사운드 Helios (Korea Edition)",
+      "name": "ODA x 더그랩사운드 Helios (Korea Edition)",
+      "brand": "ODA x 더그랩사운드",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 6,
+      "gearId": "ref-5034eacce5d829a6"
+    },
+    {
+      "id": "296323e0d8f75cab2220f518",
+      "subject": "JAVS 신모듈 등장! 빈티지 하이엔드의 느낌 | AD1955A QUAD (9039, 1702 비교)",
+      "name": "JAVS AD1955A QUAD",
+      "brand": "JAVS",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 7,
+      "gearId": "ref-3f0f1c75d51b0fe0"
+    },
+    {
+      "id": "296323e0d8f75cab2220f518",
+      "subject": "JAVS 신모듈 등장! 빈티지 하이엔드의 느낌 | AD1955A QUAD (9039, 1702 비교)",
+      "name": "JAVS 9039",
+      "brand": "JAVS",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 8,
+      "gearId": "ref-949ec6d7c1881cd1"
+    },
+    {
+      "id": "296323e0d8f75cab2220f518",
+      "subject": "JAVS 신모듈 등장! 빈티지 하이엔드의 느낌 | AD1955A QUAD (9039, 1702 비교)",
+      "name": "JAVS PCM 1702 R2R 리미티드 에디션",
+      "brand": "JAVS",
+      "category": "DAC",
+      "existingId": "ref-fc704bd6e73afa2d",
+      "_draftIndex": 9,
+      "gearId": "ref-fc704bd6e73afa2d"
+    },
+    {
+      "id": "4c4e7762d8e779376f3aeac1",
+      "subject": "QoA 한국만 특별대우? 한국 평판형 업그레이드판! New! Mimosa (Korean Ver.)",
+      "name": "QoA Mimosa (Korean Ver.)",
+      "brand": "QoA",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 10,
+      "gearId": "ref-9bbfcf1af8a82c34"
+    },
+    {
+      "id": "ae3de272c3a9478ef87410c1",
+      "subject": "한국 브랜드 튜닝 + Kinera 제조 게이밍 이어폰 = Monster Ear ShadowX",
+      "name": "MonsterEar ShadowX",
+      "brand": "MonsterEar",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 11,
+      "gearId": "ref-d821414c310571be"
+    },
+    {
+      "id": "e7ccc2c3979cc1bfb4fa893b",
+      "subject": "31밴드 하드웨어 EQ의 손맛! 주파수를 내맘대로 만져보자! (feat. dbx 231s)",
+      "name": "dbx 231s",
+      "brand": "dbx",
+      "category": "음향 프로세서",
+      "existingId": "ref-3eebda4471d5ae15",
+      "_draftIndex": 12,
+      "gearId": "ref-3eebda4471d5ae15"
+    },
+    {
+      "id": "3e2d75706c2cd6e59eb389c2",
+      "subject": "[음향] 하드웨어 EQ 를 써보자! 가성비 최고 시스템 투자! (feat. Behringer FBQ1502HD)",
+      "name": "Behringer FBQ1502HD",
+      "brand": "Behringer",
+      "category": "음향 프로세서",
+      "existingId": null,
+      "_draftIndex": 13,
+      "gearId": "ref-9b04137847e65419"
+    },
+    {
+      "id": "729630c008e2e5f0529a0900",
+      "subject": "헤드폰 업계 태풍! 거물급 신인! 정전형 맛이 나는 평판형 헤드폰 DUNU Arashi",
+      "name": "DUNU Arashi",
+      "brand": "DUNU",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 14,
+      "gearId": "ref-fa842a1052891c76"
+    },
+    {
+      "id": "647fb66b57708b8b35682de6",
+      "subject": "2025년 최고의 가성비 이어폰 선언! Canpur Joyfull 시리즈 3종 들어봅시다!",
+      "name": "Canpur Joyfull 시리즈",
+      "brand": "Canpur",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 15,
+      "gearId": "ref-52b125559ff89381"
+    },
+    {
+      "id": "f2cbd71b6ca57391cb5822ae",
+      "subject": "이 가격에 클립쉬 레퍼런스 사운드를 듣는다고? Klipsch R-60M (feat. Denon RCD-M41)",
+      "name": "Klipsch R-60M",
+      "brand": "Klipsch",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 16,
+      "gearId": "ref-a934f24748e9a930"
+    },
+    {
+      "id": "f2cbd71b6ca57391cb5822ae",
+      "subject": "이 가격에 클립쉬 레퍼런스 사운드를 듣는다고? Klipsch R-60M (feat. Denon RCD-M41)",
+      "name": "Denon RCD-M41",
+      "brand": "Denon",
+      "category": "CD 플레이어",
+      "existingId": null,
+      "_draftIndex": 17,
+      "gearId": "ref-e6303107a40cff77"
+    },
+    {
+      "id": "d1ff4ebc269c501c04b849a5",
+      "subject": "최고급 B&W 사운드를 원하신다면, 최고급 북쉘프 스피커 | B&W 805D4 (801 비교)",
+      "name": "Bowers & Wilkins 805D4",
+      "brand": "Bowers & Wilkins",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 18,
+      "gearId": "ref-43e03e1619519607"
+    },
+    {
+      "id": "d1ff4ebc269c501c04b849a5",
+      "subject": "최고급 B&W 사운드를 원하신다면, 최고급 북쉘프 스피커 | B&W 805D4 (801 비교)",
+      "name": "Bowers & Wilkins 801",
+      "brand": "Bowers & Wilkins",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 19,
+      "gearId": "ref-448a10e54fc3d7aa"
+    },
+    {
+      "id": "736877ee53298485e558da78",
+      "subject": "스위치로 공간감 조절 + 여성 보컬을 위한 디테일 = Softears Volume S",
+      "name": "Softears Volume S",
+      "brand": "Softears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 20,
+      "gearId": "ref-f78178b8bc6ba171"
+    },
+    {
+      "id": "dba14e7203cbfdc64cad77dd",
+      "subject": "킥! 펀치! HBB 미친 튜닝! 키위이어스 플래그십 (KiwiEars Punch)",
+      "name": "Kiwi Ears Punch",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 21,
+      "gearId": "ref-9423018281b9b884"
+    },
+    {
+      "id": "b22a56b5a1a31aeaa26a1570",
+      "subject": "역대급 물량 투입 올닉 HPA-10000 OTL/OCL 리뷰 | 과연 서스바라는 춤을 추었는가",
+      "name": "Allnic HPA-10000 OTL/OCL",
+      "brand": "Allnic",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 22,
+      "gearId": "ref-1aa15e5c4c18f714"
+    },
+    {
+      "id": "fa215c79dc88bae302c83fbd",
+      "subject": "차세대 밀폐형 레퍼런스 헤드폰 Aune SR7000",
+      "name": "Aune SR7000",
+      "brand": "Aune",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 23,
+      "gearId": "ref-e0a8f1b0fcf8424a"
+    },
+    {
+      "id": "6dd54f3fb328aa3e83862082",
+      "subject": "7BA + 4EST = 다이나믹한 저역 + 따사로운 고역 = Canpur CP74E  Producer dk 구독자 20.4만명 혜택 보기  구독중",
+      "name": "Canpur CP74E",
+      "brand": "Canpur",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 24,
+      "gearId": "ref-df0671bc23564ff2"
+    },
+    {
+      "id": "4cde8d7bd6b1a06c34a9e563",
+      "subject": "미국적인 사운드란 이런 것? 황금소떼가 온다! 메탈루어 글래시어 (Metalure Glacier)",
+      "name": "Metalure Glacier",
+      "brand": "Metalure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 25,
+      "gearId": "ref-a3be13cb171fc758"
+    },
+    {
+      "id": "a50629b401dde1b5e2ac9e71",
+      "subject": "고급 키위는 어떤 맛일까? $199 짜리 Kiwi Ears KE4",
+      "name": "Kiwi Ears KE4",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 26,
+      "gearId": "ref-559c0155ca6b7565"
+    },
+    {
+      "id": "80f70f379378b752ab1211ae",
+      "subject": "영디비 x TRIPOWIN 콜라보 이어폰 VIVACE? 근데 3만원대? Producer dk 의 평가는?",
+      "name": "Tripowin Vivace",
+      "brand": "Tripowin",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 27,
+      "gearId": "ref-2785dbde80437f89"
+    },
+    {
+      "id": "fbd19d3f6aa29b51d881e9b4",
+      "subject": "14.2mm 평판형 드라이버 하나로 끝냄 64 Audio Solo",
+      "name": "64 Audio Solo",
+      "brand": "64 Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 28,
+      "gearId": "ref-8b387c31270f74c8"
+    },
+    {
+      "id": "4f8d0834496871758e529650",
+      "subject": "iFi 끝판왕 앰프! 정전형까지 모든 헤드폰을 울리는 iCAN PHANTOM",
+      "name": "iFi iCAN PHANTOM",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 29,
+      "gearId": "ref-00d8bc477eb7606e"
+    },
+    {
+      "id": "8b29e166f01a7bf7a45925b6",
+      "subject": "녹음? 고출력? 전류 증폭 방식? 꼬다리 무한 확장판? Questyle CMA18 Portable",
+      "name": "Questyle CMA18 Portable",
+      "brand": "Questyle",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 30,
+      "gearId": "ref-0c6f28b5e9d8ee4c"
+    },
+    {
+      "id": "2cd6b3e05f9ff795a7ef750c",
+      "subject": "중급기 가격 + 플래그십 성능 | FiiO M23 극한 테스트",
+      "name": "FiiO M23",
+      "brand": "FiiO",
+      "category": "DAP",
+      "existingId": null,
+      "_draftIndex": 31,
+      "gearId": "ref-9f3e0fe7756dcd27"
+    },
+    {
+      "id": "cc7ded998dd3e8d09f091477",
+      "subject": "디지털이면 다 똑같을까? I2S CDT 연결하면 뭐가 다른지 실험! Cayin MINI-CD MK2 (feat. ARETE DAC)",
+      "name": "Cayin MINI-CD MK2",
+      "brand": "Cayin",
+      "category": "CD 플레이어",
+      "existingId": null,
+      "_draftIndex": 32,
+      "gearId": "ref-a9018360b8dc3b2e"
+    },
+    {
+      "id": "cc7ded998dd3e8d09f091477",
+      "subject": "디지털이면 다 똑같을까? I2S CDT 연결하면 뭐가 다른지 실험! Cayin MINI-CD MK2 (feat. ARETE DAC)",
+      "name": "JAVS ARETE DAC",
+      "brand": "JAVS",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 33,
+      "gearId": "ref-6777f97895a7edaa"
+    },
+    {
+      "id": "6105da42853f9609094d3d8d",
+      "subject": "내맘대로 튜닝하는 이어폰 | Final 파이널 REB | Grid 01 + 전용 튜닝킷",
+      "name": "Final REB Grid 01",
+      "brand": "Final",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 34,
+      "gearId": "ref-cf5da830617e399f"
+    },
+    {
+      "id": "fecf4b066436c26b66ec972d",
+      "subject": "ZEN CAN 3 | 풀 아날로그 헤드폰 앰프 입문기로 가장 많이 추천! 3세대 업그레이드",
+      "name": "iFi ZEN CAN 3",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 35,
+      "gearId": "ref-1d9167642496b0ba"
+    },
+    {
+      "id": "a642b87a7df40058a27595ef",
+      "subject": "THX 앰프, 온갖 기능으로 무장한 FiiO R9 플래그십 데스크탑 올인원 플레이어",
+      "name": "FiiO R9",
+      "brand": "FiiO",
+      "category": "DAC · 앰프 · 네트워크 플레이어",
+      "existingId": null,
+      "_draftIndex": 36,
+      "gearId": "ref-5507e5a1c1420a6e"
+    },
+    {
+      "id": "74a4ea79f5ef47a02adb1d53",
+      "subject": "Softears Enigma | 소프트이어스 500만원대 플래그십 종결기",
+      "name": "Softears Enigma",
+      "brand": "Softears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 37,
+      "gearId": "ref-ee4901054e874ffd"
+    },
+    {
+      "id": "21bccc2e5f89b81b2dce646a",
+      "subject": "SIMGOT 의 1DD + 8BA + 1PZT 플래그십 EM10 (DREAM)",
+      "name": "SIMGOT EM10 (DREAM)",
+      "brand": "SIMGOT",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 38,
+      "gearId": "ref-a9b78ac88c6c9333"
+    },
+    {
+      "id": "6e452d879beb65ce8a9724d1",
+      "subject": "신뢰의 64AUDIO 엔트리 모델, 프로를 겨냥? Aspire 4 (feat. PLUSSOUND)",
+      "name": "64 Audio Aspire 4",
+      "brand": "64 Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 39,
+      "gearId": "ref-cefeccccdb6ce21a"
+    },
+    {
+      "id": "84a40de489820b7934fe9802",
+      "subject": "DUNU 의 플래그십, 드디어 완성된 듀만콘댐! 글라시어 Glacier",
+      "name": "DUNU Glacier",
+      "brand": "DUNU",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 40,
+      "gearId": "ref-bf9856b29098cebd"
+    },
+    {
+      "id": "33839aa37e4a702de156a296",
+      "subject": "ZEN DAC 3 | iFi 의 베스트셀러 DAC, 3세대 업그레이드",
+      "name": "iFi ZEN DAC 3",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 41,
+      "gearId": "ref-f3f64ae2eaf5d7e5"
+    },
+    {
+      "id": "0df513750b1ab39e249f5812",
+      "subject": "유니크 멜로디 중에 최고 유니크함 | Unique Melody MAX 홍콩 한정판",
+      "name": "Unique Melody MAX (홍콩 한정판)",
+      "brand": "Unique Melody",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 42,
+      "gearId": "ref-7bfe9c6a19aa5a5e"
+    },
+    {
+      "id": "88992b63d3210987f2883373",
+      "subject": "요즘 힙한 Koss Porta Pro 와 Yaxi 패드 있으면 여자친구 생긴다! 유선 헤드폰 입문! (feat. Utility Cord, YAXI PAD)",
+      "name": "Koss Porta Pro",
+      "brand": "Koss",
+      "category": "헤드폰",
+      "existingId": "ref-40fa7b848175d82e",
+      "_draftIndex": 43,
+      "gearId": "ref-40fa7b848175d82e"
+    },
+    {
+      "id": "88992b63d3210987f2883373",
+      "subject": "요즘 힙한 Koss Porta Pro 와 Yaxi 패드 있으면 여자친구 생긴다! 유선 헤드폰 입문! (feat. Utility Cord, YAXI PAD)",
+      "name": "YAXI PAD",
+      "brand": "YAXI",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 44,
+      "gearId": "ref-9bd4bd0fa02b6e6b"
+    },
+    {
+      "id": "88992b63d3210987f2883373",
+      "subject": "요즘 힙한 Koss Porta Pro 와 Yaxi 패드 있으면 여자친구 생긴다! 유선 헤드폰 입문! (feat. Utility Cord, YAXI PAD)",
+      "name": "Koss Utility Cord",
+      "brand": "Koss",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 45,
+      "gearId": "ref-d382e401ee8c7b44"
+    },
+    {
+      "id": "2adba61855613990331abd24",
+      "subject": "[세계최초] 럭셔리 브랜드의 저가형 모델? Jomo Audio 303H Fairlady (조모 오디오 페어레이디)",
+      "name": "Jomo Audio Audio 303H Fairlady",
+      "brand": "Jomo Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 46,
+      "gearId": "ref-d944a97ddd93996a"
+    },
+    {
+      "id": "012771242e3feddfb685c628",
+      "subject": "아이맥스급 파노라마! Spirit Torino 새로운 플래그쉽 PULSAR",
+      "name": "Spirit Torino PULSAR",
+      "brand": "Spirit Torino",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 47,
+      "gearId": "ref-9f752dbc5d63c25e"
+    },
+    {
+      "id": "3c4f67a56777f08d8469f9bb",
+      "subject": "64 Audio 동생, 고급 펀사운드 끝판왕! FiR Audio Xenon 6 (퍼오디오 제논6)",
+      "name": "FiR Audio Xenon 6",
+      "brand": "FiR Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 48,
+      "gearId": "ref-a850e41473dcaf53"
+    },
+    {
+      "id": "30f51557c2630e45e0f042f4",
+      "subject": "게이밍 이어폰인데 왜 사운드가 멀쩡? 왜 UV 램프 줌? EPZ G10 Symphony Dragon",
+      "name": "EPZ G10 Symphony Dragon",
+      "brand": "EPZ",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 49,
+      "gearId": "ref-470032d6351b461f"
+    },
+    {
+      "id": "4ce8ae2e841d426a9194a701",
+      "subject": "청음실의 핵심! AK4499 + SACD + 만능 플레이어 = Shanling SCD 1.3",
+      "name": "Shanling SCD 1.3",
+      "brand": "Shanling",
+      "category": "CD 플레이어",
+      "existingId": null,
+      "_draftIndex": 50,
+      "gearId": "ref-caa4c91388206cc5"
+    },
+    {
+      "id": "0871d2856c5e6ab5ce2f38bb",
+      "subject": "잡소리 하나 없는 최고급 밀폐형 헤드폰, 음향의 신세계! MEZE LIRIC 2세대",
+      "name": "Meze Audio LIRIC (2nd Generation)",
+      "brand": "Meze Audio",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 51,
+      "gearId": "ref-2e80c52c773550cd"
+    },
+    {
+      "id": "6109e4ca01cd90981a8c98a8",
+      "subject": "XLR 밸런스드 입력, 모노 블럭이 되는 고출력 앰프가 10만원? 들어보자 모노-모노 사운드! Fosi ZA3",
+      "name": "Fosi Audio ZA3",
+      "brand": "Fosi Audio",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 52,
+      "gearId": "ref-e9813f651b9e2856"
+    },
+    {
+      "id": "972764d5a641aeac64e45a17",
+      "subject": "버브라운 멀티비트 입문기! iFi 의 근본 엔트리 3세대! hip-dac 3",
+      "name": "iFi hip-dac 3",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 53,
+      "gearId": "ref-bc2c84bb801d7fef"
+    },
+    {
+      "id": "c510448854f630831938f56f",
+      "subject": "드비알레 제미니2 ~다 좋은데 이어팁이 아쉽길래 아즈라 가서 만들어 왔습니다 ~",
+      "name": "Devialet Gemini II",
+      "brand": "Devialet",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 54,
+      "gearId": "ref-67377695b871757d"
+    },
+    {
+      "id": "006cccdc9fe85b556af3c6f3",
+      "subject": "헤드폰에 약을 타 TA-20 PLUS (feat. SUSVARA, AUTEUR, PULSAR, AR5000)",
+      "name": "xDuoo TA-20 PLUS",
+      "brand": "xDuoo",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 55,
+      "gearId": "ref-f269eb7790cc0603"
+    },
+    {
+      "id": "006cccdc9fe85b556af3c6f3",
+      "subject": "헤드폰에 약을 타 TA-20 PLUS (feat. SUSVARA, AUTEUR, PULSAR, AR5000)",
+      "name": "HIFIMAN Susvara",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": "ref-c46238ef2253aa51",
+      "_draftIndex": 56,
+      "gearId": "ref-c46238ef2253aa51"
+    },
+    {
+      "id": "006cccdc9fe85b556af3c6f3",
+      "subject": "헤드폰에 약을 타 TA-20 PLUS (feat. SUSVARA, AUTEUR, PULSAR, AR5000)",
+      "name": "ZMF Auteur",
+      "brand": "ZMF",
+      "category": "헤드폰",
+      "existingId": "ref-a51c916ec9e2ec2b",
+      "_draftIndex": 57,
+      "gearId": "ref-a51c916ec9e2ec2b"
+    },
+    {
+      "id": "006cccdc9fe85b556af3c6f3",
+      "subject": "헤드폰에 약을 타 TA-20 PLUS (feat. SUSVARA, AUTEUR, PULSAR, AR5000)",
+      "name": "Spirit Torino PULSAR",
+      "brand": "Spirit Torino",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 58,
+      "gearId": "ref-9f752dbc5d63c25e"
+    },
+    {
+      "id": "006cccdc9fe85b556af3c6f3",
+      "subject": "헤드폰에 약을 타 TA-20 PLUS (feat. SUSVARA, AUTEUR, PULSAR, AR5000)",
+      "name": "Aune AR5000",
+      "brand": "Aune",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 59,
+      "gearId": "ref-52bd5c5813f1a927"
+    },
+    {
+      "id": "0713389144403ba2511f8ebd",
+      "subject": "AUNE S17 Pro + S9c BT | 최고급 헤드폰 사운드, 세계관 최강 가성비 세트",
+      "name": "Aune S17 Pro",
+      "brand": "Aune",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 60,
+      "gearId": "ref-450961d0bfc7dbaa"
+    },
+    {
+      "id": "0713389144403ba2511f8ebd",
+      "subject": "AUNE S17 Pro + S9c BT | 최고급 헤드폰 사운드, 세계관 최강 가성비 세트",
+      "name": "Aune S9c BT",
+      "brand": "Aune",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 61,
+      "gearId": "ref-f8213aa099f7f8f2"
+    },
+    {
+      "id": "c4233f9e414b1aea415229de",
+      "subject": "전설의 레전드 SM7B 마이크 20년(!) 롱텀 사용기 (feat. 소리꾼 고영열)",
+      "name": "Shure SM7B",
+      "brand": "Shure",
+      "category": "마이크",
+      "existingId": null,
+      "_draftIndex": 62,
+      "gearId": "ref-fa14c3162e0401bf"
+    },
+    {
+      "id": "71feef427f921487a251e239",
+      "subject": "올해도 무서운 가성비 레이스 시작! 2DD + 1BA = Kiwi Ears Forteza (키위이어스 포르테자)",
+      "name": "Kiwi Ears Forteza",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 63,
+      "gearId": "ref-9248452ae483df7d"
+    },
+    {
+      "id": "e9fe0e219de5bc0d6141cb5e",
+      "subject": "ZMF AUTEUR LTD | 편안함 안락함 사운드 미쳤음 내귀에 고급 궤짝 스피커 오터",
+      "name": "ZMF AUTEUR LTD",
+      "brand": "ZMF",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 64,
+      "gearId": "ref-e2a29532c8535ab0"
+    },
+    {
+      "id": "22936c1bf643e520bb084b3f",
+      "subject": "주인공 몰아주기! 키네라 새로운 차원의 플래그십, 여신 시리즈 최종장 베르단디! (Kinera Verdandi)",
+      "name": "Kinera Verdandi",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 65,
+      "gearId": "ref-54dec7347de5f7b7"
+    },
+    {
+      "id": "f7ca89aecda893f54b26002b",
+      "subject": "[국내최초] 만년 1등 이어팁, 2세대 업그레이드! AZLA XELASTEC 2 (아즈라 셀라스텍 2)",
+      "name": "AZLA XELASTEC 2",
+      "brand": "AZLA",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 66,
+      "gearId": "ref-a78151c53d080884"
+    },
+    {
+      "id": "ff9d04418ada0ca6cd1ab8c3",
+      "subject": "베이스 캐논!? 이 사운드를 어디에 쓰면 좋지? FATfreq Scarlet Mini (스칼렛 미니)",
+      "name": "FATfreq Scarlet Mini",
+      "brand": "FATfreq",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 67,
+      "gearId": "ref-9b73f01ce426a9c6"
+    },
+    {
+      "id": "073c95cec021192b1ac5ce92",
+      "subject": "상상 이상의 음상, 플로어 스탠딩 급 북쉘프 스피커 DALI EPICON 2",
+      "name": "DALI EPICON 2",
+      "brand": "DALI",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 68,
+      "gearId": "ref-9086f9fdfeebe31d"
+    },
+    {
+      "id": "b37729dd6355aef5bd8990d7",
+      "subject": "AUNE AR5000 헤드폰 갓성비 레전드 성지 (예정)",
+      "name": "Aune AR5000",
+      "brand": "Aune",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 69,
+      "gearId": "ref-52bd5c5813f1a927"
+    },
+    {
+      "id": "ce0cd65140ec00bdf299f5d9",
+      "subject": "한국을 위한 우드 이어폰? ODA x 더그랩사운드 Hesperus (Korea Edition)",
+      "name": "ODA x 더그랩사운드 Hesperus (Korea Edition)",
+      "brand": "ODA x 더그랩사운드",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 70,
+      "gearId": "ref-3495b0a8bd23433d"
+    },
+    {
+      "id": "2250a4699d55cbf42ec78418",
+      "subject": "캐릭터 굿즈 아닙니다!? 1만원대 정통 오픈형 사운드! NiceHCK EB2S Pro",
+      "name": "NiceHCK EB2S Pro",
+      "brand": "NiceHCK",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 71,
+      "gearId": "ref-9517c27d3feff8ee"
+    },
+    {
+      "id": "17632ed532536c55ef8b3aee",
+      "subject": "10만원 미만 빈티지 감성템 Tivoli Audio Model One (구형), LG 금성 70주년 기념 스피커",
+      "name": "Tivoli Audio Model One (구형)",
+      "brand": "Tivoli Audio",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 72,
+      "gearId": "ref-87a9e4eb03186266"
+    },
+    {
+      "id": "17632ed532536c55ef8b3aee",
+      "subject": "10만원 미만 빈티지 감성템 Tivoli Audio Model One (구형), LG 금성 70주년 기념 스피커",
+      "name": "LG 금성 70주년 기념 스피커",
+      "brand": "LG",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 73,
+      "gearId": "ref-bff56c65033de54d"
+    },
+    {
+      "id": "53cf2b0b8da5532330a7aacf",
+      "subject": "dk의 인생 헤드폰은 이것! SONY MDR-G72 접히는 백폰!",
+      "name": "Sony MDR-G72",
+      "brand": "Sony",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 74,
+      "gearId": "ref-03cd9eb270227dd6"
+    },
+    {
+      "id": "9c723a723aa3d1778c044e2f",
+      "subject": "[세계최초] 은으로 만든 1DD 플래그십 Acoustune HS2000MX MK3 어쿠스튠 笙(쇼) MK3",
+      "name": "Acoustune HS2000MX MK3",
+      "brand": "Acoustune",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 75,
+      "gearId": "ref-823832bfd519ea62"
+    },
+    {
+      "id": "7d2ae5882f30cd42965da821",
+      "subject": "슈퍼 플래그십! KINERA LOKI_수정_최종_final_스펙변경 (Ver. dk) 한국판 다른 이유",
+      "name": "Kinera LOKI (Ver. dk)",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 76,
+      "gearId": "ref-4bc4dee3082cb91e"
+    },
+    {
+      "id": "b793e19c566ca9ef714957c2",
+      "subject": "저음 점프! 패시브 라디에이터 + 세가지 맛 노즐 Simgot 심갓 EA1000",
+      "name": "SIMGOT EA1000",
+      "brand": "SIMGOT",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 77,
+      "gearId": "ref-f9c39d50a5582e3d"
+    },
+    {
+      "id": "a5eac65804a46209815a315b",
+      "subject": "오리베티 돌아왔다! 한국판은 다르다! ORIVETI OD100 가성비 1DD",
+      "name": "Oriveti OD100",
+      "brand": "Oriveti",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 78,
+      "gearId": "ref-4d67ffd2999e6d41"
+    },
+    {
+      "id": "3403796a2f8eaaf9d9419dcb",
+      "subject": "버브라운 PCM1795 QUAD 모듈 장착으로 놀라운 업그레이드!? JAVS ARETE DAC",
+      "name": "JAVS ARETE DAC (PCM1795 QUAD 모듈)",
+      "brand": "JAVS",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 79,
+      "gearId": "ref-0d411806fc2a4bb8"
+    },
+    {
+      "id": "150e72270cb17fed7448d09a",
+      "subject": "최강의 무선 액티브 스피커! KEF 북쉘프 끝판왕 LS50 Wireless II",
+      "name": "KEF LS50 Wireless II",
+      "brand": "KEF",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 80,
+      "gearId": "ref-634641ece0708d36"
+    },
+    {
+      "id": "59fab4be1b42502be81cd3a0",
+      "subject": "저음 황제는 중고역도 좋아! 그냥 끝났어! FATfreq GRAND Maestro",
+      "name": "FATfreq GRAND Maestro",
+      "brand": "FATfreq",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 81,
+      "gearId": "ref-4423a652de8af5fa"
+    },
+    {
+      "id": "587ee36650730e989bab388b",
+      "subject": "초전도체? 스피커, 서브우퍼, 앰프 다함께 공중부양! Triton Audio NeoLev",
+      "name": "Triton Audio NeoLev",
+      "brand": "Triton Audio",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 82,
+      "gearId": "ref-cc3808b6c7bcfb24"
+    },
+    {
+      "id": "ff54a3c49827cb59d91e243e",
+      "subject": "작은 사이즈는 우리를 위한 페이크! 파워 분리형 고급 헤드폰 앰프 EarMen CH-Amp",
+      "name": "EarMen CH-Amp",
+      "brand": "EarMen",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 83,
+      "gearId": "ref-bfbfeb5c187c6348"
+    },
+    {
+      "id": "5d8b93de66e7d0e7baf86196",
+      "subject": "우리가 알던 소리가 아냐? 감동의 통울림! 하이파이맨 오디비나 (HIFIMAN Audivina)",
+      "name": "HIFIMAN Audivina",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 84,
+      "gearId": "ref-608a363fc9de466b"
+    },
+    {
+      "id": "a41ac13101a4fe39db0fb825",
+      "subject": "이 비싼걸 왜들 그렇게 기다리는가? 이어폰을 완전 무선으로 만들어주는 iFi Go Pod",
+      "name": "iFi Go Pod",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 85,
+      "gearId": "ref-74cb61e8b6e86dd0"
+    },
+    {
+      "id": "d84be9ff64c0b75b89c81adb",
+      "subject": "울트라손맛 제대로 난다! 시그니쳐 퓨어 (Ultrasone Signature Pure)",
+      "name": "Ultrasone Signature Pure",
+      "brand": "Ultrasone",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 86,
+      "gearId": "ref-2f3e66e602f9388b"
+    },
+    {
+      "id": "b29091d642cb61baeae5e10b",
+      "subject": "이번에야말로! 진짜 최종 가성비 끝판왕 평판형 이어폰 Kiwi Ears Melody (키위이어스 멜로디)",
+      "name": "Kiwi Ears Melody",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 87,
+      "gearId": "ref-a773555528cb699d"
+    },
+    {
+      "id": "ec38f519aefef7fc2be5b0ce",
+      "subject": "[세계최초] SONY 새로운 INZONE 시리즈 | 무선 게이밍 헤드폰/이어폰 압도적 최강자",
+      "name": "Sony INZONE 시리즈",
+      "brand": "Sony",
+      "category": "이어폰 · 헤드폰",
+      "existingId": null,
+      "_draftIndex": 88,
+      "gearId": "ref-011a1de1786c7f85"
+    },
+    {
+      "id": "a18c4a318fbf37616fd182d8",
+      "subject": "[세계최초] 1DD 끝판왕이 돌아왔다! FAudio Major 의 정신적 후계기 Spring",
+      "name": "FAudio Spring",
+      "brand": "FAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 89,
+      "gearId": "ref-71720a260a38d537"
+    },
+    {
+      "id": "c71be6f1796024f2ac048935",
+      "subject": "QOA 에서 내놓은 20만원대 대표 주자 Aviation | 퀸텟 Quintet 대항마?",
+      "name": "QoA Aviation",
+      "brand": "QoA",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 90,
+      "gearId": "ref-4dd6c43396c4cadf"
+    },
+    {
+      "id": "c71be6f1796024f2ac048935",
+      "subject": "QOA 에서 내놓은 20만원대 대표 주자 Aviation | 퀸텟 Quintet 대항마?",
+      "name": "Kiwi Ears Quintet",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 91,
+      "gearId": "ref-9286abc3c48abdbc"
+    },
+    {
+      "id": "c716ad7b2eecdfe17566f1e7",
+      "subject": "DENON 헤드폰? 완벽히 젖는다! 밤이 외로운 분들을 위한 AH-D9200",
+      "name": "Denon AH-D9200",
+      "brand": "Denon",
+      "category": "헤드폰",
+      "existingId": "ref-73496c16601d01a9",
+      "_draftIndex": 92,
+      "gearId": "ref-73496c16601d01a9"
+    },
+    {
+      "id": "5af7d54072a2a8bb9775007c",
+      "subject": "[국내최초] 시간이 지나도 독보적인 근본 레퍼런스 2세대! SHURE AONIC 50 GEN2",
+      "name": "Shure AONIC 50 GEN2",
+      "brand": "Shure",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 93,
+      "gearId": "ref-9fa30fa38153081e"
+    },
+    {
+      "id": "17dd8063a3bea53f15d5721f",
+      "subject": "가성비 갓 SIMGOT이 10만원대 제품을 만들면? 레퍼런스 이어폰 EM6L (PHOENIX)",
+      "name": "SIMGOT EM6L (PHOENIX)",
+      "brand": "SIMGOT",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 94,
+      "gearId": "ref-10fb57866385e28c"
+    },
+    {
+      "id": "df3a5df7d3533042a097fb61",
+      "subject": "DAC 칩셋을 교체하고 전류/전압 출력까지 다 된다고? JAVS 플래그십 ARETE DAC",
+      "name": "JAVS ARETE DAC",
+      "brand": "JAVS",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 95,
+      "gearId": "ref-6777f97895a7edaa"
+    },
+    {
+      "id": "4f610a18821a1d963dc6c4a2",
+      "subject": "하이파이 스피커 시작하기에 가장 안전한! 검증된! | B&W 600 S2 시리즈 (feat. Denon RCD-N10, WEISS 502, Sabaj)",
+      "name": "Bowers & Wilkins 600 S2 시리즈",
+      "brand": "Bowers & Wilkins",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 96,
+      "gearId": "ref-25488ab250a4e8cb"
+    },
+    {
+      "id": "4f610a18821a1d963dc6c4a2",
+      "subject": "하이파이 스피커 시작하기에 가장 안전한! 검증된! | B&W 600 S2 시리즈 (feat. Denon RCD-N10, WEISS 502, Sabaj)",
+      "name": "Denon RCD-N10",
+      "brand": "Denon",
+      "category": "CD 플레이어",
+      "existingId": null,
+      "_draftIndex": 97,
+      "gearId": "ref-4a23c9b8f4475c77"
+    },
+    {
+      "id": "4f610a18821a1d963dc6c4a2",
+      "subject": "하이파이 스피커 시작하기에 가장 안전한! 검증된! | B&W 600 S2 시리즈 (feat. Denon RCD-N10, WEISS 502, Sabaj)",
+      "name": "Weiss DAC 502",
+      "brand": "Weiss",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 98,
+      "gearId": "ref-99c3c9f906fdd1cf"
+    },
+    {
+      "id": "ef622829c87c52f3dde6edd3",
+      "subject": "[세계최초] 작고 가벼워진 헤드 스피커 2세대! HEDDphone Two (feat. HEDDphone One)",
+      "name": "HEDD HEDDphone TWO",
+      "brand": "HEDD",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 99,
+      "gearId": "ref-6d315dfdca8db797"
+    },
+    {
+      "id": "ef622829c87c52f3dde6edd3",
+      "subject": "[세계최초] 작고 가벼워진 헤드 스피커 2세대! HEDDphone Two (feat. HEDDphone One)",
+      "name": "HEDD HEDDphone ONE",
+      "brand": "HEDD",
+      "category": "헤드폰",
+      "existingId": "ref-e5e525be8dfece5a",
+      "_draftIndex": 100,
+      "gearId": "ref-e5e525be8dfece5a"
+    },
+    {
+      "id": "47ba6a39c69fdbbfbd7fb9a2",
+      "subject": "2만원대 이어폰의 포텐셜이 터진다! Kiwi Ears Dolce (키위이어스 돌체)",
+      "name": "Kiwi Ears Dolce",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 101,
+      "gearId": "ref-ae0784e4adaab771"
+    },
+    {
+      "id": "86f6dba1a33ff35f61639b7b",
+      "subject": "굳이 뭘 리뷰하나 그냥 좋은거 Kiwi Ears Quintet 키위이어스 퀸텟",
+      "name": "Kiwi Ears Quintet",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 102,
+      "gearId": "ref-9286abc3c48abdbc"
+    },
+    {
+      "id": "0e37ecff1f94559954c83d18",
+      "subject": "또 다른 가성비 강자? 7만원에 느끼는 고급스러운 중역의 맛 QOA GIMLET",
+      "name": "QoA GIMLET",
+      "brand": "QoA",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 103,
+      "gearId": "ref-965da1eeadaa9bb2"
+    },
+    {
+      "id": "bd5891cf7f1bda7ec2da13a7",
+      "subject": "시장파괴 심갓 입문기인가 종결기인가 현타제조기 SIMGOT EW200 (feat. DEW4)",
+      "name": "SIMGOT EW200",
+      "brand": "SIMGOT",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 104,
+      "gearId": "ref-010274c8e7751775"
+    },
+    {
+      "id": "bd5891cf7f1bda7ec2da13a7",
+      "subject": "시장파괴 심갓 입문기인가 종결기인가 현타제조기 SIMGOT EW200 (feat. DEW4)",
+      "name": "SIMGOT DEW4",
+      "brand": "SIMGOT",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 105,
+      "gearId": "ref-121e4c7ef2cfea78"
+    },
+    {
+      "id": "8f6466ec3068d54611cb0710",
+      "subject": "고막을 때리는 황동 유닛의 울림! 한국산 오픈형 이어폰 플래그십 Ucotech ES-P2",
+      "name": "UCOTECH ES-P2",
+      "brand": "UCOTECH",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 106,
+      "gearId": "ref-d67314d994a0de1b"
+    },
+    {
+      "id": "61083c30720fe45970a3a00c",
+      "subject": "기다리고 기다린 최상위 랭킹 저음왕! FATfreq Maestro SE",
+      "name": "FATfreq Maestro SE",
+      "brand": "FATfreq",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 107,
+      "gearId": "ref-79dd83c12027058c"
+    },
+    {
+      "id": "0655003b5d6fe84471c54e07",
+      "subject": "여성용 특수 목적 이어폰(?) 유메와 너무 다른 유메 SeeAudio Yume Ultra",
+      "name": "SeeAudio Yume Ultra",
+      "brand": "SeeAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 108,
+      "gearId": "ref-b255054a5d6a3355"
+    },
+    {
+      "id": "cd1722a56b703576e1c896cb",
+      "subject": "펜더 소리 난다? 이런 스피커는 처음! 기타를 위한 스피커 + 앰프 Fender Riff",
+      "name": "Fender Riff",
+      "brand": "Fender",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 109,
+      "gearId": "ref-03fe4c5c4e4c6afe"
+    },
+    {
+      "id": "0c33736f01ff55393c806081",
+      "subject": "프로들 주목! iFi 스튜디오 시리즈 총정리! ZEN CAN / ZEN One / Pro iCAN / Pro iDSD / Gryphon Studio",
+      "name": "iFi ZEN CAN Studio",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 110,
+      "gearId": "ref-4000346608139f43"
+    },
+    {
+      "id": "0c33736f01ff55393c806081",
+      "subject": "프로들 주목! iFi 스튜디오 시리즈 총정리! ZEN CAN / ZEN One / Pro iCAN / Pro iDSD / Gryphon Studio",
+      "name": "iFi ZEN One Studio",
+      "brand": "iFi",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 111,
+      "gearId": "ref-a4f0eb6caad7ffd9"
+    },
+    {
+      "id": "0c33736f01ff55393c806081",
+      "subject": "프로들 주목! iFi 스튜디오 시리즈 총정리! ZEN CAN / ZEN One / Pro iCAN / Pro iDSD / Gryphon Studio",
+      "name": "iFi Pro iCAN Studio",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 112,
+      "gearId": "ref-0ebd0e29f4439968"
+    },
+    {
+      "id": "0c33736f01ff55393c806081",
+      "subject": "프로들 주목! iFi 스튜디오 시리즈 총정리! ZEN CAN / ZEN One / Pro iCAN / Pro iDSD / Gryphon Studio",
+      "name": "iFi Pro iDSD Studio",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 113,
+      "gearId": "ref-f5809481f90ab641"
+    },
+    {
+      "id": "0c33736f01ff55393c806081",
+      "subject": "프로들 주목! iFi 스튜디오 시리즈 총정리! ZEN CAN / ZEN One / Pro iCAN / Pro iDSD / Gryphon Studio",
+      "name": "iFi Gryphon Studio",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 114,
+      "gearId": "ref-145ab666941ea310"
+    },
+    {
+      "id": "fe36b3475b18f400eedf3dc1",
+      "subject": "다음 차원의 이어폰 Unique Melody Mest Mk3 유니크 멜로디 메스트 MkIII",
+      "name": "Unique Melody MEST MK3",
+      "brand": "Unique Melody",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 115,
+      "gearId": "ref-96492fc4b3126229"
+    },
+    {
+      "id": "82635e66ea7dd7dbfe466e7a",
+      "subject": "절반도 안되는 가격에? 2% 줄어든 H7 염가판 = Shanling H5",
+      "name": "Shanling H5",
+      "brand": "Shanling",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 116,
+      "gearId": "ref-37cbdc57bce3dcef"
+    },
+    {
+      "id": "82635e66ea7dd7dbfe466e7a",
+      "subject": "절반도 안되는 가격에? 2% 줄어든 H7 염가판 = Shanling H5",
+      "name": "Shanling H7",
+      "brand": "Shanling",
+      "category": "DAC / 앰프",
+      "existingId": "ref-d1d23e6d5ef46acb",
+      "_draftIndex": 117,
+      "gearId": "ref-d1d23e6d5ef46acb"
+    },
+    {
+      "id": "874944b806d912652cb5b754",
+      "subject": "$200 이하 1등? LDAC + IPX7 + 3채널 공간음향 = ANKER MOTION X600",
+      "name": "Anker Motion X600",
+      "brand": "Anker",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 118,
+      "gearId": "ref-40815f1904e0db1b"
+    },
+    {
+      "id": "5c1959b523d539880d04e4ef",
+      "subject": "이 가격에 들을 수 없었던, 절묘한 밸런스 DUNU SA6 MK2",
+      "name": "DUNU SA6 MK2",
+      "brand": "DUNU",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 119,
+      "gearId": "ref-bd7e246a31ca1a6e"
+    },
+    {
+      "id": "39172c313f068642561fbb0a",
+      "subject": "올해 최고의 가성비!? 우퍼 달린 이어폰! Kiwi Ears QUARTET",
+      "name": "Kiwi Ears QUARTET",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 120,
+      "gearId": "ref-4e9ba9cfe0dd8dad"
+    },
+    {
+      "id": "34896521370081c6c6a16fdc",
+      "subject": "역시 Topping 미친 올인원 DX7 Pro Plus",
+      "name": "Topping DX7 Pro Plus",
+      "brand": "Topping",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 121,
+      "gearId": "ref-2e12eadb7cb46ce0"
+    },
+    {
+      "id": "9b6fdbf67ead063e85c580b2",
+      "subject": "1만원대 최강, 2만원대면 USB-C DAC 부착, 케이블 착탈까지! SIMGOT EW100",
+      "name": "SIMGOT EW100",
+      "brand": "SIMGOT",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 122,
+      "gearId": "ref-da777ab89e710385"
+    },
+    {
+      "id": "58dcb0d132de90e784badb03",
+      "subject": "락 머신? 재즈 머신? 아닙니다! 술통으로 만든 타임 머신! Grado Bushmills (그라도 부쉬밀)",
+      "name": "Grado Bushmills",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 123,
+      "gearId": "ref-3fd194636aa22daf"
+    },
+    {
+      "id": "fe01c677142491f098234866",
+      "subject": "4달러? 첫차맨의 강력 추천 오픈형 이어폰 NiceHCK YD30",
+      "name": "NiceHCK YD30",
+      "brand": "NiceHCK",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 124,
+      "gearId": "ref-dd482d0c44dab16f"
+    },
+    {
+      "id": "b261f1dcb40475f4aedaff7e",
+      "subject": "종결자! 멀티버스 멘토! 새로운 컬러? AI 같은 이어폰? (Unique Melody Multiverse Mentor)",
+      "name": "Unique Melody Multiverse Mentor",
+      "brand": "Unique Melody",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 125,
+      "gearId": "ref-b182e813c0be8823"
+    },
+    {
+      "id": "c38dded20935ace5ce6cfa5b",
+      "subject": "수월우는 어디로 가는가? 대반전의 신세대 블레싱3 (Moondrop Blessing3)",
+      "name": "Moondrop Blessing 3",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 126,
+      "gearId": "ref-5229571922b5b6da"
+    },
+    {
+      "id": "c6374f28e928d2716b34d0e9",
+      "subject": "한방에 거실용 럭셔리 사운드를 겟! 805의 우퍼, 705의 트위터를 가진 네트워크 스피커 B&W 포메이션 듀오 (FORMATION DUO)",
+      "name": "Bowers & Wilkins Formation Duo",
+      "brand": "Bowers & Wilkins",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 127,
+      "gearId": "ref-9f569768be2cbbca"
+    },
+    {
+      "id": "8ed3a75575fe51335cc52f39",
+      "subject": "막내가 플래그쉽 급!? 제일 싼 64 Audio 제일 쎈 U4s",
+      "name": "64 Audio U4s",
+      "brand": "64 Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 128,
+      "gearId": "ref-efb31d271623b988"
+    },
+    {
+      "id": "fdea565ef825286af7a956b1",
+      "subject": "8BA 플래그쉽 이어폰 염가판!? 가성비의 왕 Kiwi Ears Orchestra Lite",
+      "name": "Kiwi Ears Orchestra Lite",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 129,
+      "gearId": "ref-65871098e77fc97f"
+    },
+    {
+      "id": "af4dd555cd9ce83fb03ec6a5",
+      "subject": "프로 / 컨슈머 / 힙스터! 소니 최초의 오픈형 모니터링 헤드폰 MDR-MV1",
+      "name": "Sony MDR-MV1",
+      "brand": "Sony",
+      "category": "헤드폰",
+      "existingId": "ref-59267e3d679b3050",
+      "_draftIndex": 130,
+      "gearId": "ref-59267e3d679b3050"
+    },
+    {
+      "id": "b8aa9b18d4a74ec8c7d84933",
+      "subject": "블루투스 헤드폰 그냥 좋아 끝판왕 T+A SOLITAIRE T (솔리테어T)",
+      "name": "T+A SOLITAIRE T",
+      "brand": "T+A",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 131,
+      "gearId": "ref-ed754bdbaccdf100"
+    },
+    {
+      "id": "989114824ac47f7e5a16e063",
+      "subject": "한국 회사 이어폰에 무슨 일이? 유코짱 아니 유코텍 RE-1 PRO (이어폰입니다)",
+      "name": "UCOTECH RE-1 PRO",
+      "brand": "UCOTECH",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 132,
+      "gearId": "ref-82cf299e30ea4dbc"
+    },
+    {
+      "id": "323459634cd22e980bdd4904",
+      "subject": "$100 수월우 14.5mm 평판형 이어폰 Stellaris",
+      "name": "Moondrop Stellaris",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 133,
+      "gearId": "ref-70e8456d76c4762c"
+    },
+    {
+      "id": "7c2b1ac55d20b2b241bf5f34",
+      "subject": "인생에 이런 이어폰 한번쯤은! Unique Melody 유니크멜로디 Mason FuSang 메이슨 푸상",
+      "name": "Unique Melody Mason FuSang",
+      "brand": "Unique Melody",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 134,
+      "gearId": "ref-2c18a71b05546171"
+    },
+    {
+      "id": "12f851c3b7b2e5d50e918d71",
+      "subject": "40만원짜리로도 천만원짜리 효과가? GUSTARD R26 업그레이드! AUNE XC1",
+      "name": "GUSTARD R26",
+      "brand": "GUSTARD",
+      "category": "DAC",
+      "existingId": "ref-7146c76ad4b01245",
+      "_draftIndex": 135,
+      "gearId": "ref-7146c76ad4b01245"
+    },
+    {
+      "id": "12f851c3b7b2e5d50e918d71",
+      "subject": "40만원짜리로도 천만원짜리 효과가? GUSTARD R26 업그레이드! AUNE XC1",
+      "name": "Aune XC1",
+      "brand": "Aune",
+      "category": "DDC / 클럭",
+      "existingId": "ref-699230354344011e",
+      "_draftIndex": 136,
+      "gearId": "ref-699230354344011e"
+    },
+    {
+      "id": "46aa9379a4cb247a5ac9789b",
+      "subject": "초특가! 깔끔한 박력! PC / 영화 / 게임 / 카페 / 매장용 블루투스 스피커 JBL 104BT",
+      "name": "JBL 104-BT",
+      "brand": "JBL",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 137,
+      "gearId": "ref-3a57f12e2004c929"
+    },
+    {
+      "id": "2414bdec062a9040d4b6a811",
+      "subject": "가격 초월 성능 Gustard R26 (R2R DAC) dk 가이드 여행 feat. 천만원짜리 원자시계",
+      "name": "GUSTARD R26",
+      "brand": "GUSTARD",
+      "category": "DAC",
+      "existingId": "ref-7146c76ad4b01245",
+      "_draftIndex": 138,
+      "gearId": "ref-7146c76ad4b01245"
+    },
+    {
+      "id": "04e3340a9d69a53a37aea4de",
+      "subject": "듀얼 DAC + 듀얼 THX 앰프 + 액정 화면 + 블루투스 코덱 다 넣고 이 사이즈? FiiO BTR7 포터블 DAC 앰프",
+      "name": "FiiO BTR7",
+      "brand": "FiiO",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 139,
+      "gearId": "ref-ffb9ed372970ca1e"
+    },
+    {
+      "id": "97e955ea19f4f95ea7281913",
+      "subject": "블루투스 스피커 최상의 사운드를 듣는 법! DALI KATCH G2 + 스피커 거치대",
+      "name": "DALI KATCH G2",
+      "brand": "DALI",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 140,
+      "gearId": "ref-633c92ee5fa82d23"
+    },
+    {
+      "id": "9c9a50faa2a153acd4df3d06",
+      "subject": "Topping E70 Velvet / G5 | 거치형이든 포터블이든 시장파괴! (feat. RNDAC, MOJO2 비교)",
+      "name": "Topping E70 Velvet",
+      "brand": "Topping",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 141,
+      "gearId": "ref-b0f5d1169fa82274"
+    },
+    {
+      "id": "9c9a50faa2a153acd4df3d06",
+      "subject": "Topping E70 Velvet / G5 | 거치형이든 포터블이든 시장파괴! (feat. RNDAC, MOJO2 비교)",
+      "name": "Topping G5",
+      "brand": "Topping",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 142,
+      "gearId": "ref-113eb3919734491b"
+    },
+    {
+      "id": "9c9a50faa2a153acd4df3d06",
+      "subject": "Topping E70 Velvet / G5 | 거치형이든 포터블이든 시장파괴! (feat. RNDAC, MOJO2 비교)",
+      "name": "Fidelice RNDAC",
+      "brand": "Fidelice",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 143,
+      "gearId": "ref-0b734544e09badb6"
+    },
+    {
+      "id": "9c9a50faa2a153acd4df3d06",
+      "subject": "Topping E70 Velvet / G5 | 거치형이든 포터블이든 시장파괴! (feat. RNDAC, MOJO2 비교)",
+      "name": "Chord Mojo 2",
+      "brand": "Chord",
+      "category": "DAC / 앰프",
+      "existingId": "ref-9fd6296b24ca641d",
+      "_draftIndex": 144,
+      "gearId": "ref-9fd6296b24ca641d"
+    },
+    {
+      "id": "4b178b4fe67652319b7f30c9",
+      "subject": "60% 할인? 파격적인 가격 때문에 재평가 합니다! Fender Tour (펜더 투어)",
+      "name": "Fender Tour",
+      "brand": "Fender",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 145,
+      "gearId": "ref-d4b639fb950345c4"
+    },
+    {
+      "id": "f649cb8230fe0e3452af7df3",
+      "subject": "정직, 정확, 매끈, 저렴한 입문자용 레퍼런스! Kiwi Ears CADENZA (feat. Kinera & Effect Audio ORLOG)",
+      "name": "Kiwi Ears CADENZA",
+      "brand": "Kiwi Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 146,
+      "gearId": "ref-e5998bbec71d2b71"
+    },
+    {
+      "id": "f649cb8230fe0e3452af7df3",
+      "subject": "정직, 정확, 매끈, 저렴한 입문자용 레퍼런스! Kiwi Ears CADENZA (feat. Kinera & Effect Audio ORLOG)",
+      "name": "Kinera & Effect Audio ORLOG",
+      "brand": "Kinera & Effect Audio",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 147,
+      "gearId": "ref-8596e3824c4ee721"
+    },
+    {
+      "id": "4117e2298e46f648a1a0b89d",
+      "subject": "아날로그 헤드폰 앰프의 정점! Zähl HM-1 (feat. T+A HA200 / LCD-5 / TH-900MK2 끝판왕 대결!)",
+      "name": "Zähl HM-1",
+      "brand": "Zähl",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 148,
+      "gearId": "ref-d8c191debe6a9ead"
+    },
+    {
+      "id": "4117e2298e46f648a1a0b89d",
+      "subject": "아날로그 헤드폰 앰프의 정점! Zähl HM-1 (feat. T+A HA200 / LCD-5 / TH-900MK2 끝판왕 대결!)",
+      "name": "T+A HA200",
+      "brand": "T+A",
+      "category": "DAC / 앰프",
+      "existingId": "ref-dd742ede3262aa71",
+      "_draftIndex": 149,
+      "gearId": "ref-dd742ede3262aa71"
+    },
+    {
+      "id": "4117e2298e46f648a1a0b89d",
+      "subject": "아날로그 헤드폰 앰프의 정점! Zähl HM-1 (feat. T+A HA200 / LCD-5 / TH-900MK2 끝판왕 대결!)",
+      "name": "Audeze LCD-5",
+      "brand": "Audeze",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 150,
+      "gearId": "ref-d48d68a5d134fc0f"
+    },
+    {
+      "id": "4117e2298e46f648a1a0b89d",
+      "subject": "아날로그 헤드폰 앰프의 정점! Zähl HM-1 (feat. T+A HA200 / LCD-5 / TH-900MK2 끝판왕 대결!)",
+      "name": "Fostex TH-900MK2",
+      "brand": "Fostex",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 151,
+      "gearId": "ref-9450790da92e7870"
+    },
+    {
+      "id": "2b866be3a09ebfd91d80a16b",
+      "subject": "한국에 발매된 적 없는 최저가 유니크멜로디! Unique Melody 2HT",
+      "name": "Unique Melody 2HT",
+      "brand": "Unique Melody",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 152,
+      "gearId": "ref-a358a9af435a61cc"
+    },
+    {
+      "id": "4ea37251ccfd374b598e53ca",
+      "subject": "절대 작지않은 업그레이드! 젠하이저 NEW 레퍼런스 헤드폰 HD660S2",
+      "name": "Sennheiser HD660S2",
+      "brand": "Sennheiser",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 153,
+      "gearId": "ref-c414fbb4020d196f"
+    },
+    {
+      "id": "d3cd78bf218a3cf830c3e104",
+      "subject": "Pi7 S2 | 비교적 저렴한(?) 가격에 B&W 사운드 체험 | 2023년에도 사운드로는 1등입니다",
+      "name": "Bowers & Wilkins Pi7 S2",
+      "brand": "Bowers & Wilkins",
+      "category": "이어폰",
+      "existingId": "ref-6fb1fb3ae1e2975a",
+      "_draftIndex": 154,
+      "gearId": "ref-6fb1fb3ae1e2975a"
+    },
+    {
+      "id": "73e5aa2983aa1e3def0cb84e",
+      "subject": "여러모로 미친 럭셔리 헤드폰! HiFiMAN HE1000V2 스텔스 마그넷",
+      "name": "HIFIMAN HE1000V2 Stealth Magnet",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 155,
+      "gearId": "ref-3b7c4cbba59762f3"
+    },
+    {
+      "id": "017cf078adc2a5ea8313fc9f",
+      "subject": "야! 여기서 이걸 쓰면 반칙이지! DD + 평판형 Madoo Typ512 | 강려크한 다이나믹 끝판왕의 부캐",
+      "name": "Madoo Typ512",
+      "brand": "Madoo",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 156,
+      "gearId": "ref-4eba0ab973af8d5a"
+    },
+    {
+      "id": "373a8d5b76cc6dabcd5ab7a9",
+      "subject": "젠하이저 IE 시리즈 입문은 제일 싼 IE200 으로 하시면 됩니다! Sennheiser IE200",
+      "name": "Sennheiser IE200",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 157,
+      "gearId": "ref-d9c759d58e9ab9e0"
+    },
+    {
+      "id": "b594fe38cd16bbdaa8e198cc",
+      "subject": "고음질 DAP의 세계 본격 입문 가능?! 50만원대 중급 입문기 FiiO M11S 정식 발매!",
+      "name": "FiiO M11S",
+      "brand": "FiiO",
+      "category": "DAP",
+      "existingId": null,
+      "_draftIndex": 158,
+      "gearId": "ref-8e58d17059c30fbd"
+    },
+    {
+      "id": "9c2914c3e746b68053e854c1",
+      "subject": "초고성능 1DD V2.0! 어쿠스튠 HS2000MX MKII (Acoustune 笙 MK2)",
+      "name": "Acoustune HS2000MX MKII",
+      "brand": "Acoustune",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 159,
+      "gearId": "ref-ffd29af09bd8db3e"
+    },
+    {
+      "id": "a8acec51d5a4b5858e9d6aa6",
+      "subject": "AK4499EX / 포터블 DAC의 새로운 No.1 / Shanling H7",
+      "name": "Shanling H7",
+      "brand": "Shanling",
+      "category": "DAC / 앰프",
+      "existingId": "ref-d1d23e6d5ef46acb",
+      "_draftIndex": 160,
+      "gearId": "ref-d1d23e6d5ef46acb"
+    },
+    {
+      "id": "dd09a10e111106e655a8418b",
+      "subject": "너무 잘들려서 무서워!? 유니크 멜로디 MEST MKII (Unique Melody Mest2)",
+      "name": "Unique Melody MEST MKII",
+      "brand": "Unique Melody",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 161,
+      "gearId": "ref-676631e06b49a4e1"
+    },
+    {
+      "id": "58f13d669a9df4fc8b8f7c02",
+      "subject": "그래미 6회 수상 레전드 현역 엔지니어 Manny Marroquin 의 시그니쳐 헤드폰 AUDEZE MM-500",
+      "name": "Audeze MM-500",
+      "brand": "Audeze",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 162,
+      "gearId": "ref-6a5f919784a40c6b"
+    },
+    {
+      "id": "d2f54f7b49a7b97eb103c1e8",
+      "subject": "2만원짜리 찍먹! 이게 그렇게 좋다며? 탕주 상관완아 (Tangzu WANER SG)",
+      "name": "Tangzu WANER SG",
+      "brand": "Tangzu",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 163,
+      "gearId": "ref-c51048d06ccce324"
+    },
+    {
+      "id": "97b059edc404cba183347234",
+      "subject": "두누 너마저? 애니프사 다들 모여라! 3색 매력 DUNU KIMA (feat. Ohashi Ayaka)",
+      "name": "DUNU KIMA",
+      "brand": "DUNU",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 164,
+      "gearId": "ref-d3ca8ce0c518740e"
+    },
+    {
+      "id": "488fba1502662d91d7ef3b74",
+      "subject": "10BA + 2EST 거대한 스피커 사운드! 유니크 멜로디 메이븐 프로 (Unique Melody Maven Pro)",
+      "name": "Unique Melody Maven Pro",
+      "brand": "Unique Melody",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 165,
+      "gearId": "ref-3b7de169ad360e36"
+    },
+    {
+      "id": "ca78f65e9566401d6457569e",
+      "subject": "200만원 ➔ $399 대란! 사도 될까? 오디지 평판형 이어폰 유클리드 (AUDEZE EUCLID)",
+      "name": "Audeze EUCLID",
+      "brand": "Audeze",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 166,
+      "gearId": "ref-11900131805d1362"
+    },
+    {
+      "id": "d0b4c31552550336309d9247",
+      "subject": "Shure 에게는 말 못할 SE846 Gen2 (2세대) 이야기 (feat. Kennex Tse) / 1세대와 비교",
+      "name": "Shure SE846 Gen2",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 167,
+      "gearId": "ref-94720410cac3ded1"
+    },
+    {
+      "id": "d0b4c31552550336309d9247",
+      "subject": "Shure 에게는 말 못할 SE846 Gen2 (2세대) 이야기 (feat. Kennex Tse) / 1세대와 비교",
+      "name": "Shure SE846",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 168,
+      "gearId": "ref-636371f1d07800d4"
+    },
+    {
+      "id": "2fb7a1f54a607eabccfb624e",
+      "subject": "무려 20년 동안 판매되고 있는 우드 클립폰 오디오테크니카 ATH-EW9",
+      "name": "Audio-Technica ATH-EW9",
+      "brand": "Audio-Technica",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 169,
+      "gearId": "ref-86b35a4a063f0dcc"
+    },
+    {
+      "id": "a1de348f9b816c87152be232",
+      "subject": "역대급 리뷰 나왔다! 이태리 헤드폰? Spirit Torino - Mistral Pro",
+      "name": "Spirit Torino Mistral Pro",
+      "brand": "Spirit Torino",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 170,
+      "gearId": "ref-3fa2af3e58590302"
+    },
+    {
+      "id": "9ff1aa35fc61800f89ce88d8",
+      "subject": "10만원대 어쿠스튠 2탄? Acoustune Monitor RS THREE",
+      "name": "Acoustune Monitor RS THREE",
+      "brand": "Acoustune",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 171,
+      "gearId": "ref-c73c5d36a286ed7a"
+    },
+    {
+      "id": "a3bd6fed299714089a25edca",
+      "subject": "전세계 500대 한정! 한국엔 50대? 64콘댐! 64 Audio Fourté Blanc",
+      "name": "64 Audio Fourté Blanc",
+      "brand": "64 Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 172,
+      "gearId": "ref-2f851919d82573a3"
+    },
+    {
+      "id": "5a83966b0ebc6708e199e269",
+      "subject": "구토피아? 뉴토피아? FOCAL 플래그쉽 UTOPIA 유토피아 신형!",
+      "name": "Focal UTOPIA (신형)",
+      "brand": "Focal",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 173,
+      "gearId": "ref-67def5c76968c9a6"
+    },
+    {
+      "id": "2dc912fa4dd364d2b7a08a10",
+      "subject": "한없이 투명한 MEZE 109 PRO 들을수록 발견되는 매력 (feat. WooAudio WA7)",
+      "name": "Meze Audio 109 PRO",
+      "brand": "Meze Audio",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 174,
+      "gearId": "ref-d3a0f9360374cd79"
+    },
+    {
+      "id": "2dc912fa4dd364d2b7a08a10",
+      "subject": "한없이 투명한 MEZE 109 PRO 들을수록 발견되는 매력 (feat. WooAudio WA7)",
+      "name": "Woo Audio WA7",
+      "brand": "Woo Audio",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 175,
+      "gearId": "ref-c5c34d4d81638bf9"
+    },
+    {
+      "id": "281de951fbe930c16bb31ac9",
+      "subject": "블루투스 고음질 코덱 aptX Adaptive | 기본 코덱들과 비교 청음 (젠하이저 BTD600 구독자 선물 이벤트)",
+      "name": "Sennheiser BTD600",
+      "brand": "Sennheiser",
+      "category": "블루투스 송신기",
+      "existingId": null,
+      "_draftIndex": 176,
+      "gearId": "ref-a71a43fc90b9cd50"
+    },
+    {
+      "id": "cc3d3d2a844a27a79d08f7cc",
+      "subject": "BALDR 를 죽인 HODUR ? Kinera 자체 제작 드라이버 3종 EST + BA + DD 트라이브리드 이어폰",
+      "name": "Kinera HODUR",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 177,
+      "gearId": "ref-763160b67d3ff861"
+    },
+    {
+      "id": "cc3d3d2a844a27a79d08f7cc",
+      "subject": "BALDR 를 죽인 HODUR ? Kinera 자체 제작 드라이버 3종 EST + BA + DD 트라이브리드 이어폰",
+      "name": "Kinera Baldr",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 178,
+      "gearId": "ref-61853bc3edfb1f54"
+    },
+    {
+      "id": "8d02469f19e98fc171b16e3f",
+      "subject": "금가루 뿌린 감동의 사운드 SeeAudio 10BA 플래그쉽 NEO (feat. 브레이버리 블루)",
+      "name": "SeeAudio NEO",
+      "brand": "SeeAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 179,
+      "gearId": "ref-4b2a687ccfe62b6e"
+    },
+    {
+      "id": "8d02469f19e98fc171b16e3f",
+      "subject": "금가루 뿌린 감동의 사운드 SeeAudio 10BA 플래그쉽 NEO (feat. 브레이버리 블루)",
+      "name": "SeeAudio Bravery Blue",
+      "brand": "SeeAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 180,
+      "gearId": "ref-9df29d82b0cdeda5"
+    },
+    {
+      "id": "62118d000a3a72e642185c47",
+      "subject": "전설의 레전드 젠하이저 MX400 라떼 이어폰 20년 묵은 미개봉 신품",
+      "name": "Sennheiser MX400",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 181,
+      "gearId": "ref-25dab5c0fd717cf6"
+    },
+    {
+      "id": "aeef5660b9eb52bc2f6845ca",
+      "subject": "이제 다시는 앤커를 얕잡아보지 않겠습니다 Anker Space A40",
+      "name": "Anker Space A40",
+      "brand": "Anker",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 182,
+      "gearId": "ref-67a6ec5b4e99e44b"
+    },
+    {
+      "id": "b0733b7b2a72c2422806a02d",
+      "subject": "에어팟 프로 2 는 과연 1 보다 나아졌을까? 통화품질, 음질 비교",
+      "name": "Apple AirPods Pro 2",
+      "brand": "Apple",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 183,
+      "gearId": "ref-ada2a6d1650fe387"
+    },
+    {
+      "id": "b0733b7b2a72c2422806a02d",
+      "subject": "에어팟 프로 2 는 과연 1 보다 나아졌을까? 통화품질, 음질 비교",
+      "name": "Apple AirPods Pro",
+      "brand": "Apple",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 184,
+      "gearId": "ref-b806fe87b59b1046"
+    },
+    {
+      "id": "0a7a2ba60dbee2c9f104db07",
+      "subject": "Queen of Audio (QOA) 사장님 플래그쉽! Margarita 마가리타",
+      "name": "QoA Margarita",
+      "brand": "QoA",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 185,
+      "gearId": "ref-f782f9ed0fd2de34"
+    },
+    {
+      "id": "a1f616335bda2b7de3e1b900",
+      "subject": "긴급리뷰! FOCAL 블루투스 헤드폰 BATHYS (feat. 100대 한정 런칭 이벤트)",
+      "name": "Focal BATHYS",
+      "brand": "Focal",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 186,
+      "gearId": "ref-2fb2eaa55839da05"
+    },
+    {
+      "id": "8c8a07edacda31d464516650",
+      "subject": "B&W 사랑하시죠? 그러면 헤드폰은 이겁니다. Px7 S2",
+      "name": "Bowers & Wilkins Px7 S2",
+      "brand": "Bowers & Wilkins",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 187,
+      "gearId": "ref-2c8c93aad41f4c3b"
+    },
+    {
+      "id": "4cbcfa436617b37bcb121f9e",
+      "subject": "층간 소음 노노! 작은 우퍼 제대로 쓰는 법! (feat. 오디오엔진 S6)",
+      "name": "Audioengine S6",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 188,
+      "gearId": "ref-6db331c25dddb514"
+    },
+    {
+      "id": "cac096079fee4cd622f88013",
+      "subject": "이 작은 꼬다리에 듀얼 DAC, 4.4 풀 밸런스 출력 넣고 6만원대? FiiO KA2",
+      "name": "FiiO KA2",
+      "brand": "FiiO",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 189,
+      "gearId": "ref-d4536d96e3f946bf"
+    },
+    {
+      "id": "6e59d47223eb383c2a5939f6",
+      "subject": "럭셔리 블루투스 헤드폰 B&O H95 (뱅앤올룹슨 95주년 기념 모델)",
+      "name": "Bang & Olufsen H95",
+      "brand": "Bang & Olufsen",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 190,
+      "gearId": "ref-12a984e42bcd6505"
+    },
+    {
+      "id": "87f433f02f81124f18bfcd18",
+      "subject": "가성비 노캔 헤드폰, 자신과의 싸움! 앤커 Q45 는 얼마나 좋아졌을까? (feat. Q35)",
+      "name": "Anker Q45",
+      "brand": "Anker",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 191,
+      "gearId": "ref-1d2775e834d74a76"
+    },
+    {
+      "id": "87f433f02f81124f18bfcd18",
+      "subject": "가성비 노캔 헤드폰, 자신과의 싸움! 앤커 Q45 는 얼마나 좋아졌을까? (feat. Q35)",
+      "name": "Anker Q35",
+      "brand": "Anker",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 192,
+      "gearId": "ref-923a0fac5c7dd07a"
+    },
+    {
+      "id": "d93931f95370de6f83b02537",
+      "subject": "너 변했다? 너무 많이... 젠하이저 모멘텀4 (Sennheiser Momentum 4)",
+      "name": "Sennheiser Momentum 4",
+      "brand": "Sennheiser",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 193,
+      "gearId": "ref-02e914d0f964762a"
+    },
+    {
+      "id": "f31795663199a7f82c488393",
+      "subject": "이 가격에 고음질 LDAC + 노캔 + 1MORE 사운드 = 갓성비 강추 SonoFlow",
+      "name": "1MORE SonoFlow",
+      "brand": "1MORE",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 194,
+      "gearId": "ref-794170705abad0c0"
+    },
+    {
+      "id": "205c3852e5fff3eafb647bb7",
+      "subject": "아이폰에 착! 붙이는 DAC (안드로이드도 가능) KHADAS TEA 카다스 티",
+      "name": "Khadas TEA",
+      "brand": "Khadas",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 195,
+      "gearId": "ref-9812064bbb8e1f90"
+    },
+    {
+      "id": "0361e66b5fee6e267994b4b7",
+      "subject": "이것이 신세대 레퍼런스다! TAGO STUDIO T3-03 (+ 천사 한정판 링크)",
+      "name": "TAGO STUDIO T3-03",
+      "brand": "TAGO STUDIO",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 196,
+      "gearId": "ref-5c1fcdc3c47f9300"
+    },
+    {
+      "id": "7ff1f5e8deef3a2bee010ea6",
+      "subject": "여러분을 믿고 두대 사봤더니 역대급 이네요! 애플 홈팟미니 (Apple HomePod Mini)",
+      "name": "Apple HomePod mini",
+      "brand": "Apple",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 197,
+      "gearId": "ref-137fe68029c43b82"
+    },
+    {
+      "id": "32345efc41eeb1669660f4e1",
+      "subject": "6g 짜리 유닛에서 이런 소리가? SoftEars 의 1DD 신작 Twilight",
+      "name": "Softears Twilight",
+      "brand": "Softears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 198,
+      "gearId": "ref-a43e5608ef1d2ecb"
+    },
+    {
+      "id": "5ae0af87145c8760cc27784f",
+      "subject": "삼성 갤럭시 버즈2 프로 | 음질만 보겠습니다",
+      "name": "Samsung Galaxy Buds2 Pro",
+      "brand": "Samsung",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 199,
+      "gearId": "ref-501ef0b67e18c496"
+    },
+    {
+      "id": "7ff730715cb5c492a13b8d1b",
+      "subject": "동축 듀얼 DD 의 깔끔한 저음! 다이나믹! DUNU 최신작 VULKAN",
+      "name": "DUNU VULKAN",
+      "brand": "DUNU",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 200,
+      "gearId": "ref-2abc28ace0ad7c75"
+    },
+    {
+      "id": "2dfbdab8ec7da1a2e52b914c",
+      "subject": "포터블 최고 음질 HiFiMAN HE1000SE 카페 음감 가능합니다 (feat. SUSVARA)",
+      "name": "HIFIMAN HE1000SE",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 201,
+      "gearId": "ref-dc4bd9f75340aebd"
+    },
+    {
+      "id": "2dfbdab8ec7da1a2e52b914c",
+      "subject": "포터블 최고 음질 HiFiMAN HE1000SE 카페 음감 가능합니다 (feat. SUSVARA)",
+      "name": "HIFIMAN Susvara",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": "ref-c46238ef2253aa51",
+      "_draftIndex": 202,
+      "gearId": "ref-c46238ef2253aa51"
+    },
+    {
+      "id": "79c4127fb227d4076931cb25",
+      "subject": "A2+ 스피커 좌우 두짝을 붙여보았더니... AudioEngine B2",
+      "name": "Audioengine B2",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 203,
+      "gearId": "ref-d2d25a1058a003c3"
+    },
+    {
+      "id": "1c2a34fbe60eda2029fb24cc",
+      "subject": "제일 비싼 블루투스 노캔 헤드폰? 아... 마크레빈슨! Mark Levinson no.5909",
+      "name": "Mark Levinson No.5909",
+      "brand": "Mark Levinson",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 204,
+      "gearId": "ref-6d6d3e0dee5b4e9d"
+    },
+    {
+      "id": "cd136384b938229d9021b1a9",
+      "subject": "꼬다리에 비싼 R2R DAC를 때려박았다? CAYIN RU6",
+      "name": "Cayin RU6",
+      "brand": "Cayin",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 205,
+      "gearId": "ref-c097dd552ddd7f2d"
+    },
+    {
+      "id": "348ba77ffa3fc1bc7cfcb4b0",
+      "subject": "젠하이저 최초의 헤드폰!? 1960년대 전설의 시작 HD110",
+      "name": "Sennheiser HD110",
+      "brand": "Sennheiser",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 206,
+      "gearId": "ref-324ae31a611c0c22"
+    },
+    {
+      "id": "9af35830f50586b34e2e45dc",
+      "subject": "세상에서 제일 비싼 꼬다리 DAC? iFi GO bar",
+      "name": "iFi GO bar",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 207,
+      "gearId": "ref-74d5615bb00d24d7"
+    },
+    {
+      "id": "90714cd0c5e32bec6ac70ed5",
+      "subject": "BA의 근본! Westone 신모델 Mach 시리즈! (웨스톤 마하 70 80) 3부 끝판왕!",
+      "name": "Westone MACH 시리즈",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 208,
+      "gearId": "ref-2283698027f8cb64"
+    },
+    {
+      "id": "101705f940930075a95e934a",
+      "subject": "BA의 근본! Westone 신모델 Mach 시리즈! (웨스톤 마하 40 50 60) 2부",
+      "name": "Westone MACH 시리즈",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 209,
+      "gearId": "ref-2283698027f8cb64"
+    },
+    {
+      "id": "cf18b10a7ba877e1d1f90b51",
+      "subject": "BA의 근본! Westone 신모델 Mach 시리즈! (웨스톤 마하 10 20 30) 1부",
+      "name": "Westone MACH 시리즈",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 210,
+      "gearId": "ref-2283698027f8cb64"
+    },
+    {
+      "id": "01d24e9ef5de28823c108687",
+      "subject": "이어팁 값을 빼면 1만원짜리 이어폰? 수월우의 새로운 미끼! 츄! (Moondrop Chu)",
+      "name": "Moondrop Chu",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 212,
+      "gearId": "ref-b3f259ff4336dfbf"
+    },
+    {
+      "id": "6c04543aa9c42526efd05003",
+      "subject": "스피커 대신 들으려고 만든 DITA 10주년 기념 한정판 Perpetua | 2022년 1DD 끝판왕",
+      "name": "DITA Perpetua",
+      "brand": "DITA",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 213,
+      "gearId": "ref-944fdc9b04b83c63"
+    },
+    {
+      "id": "93e39d49a3f73d0ec5d547fc",
+      "subject": "불타버린 AK 부활! AK4493S 장착! Shanling UA3 꼬다리 DAC",
+      "name": "Shanling UA3",
+      "brand": "Shanling",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 214,
+      "gearId": "ref-c65e115a8a2d1177"
+    },
+    {
+      "id": "571635fafa9694c2537941b2",
+      "subject": "세상에서 가장 작고 가벼운 노캔 이어폰 / 통화 품질 미쳤다!? SONY 링크버즈S (LinkBuds S)",
+      "name": "Sony LinkBuds S",
+      "brand": "Sony",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 215,
+      "gearId": "ref-a84ec349579134fc"
+    },
+    {
+      "id": "fd48a90339949df56013e13a",
+      "subject": "전세계 100대 한정판! 티타늄을 두른 소프트이어스의 1DD 이어폰! Softears Turii Titanium",
+      "name": "Softears Turii Titanium",
+      "brand": "Softears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 216,
+      "gearId": "ref-e2897455d826b1f3"
+    },
+    {
+      "id": "2f523d24d3dab2be6367af15",
+      "subject": "더 좋아질게 있었나?! SONY WH-1000XM5 노캔 헤드폰 끝판왕의 위엄 (+ 댓글 추첨 이벤트)",
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 217,
+      "gearId": "ref-e9fb6d4655a34d58"
+    },
+    {
+      "id": "df7c3f77312566257e9520fa",
+      "subject": "프로 / 리스너 모두 만족! 마스터링급 DAC (+ 헤드폰 출력), Benchmark DAC3 HGC",
+      "name": "Benchmark DAC3 HGC",
+      "brand": "Benchmark",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 218,
+      "gearId": "ref-fd54d096f78b2580"
+    },
+    {
+      "id": "d26d711eaabb3d134d7388f3",
+      "subject": "ANC + LDAC + SOUND ID = 최강의 코드리스!? 1MORE EVO (원모어 에보)",
+      "name": "1MORE EVO",
+      "brand": "1MORE",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 219,
+      "gearId": "ref-d19ff1cc1c54ad97"
+    },
+    {
+      "id": "72ff4b442d602679981f720d",
+      "subject": "평판형 드라이버 3개, 평판형 헤드폰 소리를 내는 이어폰?! MADOO Typ711",
+      "name": "Madoo Typ711",
+      "brand": "Madoo",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 220,
+      "gearId": "ref-cba0dba559e735a7"
+    },
+    {
+      "id": "a71541207e51e0f6eab60252",
+      "subject": "iFi 의 새로운 끝판왕 VS 이전 끝판왕 세트 (비교 청음) Pro iDSD / iCAN Signature",
+      "name": "iFi Pro iDSD Signature",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 221,
+      "gearId": "ref-92072b6de7643372"
+    },
+    {
+      "id": "a71541207e51e0f6eab60252",
+      "subject": "iFi 의 새로운 끝판왕 VS 이전 끝판왕 세트 (비교 청음) Pro iDSD / iCAN Signature",
+      "name": "iFi Pro iCAN Signature",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 222,
+      "gearId": "ref-6122e1ac1c4afa37"
+    },
+    {
+      "id": "a71541207e51e0f6eab60252",
+      "subject": "iFi 의 새로운 끝판왕 VS 이전 끝판왕 세트 (비교 청음) Pro iDSD / iCAN Signature",
+      "name": "iFi Pro iDSD",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 223,
+      "gearId": "ref-2135877a163b8ab5"
+    },
+    {
+      "id": "a71541207e51e0f6eab60252",
+      "subject": "iFi 의 새로운 끝판왕 VS 이전 끝판왕 세트 (비교 청음) Pro iDSD / iCAN Signature",
+      "name": "iFi Pro iCAN",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 224,
+      "gearId": "ref-4e0ce5ec8a3aed84"
+    },
+    {
+      "id": "ac6d00d78d18bb74b8227eac",
+      "subject": "소리가 좋다면 애들 이어폰도 뺏어다 듣는다! 숨은 명기 발굴! EtyKids 5 에티모틱 에티키즈",
+      "name": "Etymotic EtyKids 5",
+      "brand": "Etymotic",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 225,
+      "gearId": "ref-dbf6ad7e8522ea09"
+    },
+    {
+      "id": "30258d3c6af9fb832b715f6c",
+      "subject": "[국내최초] 젠하이저 끝판왕 복귀! 완전히 다른 사운드! 모멘텀 트루 와이어리스 3 (Momentum True Wireless 3, MTW3)",
+      "name": "Sennheiser Momentum True Wireless 3",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 226,
+      "gearId": "ref-93fbc4b196d211f5"
+    },
+    {
+      "id": "a3b8428253cd051ed111a2f4",
+      "subject": "루퍼트 니브의 유작 / 처음이자 마지막 DAC / Fidelice RNDAC",
+      "name": "Fidelice RNDAC",
+      "brand": "Fidelice",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 227,
+      "gearId": "ref-0b734544e09badb6"
+    },
+    {
+      "id": "2bc8b7f175dd4952826e4e38",
+      "subject": "2EST + 2DD + 1BA 놀라운 저음 디테일! 키네라 임페리얼 울드 (Kinera Imperial Urd)",
+      "name": "Kinera Imperial Urd",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 228,
+      "gearId": "ref-f9760338ac29d239"
+    },
+    {
+      "id": "bc13fabbc704e6ffb7f7a25f",
+      "subject": "반값 염가판인데 500만원? T+A SOLITAIRE P-SE 평판형 헤드폰",
+      "name": "T+A SOLITAIRE P-SE",
+      "brand": "T+A",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 229,
+      "gearId": "ref-4a474d3c365b547a"
+    },
+    {
+      "id": "bb87c071d4d7503760fb600f",
+      "subject": "대반전? 가성비? 젠하이저 IE600 논란의 평가 (feat. IE900)",
+      "name": "Sennheiser IE600",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 230,
+      "gearId": "ref-7107c80d9422fe73"
+    },
+    {
+      "id": "bb87c071d4d7503760fb600f",
+      "subject": "대반전? 가성비? 젠하이저 IE600 논란의 평가 (feat. IE900)",
+      "name": "Sennheiser IE900",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 231,
+      "gearId": "ref-fe08ebe5b9068840"
+    },
+    {
+      "id": "d8bd72d716688cd6f376a796",
+      "subject": "이어폰 단자 없어도 되니까! 유코텍 IM-400 가방에 하나씩 비상용 이어폰!",
+      "name": "UCOTECH IM-400",
+      "brand": "UCOTECH",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 232,
+      "gearId": "ref-853b8412ceba4a34"
+    },
+    {
+      "id": "d0f53f531c355c8c96ac244e",
+      "subject": "통 알미늄 포르쉐 디자인 블루투스 스피커 PDS50",
+      "name": "Porsche Design PDS50",
+      "brand": "Porsche Design",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 233,
+      "gearId": "ref-a4a672b91bf73b09"
+    },
+    {
+      "id": "0bd364c0a8e9c266865c8a38",
+      "subject": "iFi 의 새로운 중심! ZEN ONE 은 ZEN DAC 을 대체할 것인가?",
+      "name": "iFi ZEN One Signature",
+      "brand": "iFi",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 234,
+      "gearId": "ref-053e2d681ebe42e8"
+    },
+    {
+      "id": "0bd364c0a8e9c266865c8a38",
+      "subject": "iFi 의 새로운 중심! ZEN ONE 은 ZEN DAC 을 대체할 것인가?",
+      "name": "iFi ZEN DAC",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": "ref-49ddfcf052eb3955",
+      "_draftIndex": 235,
+      "gearId": "ref-49ddfcf052eb3955"
+    },
+    {
+      "id": "6971ac61e82e7c4dd2e106b6",
+      "subject": "6인치 동축 스피커! 최고급 브랜드 콜라보! 근데 가성비!? Output x Barefoot = Frontier",
+      "name": "Output x Barefoot Frontier",
+      "brand": "Output x Barefoot",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 236,
+      "gearId": "ref-54d4b8e8fb261664"
+    },
+    {
+      "id": "75e97bc77d6937c2565483c1",
+      "subject": "세가지맛 킹왕짱! Simgot King Wonder (심갓 EN1000)",
+      "name": "SIMGOT EN1000 (King Wonder)",
+      "brand": "SIMGOT",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 237,
+      "gearId": "ref-078a74c512009ed8"
+    },
+    {
+      "id": "d585c7c1cf4fae90d37737f9",
+      "subject": "Final VR3000 게임 특화 이어폰? 6만원대로 맛보는 파이널 A 시리즈!",
+      "name": "Final VR3000",
+      "brand": "Final",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 238,
+      "gearId": "ref-215c771af3181715"
+    },
+    {
+      "id": "1c861b97692e213241ecbc71",
+      "subject": "이건 뭐... 미쳤어? 대형 스피커 사운드 씨오디오 카구야 (SeeAudio Kaguya)",
+      "name": "SeeAudio Kaguya",
+      "brand": "SeeAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 239,
+      "gearId": "ref-b1cdc98041af8ead"
+    },
+    {
+      "id": "82ef74473c905d2cbbdc3e7f",
+      "subject": "어쿠스튠 신작이 10만원대 초반? Acoustune Monitor RS ONE",
+      "name": "Acoustune Monitor RS ONE",
+      "brand": "Acoustune",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 240,
+      "gearId": "ref-f836229fc57b4fb6"
+    },
+    {
+      "id": "779861521311dfa13c979d7f",
+      "subject": "메제 사운드가 이렇게 돼? 젠캔 시그니쳐 MZ99 (iFi ZEN CAN Signature)",
+      "name": "iFi ZEN CAN Signature MZ99",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 241,
+      "gearId": "ref-baf1e19eb2d157b3"
+    },
+    {
+      "id": "b4e9e56f983fdd8da198eae3",
+      "subject": "이걸 만원에 어떻게 만들어? 화제의 QKZ ZXD 냉정한 평가!",
+      "name": "QKZ ZXD",
+      "brand": "QKZ",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 242,
+      "gearId": "ref-3df24157c87243a5"
+    },
+    {
+      "id": "9332fc9447053b5def7926bb",
+      "subject": "슈어 Shure SE846 안들어봤으면 이어폰을 논할 수 없지! 뉴비들 꼭 보세요!",
+      "name": "Shure SE846",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 243,
+      "gearId": "ref-636371f1d07800d4"
+    },
+    {
+      "id": "37f633c738aa037ea3c51022",
+      "subject": "젠하이저 헤드폰 장인이 만든 블루투스 이어폰? Grell TWS1X",
+      "name": "Grell TWS1X",
+      "brand": "Grell",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 244,
+      "gearId": "ref-61525ec1d26f1c9d"
+    },
+    {
+      "id": "0fc8df8bc1513fa28cea91ec",
+      "subject": "세상에 없던 신개념! 귀에서 뺄 일이 없는 소니 링크버즈 (SONY LinkBuds)",
+      "name": "Sony LinkBuds",
+      "brand": "Sony",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 245,
+      "gearId": "ref-7e1ddce376a291ba"
+    },
+    {
+      "id": "474c403b998d48b95572e8b4",
+      "subject": "갓성비 취미! 8cm 싱글 시디 경매! + CD보다 작은 CDP SONY D88",
+      "name": "Sony D-88",
+      "brand": "Sony",
+      "category": "CD 플레이어",
+      "existingId": null,
+      "_draftIndex": 246,
+      "gearId": "ref-3051fd7d1dd4d717"
+    },
+    {
+      "id": "d619bf65b1ffeab00cd04f40",
+      "subject": "소프트이어스 최저가 모델! ...이지만 여전히 명품! Softears Volume",
+      "name": "Softears Volume",
+      "brand": "Softears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 247,
+      "gearId": "ref-56e0943c8984874b"
+    },
+    {
+      "id": "4fcaea095d522ed6cfd0de9d",
+      "subject": "정전형 하이브리드 드라이버 + Crinacle 튜닝인데 2만원대? KZ ZEX PRO",
+      "name": "KZ ZEX PRO",
+      "brand": "KZ",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 248,
+      "gearId": "ref-f6d5f9a21d5d8ed6"
+    },
+    {
+      "id": "ff3de9c28c78e431c1bb8529",
+      "subject": "슈어의 신작! 팀킬 헤드폰? Shure Aonic 40 (feat. SRH840)",
+      "name": "Shure AONIC 40",
+      "brand": "Shure",
+      "category": "헤드폰",
+      "existingId": "ref-e0bd74e875ec8bbd",
+      "_draftIndex": 249,
+      "gearId": "ref-e0bd74e875ec8bbd"
+    },
+    {
+      "id": "ff3de9c28c78e431c1bb8529",
+      "subject": "슈어의 신작! 팀킬 헤드폰? Shure Aonic 40 (feat. SRH840)",
+      "name": "Shure SRH840",
+      "brand": "Shure",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 250,
+      "gearId": "ref-54268561eb73f1b7"
+    },
+    {
+      "id": "c6a34381ac9c0f10856d5aeb",
+      "subject": "10만원대 QOA 입문!! Affinity 어피니티 (VGP 2022 수상)",
+      "name": "QoA Affinity",
+      "brand": "QoA",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 251,
+      "gearId": "ref-23f11ebad6903adc"
+    },
+    {
+      "id": "0b013b7ff8116ed0866fa1f2",
+      "subject": "강추하는 $349 진공관 헤드폰 앰프 DIY KIT (Bottlehead Crack)",
+      "name": "Bottlehead Crack",
+      "brand": "Bottlehead",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 252,
+      "gearId": "ref-589f56d243de8e66"
+    },
+    {
+      "id": "55deb77cff0c7d65f3f6d190",
+      "subject": "채널 역대 최고가 헤드폰 리뷰 JPS Labs Abyss 1266 Phi TC (feat. Formula S / Sagra DAC)",
+      "name": "ABYSS AB-1266 Phi TC",
+      "brand": "ABYSS",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 253,
+      "gearId": "ref-97993caa0a310510"
+    },
+    {
+      "id": "55deb77cff0c7d65f3f6d190",
+      "subject": "채널 역대 최고가 헤드폰 리뷰 JPS Labs Abyss 1266 Phi TC (feat. Formula S / Sagra DAC)",
+      "name": "XI Audio Formula S",
+      "brand": "XI Audio",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 254,
+      "gearId": "ref-08f7af4580a221da"
+    },
+    {
+      "id": "55deb77cff0c7d65f3f6d190",
+      "subject": "채널 역대 최고가 헤드폰 리뷰 JPS Labs Abyss 1266 Phi TC (feat. Formula S / Sagra DAC)",
+      "name": "XI Audio Sagra DAC",
+      "brand": "XI Audio",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 255,
+      "gearId": "ref-1d565d97b7d94afc"
+    },
+    {
+      "id": "b32934d168a0538ff572ab46",
+      "subject": "이거 미쳤네! 키네라의 근본 난나 2.0 PRO (Kinera Imperial Nanna 2)",
+      "name": "Kinera Imperial Nanna 2.0 PRO",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 256,
+      "gearId": "ref-89770294d783189a"
+    },
+    {
+      "id": "072ba1490609f7565333c1ed",
+      "subject": "진짜 드비알레 소리 들려줄까? 벨킨 사운드폼 엘리트 (feat. 팬텀1)",
+      "name": "Belkin SoundForm Elite",
+      "brand": "Belkin",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 257,
+      "gearId": "ref-45d3c96d289ae259"
+    },
+    {
+      "id": "072ba1490609f7565333c1ed",
+      "subject": "진짜 드비알레 소리 들려줄까? 벨킨 사운드폼 엘리트 (feat. 팬텀1)",
+      "name": "Devialet Phantom I",
+      "brand": "Devialet",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 258,
+      "gearId": "ref-5785b4d9123160ed"
+    },
+    {
+      "id": "490279c7a02edc4cddc466d3",
+      "subject": "Austrian Audio Hi-X65 를 제대로 듣는 법? AKG의 정신적 후속작",
+      "name": "Austrian Audio Hi-X65",
+      "brand": "Austrian Audio",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 259,
+      "gearId": "ref-60f19f89bc899f09"
+    },
+    {
+      "id": "756b06800231f6cfa86a62cf",
+      "subject": "기능과 음질, 포터블 헤드폰 앰프의 끝판왕! iFi Gryphon 그리폰",
+      "name": "iFi xDSD Gryphon",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 260,
+      "gearId": "ref-31510e0792752530"
+    },
+    {
+      "id": "e12608f9fa884b8fead1fb41",
+      "subject": "이 가격에 어떻게 만드는거지? QCY T16 T17 몰아서 리뷰",
+      "name": "QCY T16",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 261,
+      "gearId": "ref-362060919cc301b1"
+    },
+    {
+      "id": "e12608f9fa884b8fead1fb41",
+      "subject": "이 가격에 어떻게 만드는거지? QCY T16 T17 몰아서 리뷰",
+      "name": "QCY T17",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 262,
+      "gearId": "ref-ec7fcba6045cc24b"
+    },
+    {
+      "id": "04f78d2e20c9650ccfabc15c",
+      "subject": "디자인에 홀려버린 MMR GaeBolg (Metal Magic Research 게볼그)",
+      "name": "MMR GaeBolg",
+      "brand": "MMR",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 263,
+      "gearId": "ref-35103cbbf83f7be9"
+    },
+    {
+      "id": "e4975166db78e7a16bcf16d4",
+      "subject": "지구상에서 가장 조용한 앰프!? Benchmark AHB2 비교청음 (feat. Mark Levinson)",
+      "name": "Benchmark AHB2",
+      "brand": "Benchmark",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 264,
+      "gearId": "ref-7c3c78217b203073"
+    },
+    {
+      "id": "090dc3dfaa297bb22a53e304",
+      "subject": "SeeAudio Bravery (씨오디오 브레이버리) 자기 전엔 이걸로 듣자 꼬옥...",
+      "name": "SeeAudio Bravery",
+      "brand": "SeeAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 265,
+      "gearId": "ref-4146371f473c6515"
+    },
+    {
+      "id": "ee591828719869ae09a1ccda",
+      "subject": "What Hi-Fi 선정 2021년 올해의 헤드폰! GRADO SR325x",
+      "name": "Grado SR325x",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 266,
+      "gearId": "ref-201f2986b85c4956"
+    },
+    {
+      "id": "51a140312d6e067946352561",
+      "subject": "드디어 근본 Westone 부활! PRO X 시리즈 몽땅 들어보자!",
+      "name": "Westone PRO X 시리즈",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 267,
+      "gearId": "ref-a467a72d5b30645c"
+    },
+    {
+      "id": "6476fb9c71f8611d3f2fde49",
+      "subject": "시원찮은 그녀를 위한... 수월우 카토 (Moondrop Kato) 팬들을 위한 최고의 선물",
+      "name": "Moondrop Kato",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 268,
+      "gearId": "ref-813f96a23f2a9409"
+    },
+    {
+      "id": "3730e9466f25521b17c59050",
+      "subject": "포르쉐 디자인 사운드바 PDB70 (네트워크 플레이어 / 돌비 애트모스 / 필립스 사운드)",
+      "name": "Porsche Design PDB70",
+      "brand": "Porsche Design",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 269,
+      "gearId": "ref-661c73ad2a707358"
+    },
+    {
+      "id": "2f6c9fff00156d993ccb4495",
+      "subject": "미국식 블링블링 플렉스! 메탈루어 웨이브 (Metalure Wave)",
+      "name": "Metalure Wave",
+      "brand": "Metalure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 270,
+      "gearId": "ref-4bf0caabf7efba06"
+    },
+    {
+      "id": "6ca522e773afc91149ed1f59",
+      "subject": "iFi GO Blu 작지만 강력한 휴대용 블루투스 헤드폰 앰프 (feat. HD600)",
+      "name": "iFi GO Blu",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 271,
+      "gearId": "ref-6d9df29a7fe678f3"
+    },
+    {
+      "id": "6ca522e773afc91149ed1f59",
+      "subject": "iFi GO Blu 작지만 강력한 휴대용 블루투스 헤드폰 앰프 (feat. HD600)",
+      "name": "Sennheiser HD600",
+      "brand": "Sennheiser",
+      "category": "헤드폰",
+      "existingId": "ref-f0b2b9735ea21fd1",
+      "_draftIndex": 272,
+      "gearId": "ref-f0b2b9735ea21fd1"
+    },
+    {
+      "id": "12fe4ddf1fff5248b2851503",
+      "subject": "저음 폭력 최강자 퀄리티 업그레이드! DUNU ZEN PRO 두누 젠 프로",
+      "name": "DUNU ZEN PRO",
+      "brand": "DUNU",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 273,
+      "gearId": "ref-b983e2f53a0ef40b"
+    },
+    {
+      "id": "4d8dd411747f8bb143327f7d",
+      "subject": "하이파이맨을 위한 젠캔 시그니쳐? ZEN CAN Signature HFM",
+      "name": "iFi ZEN CAN Signature HFM",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 274,
+      "gearId": "ref-735987c2aa42a027"
+    },
+    {
+      "id": "b30efec48a995b7535850123",
+      "subject": "에어팟 3 (New Airpods 3rd Gen) 3세대는 달라졌는가",
+      "name": "Apple AirPods 3",
+      "brand": "Apple",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 275,
+      "gearId": "ref-3e6a172a90b47887"
+    },
+    {
+      "id": "1313e29ad14717bb68a82f9b",
+      "subject": "초고성능 1DD 플래그쉽! 어쿠스튠 HS2000MX SHO (Acoustune 笙)",
+      "name": "Acoustune HS2000MX SHO",
+      "brand": "Acoustune",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 276,
+      "gearId": "ref-c7b09d32b373f5c6"
+    },
+    {
+      "id": "beb2dbd5c888e47610b344b6",
+      "subject": "reProducer EPIC 55 !! Producer dk 의 메인 스피커",
+      "name": "reProducer EPIC 55",
+      "brand": "reProducer",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 277,
+      "gearId": "ref-934df287d642abcc"
+    },
+    {
+      "id": "caf0b41953442f0cca0fa6ad",
+      "subject": "저음고음 마음대로 ORIVETI OV800 새로운 오리베티 플래그쉽",
+      "name": "Oriveti OV800",
+      "brand": "Oriveti",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 278,
+      "gearId": "ref-5d83f0a75bb0d007"
+    },
+    {
+      "id": "68f0025b777dfd41d1d729be",
+      "subject": "오디오엔진 HD4 출시! 이 정도면 책상파이의 끝이라고 봐도...?",
+      "name": "Audioengine HD4",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 279,
+      "gearId": "ref-65b724dac923a60e"
+    },
+    {
+      "id": "2c24a73bbf124daece3300c0",
+      "subject": "1만원대 파이널 Final E500 으로 잃었던 초심찾기 가능?",
+      "name": "Final E500",
+      "brand": "Final",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 280,
+      "gearId": "ref-47313e3764a77d68"
+    },
+    {
+      "id": "5e8fd371c6be9c058e14fbb2",
+      "subject": "귓속 깊숙히 넣어주는 3BA 사운드 에티모틱 에보 (Etymotic EVO)",
+      "name": "Etymotic EVO",
+      "brand": "Etymotic",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 281,
+      "gearId": "ref-a42ead5cc66ae817"
+    },
+    {
+      "id": "744b82700b1772166d2702f7",
+      "subject": "이게 뭐야?! 취향저격? 원모어 컬러버즈2 (1MORE ColorBuds 2)",
+      "name": "1MORE ColorBuds 2",
+      "brand": "1MORE",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 282,
+      "gearId": "ref-a7927fcad2055953"
+    },
+    {
+      "id": "85f13a3eaf10718e3e5c5d65",
+      "subject": "여러분이 이미 좋다고 결론 낸, 앤커 리버티 3 프로 (Anker Soundcore Liberty 3 Pro)",
+      "name": "Anker Soundcore Liberty 3 Pro",
+      "brand": "Anker",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 283,
+      "gearId": "ref-3fb322fa85776c35"
+    },
+    {
+      "id": "eaa7ef6a6dab71d65183021e",
+      "subject": "스튜디오 엔지니어가 만든 레퍼런스 헤드폰 TAGO STUDIO T3-01",
+      "name": "TAGO STUDIO T3-01",
+      "brand": "TAGO STUDIO",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 284,
+      "gearId": "ref-eba77a82a35cc00b"
+    },
+    {
+      "id": "a629693077496d74959f3f51",
+      "subject": "키네라 임페리얼 발더2 (Kinera Imperial Baldr2)",
+      "name": "Kinera Imperial Baldr2",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 285,
+      "gearId": "ref-e89266c0168ad77a"
+    },
+    {
+      "id": "6c6f5da6f204a4fc373560d8",
+      "subject": "하이파이 코드리스 B&W PI7 이것이 2021년의 1등 되겠습니다",
+      "name": "Bowers & Wilkins PI7",
+      "brand": "Bowers & Wilkins",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 286,
+      "gearId": "ref-a6028355479543b5"
+    },
+    {
+      "id": "cc6e5891110aa103f663a20f",
+      "subject": "이 사운드 뭐지? 전혀 예상하지 못했던 게 나왔다 Sony WF-C500",
+      "name": "Sony WF-C500",
+      "brand": "Sony",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 287,
+      "gearId": "ref-9c858d4942c56d9f"
+    },
+    {
+      "id": "d4ebac81efb29e69d1b4da11",
+      "subject": "64AUDIO 중에서는 제일싼데 비싼거? U6t 고오급 엔트리 모델을 들어보자!",
+      "name": "64 Audio U6t",
+      "brand": "64 Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 288,
+      "gearId": "ref-c86520ff08360463"
+    },
+    {
+      "id": "182ec1bfefd9f42ee216aa6d",
+      "subject": "조끼 사왔습니다! 온몸으로 느껴보자! Woojer Vest 진동 사운드 조끼",
+      "name": "Woojer Vest",
+      "brand": "Woojer",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 289,
+      "gearId": "ref-e31af9af1e0fc633"
+    },
+    {
+      "id": "e5ac5e9186a7b935bd4f727d",
+      "subject": "Producer dk x SeeAudio = YUME dk edition (씨오디오 유메 한국 한정판)",
+      "name": "SeeAudio YUME dk edition",
+      "brand": "SeeAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 290,
+      "gearId": "ref-6b1f2402e8858574"
+    },
+    {
+      "id": "369a3b69e74fbcef0e386794",
+      "subject": "젠하이저 팀킬하나? CX Plus True Wireless (feat. LG 벨벳)",
+      "name": "Sennheiser CX Plus True Wireless",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 291,
+      "gearId": "ref-a25aa25d813d1244"
+    },
+    {
+      "id": "369a3b69e74fbcef0e386794",
+      "subject": "젠하이저 팀킬하나? CX Plus True Wireless (feat. LG 벨벳)",
+      "name": "LG 벨벳",
+      "brand": "LG",
+      "category": "스마트폰",
+      "existingId": null,
+      "_draftIndex": 292,
+      "gearId": "ref-089cb0d29eb78b9c"
+    },
+    {
+      "id": "873c0f493cf72186c252be5e",
+      "subject": "1만원대 수월우?! 쿽스! Moondrop Quarks",
+      "name": "Moondrop Quarks",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 293,
+      "gearId": "ref-d79ccdddaca15634"
+    },
+    {
+      "id": "145b02ac2b6a46c2e9858cd6",
+      "subject": "이 가격으로 만들 수 없는 헤드폰 앰프 JAVS X5 HPA",
+      "name": "JAVS X5 HPA",
+      "brand": "JAVS",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 294,
+      "gearId": "ref-632bffa556dfa7e7"
+    },
+    {
+      "id": "bac6390e08496c0f71c696b9",
+      "subject": "dk 가방에 항상 들어있는 코드리스 FIIL T1 Lite (한국에만 발매?)",
+      "name": "FIIL T1 Lite",
+      "brand": "FIIL",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 295,
+      "gearId": "ref-e658fac6ff0b2722"
+    },
+    {
+      "id": "0d910b1b84fd25a473ec328a",
+      "subject": "드비알레 최초 / 최고의 무선 이어폰! 제미니 리뷰를 왜 이제야 하는가?",
+      "name": "Devialet Gemini",
+      "brand": "Devialet",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 296,
+      "gearId": "ref-c81c8e114e31307c"
+    },
+    {
+      "id": "d49d9c2691cf31a56ca0dbc4",
+      "subject": "파도파도 끝이없는 iFi 의 플래그십 DAC ! Pro iDSD",
+      "name": "iFi Pro iDSD",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 297,
+      "gearId": "ref-2135877a163b8ab5"
+    },
+    {
+      "id": "1d4fee72a12a357a979fa133",
+      "subject": "스틸시리즈 Arctis 7P 이게 착용감 최강! 유저 추천수 1등",
+      "name": "SteelSeries Arctis 7P",
+      "brand": "SteelSeries",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 298,
+      "gearId": "ref-751028d4a3d31cb1"
+    },
+    {
+      "id": "927b021b1926f0188e4af128",
+      "subject": "QCY 답지않은 T13 이게 무슨 일이야?",
+      "name": "QCY T13",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 299,
+      "gearId": "ref-4b430a4598475a83"
+    },
+    {
+      "id": "82e4993a15b962b33dc11759",
+      "subject": "모니터링 이어폰이 가야할 길 DUNU SA6 스위치를 켜라",
+      "name": "DUNU SA6",
+      "brand": "DUNU",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 300,
+      "gearId": "ref-7fb4ebfdd619faa1"
+    },
+    {
+      "id": "4088ed22a8d11118857b0d0e",
+      "subject": "하만카돈 오닉스 스튜디오 7 디자인만 좋아진건 아니었네 (Onyx Studio 7)",
+      "name": "Harman Kardon Onyx Studio 7",
+      "brand": "Harman Kardon",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 301,
+      "gearId": "ref-a0a8aaac03bd03ba"
+    },
+    {
+      "id": "b36d0fba3e3e126912b840ad",
+      "subject": "젠하이저가 IE300 에 밸런스드 커케를 붙여준다면? (feat. Null Audio)",
+      "name": "Sennheiser IE300",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 302,
+      "gearId": "ref-21877ceffb1285cc"
+    },
+    {
+      "id": "7d04ae6312bfb036144be517",
+      "subject": "Hifiman Susvara 600만원대 평판형 헤드폰 끝판왕! (feat. Naim Atom / iFi Pro iDSD / Diablo)",
+      "name": "HIFIMAN Susvara",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": "ref-c46238ef2253aa51",
+      "_draftIndex": 303,
+      "gearId": "ref-c46238ef2253aa51"
+    },
+    {
+      "id": "7d04ae6312bfb036144be517",
+      "subject": "Hifiman Susvara 600만원대 평판형 헤드폰 끝판왕! (feat. Naim Atom / iFi Pro iDSD / Diablo)",
+      "name": "Naim Uniti Atom",
+      "brand": "Naim",
+      "category": "앰프 · 네트워크 플레이어",
+      "existingId": null,
+      "_draftIndex": 304,
+      "gearId": "ref-7d8c608419131ba8"
+    },
+    {
+      "id": "7d04ae6312bfb036144be517",
+      "subject": "Hifiman Susvara 600만원대 평판형 헤드폰 끝판왕! (feat. Naim Atom / iFi Pro iDSD / Diablo)",
+      "name": "iFi Pro iDSD",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 305,
+      "gearId": "ref-2135877a163b8ab5"
+    },
+    {
+      "id": "7d04ae6312bfb036144be517",
+      "subject": "Hifiman Susvara 600만원대 평판형 헤드폰 끝판왕! (feat. Naim Atom / iFi Pro iDSD / Diablo)",
+      "name": "iFi Diablo",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": "ref-df30e0580e1e1a61",
+      "_draftIndex": 306,
+      "gearId": "ref-df30e0580e1e1a61"
+    },
+    {
+      "id": "5b40fb8dd88087def4e1b96f",
+      "subject": "헤드셋이 아니라 이어셋? 터틀비치 배틀버즈! (Turtle Beach Battle Buds)",
+      "name": "Turtle Beach Battle Buds",
+      "brand": "Turtle Beach",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 307,
+      "gearId": "ref-73de7ad63fcde231"
+    },
+    {
+      "id": "aece20d588a5606733818802",
+      "subject": "미래의 여신! 알이 꽉찬 5BA! 키네라 임페리얼 스쿨드 (Kinera Imperial Skuld)",
+      "name": "Kinera Imperial Skuld",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 308,
+      "gearId": "ref-d2880dd866e3250c"
+    },
+    {
+      "id": "204a5d9238cb404c9192a29e",
+      "subject": "공대감성 찐가성비 Tone2 Pro 음악감상+작업용 DAC",
+      "name": "Khadas Tone2 Pro",
+      "brand": "Khadas",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 309,
+      "gearId": "ref-fcbd85498e457f79"
+    },
+    {
+      "id": "5fbfca520addbae438e720b7",
+      "subject": "예상과 다른 3가지 맛! 수월우 Variations 1DD + 2BA + 2EST",
+      "name": "Moondrop Variations",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 310,
+      "gearId": "ref-2819ce7f8a917a67"
+    },
+    {
+      "id": "2b4a55f06c3b8aca6703fbc3",
+      "subject": "없어서 못사는 XBOX 공식 게이밍 헤드셋은 어떨까?",
+      "name": "Microsoft Xbox Wireless Headset",
+      "brand": "Microsoft",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 311,
+      "gearId": "ref-a5d596553f0fc01d"
+    },
+    {
+      "id": "337c969ca775c527dea83199",
+      "subject": "아이폰용 초소형 고음질 DAC! Audirect Atom2",
+      "name": "Audirect Atom2",
+      "brand": "Audirect",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 312,
+      "gearId": "ref-c8b345caa94634c6"
+    },
+    {
+      "id": "1176d2d19a74dcf1dfa984c6",
+      "subject": "Anker Q30 → Q35 가성비 초월 업그레이드? (+ 1만원 추가 할인쿠폰)",
+      "name": "Anker Q30",
+      "brand": "Anker",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 313,
+      "gearId": "ref-fcdd8855cdfe1580"
+    },
+    {
+      "id": "1176d2d19a74dcf1dfa984c6",
+      "subject": "Anker Q30 → Q35 가성비 초월 업그레이드? (+ 1만원 추가 할인쿠폰)",
+      "name": "Anker Q35",
+      "brand": "Anker",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 314,
+      "gearId": "ref-923a0fac5c7dd07a"
+    },
+    {
+      "id": "d9b5598073f082ce7f7a318e",
+      "subject": "4만원대? 절대가성비 스피커 받침대! The MIX 방진패드",
+      "name": "The MIX 방진패드",
+      "brand": "The MIX",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 315,
+      "gearId": "ref-a6e9af003a061fb6"
+    },
+    {
+      "id": "e0d54adfdad9008aa86017ac",
+      "subject": "그라도를 이해해보자! 드디어 최종장?! Grado GS3000e 편",
+      "name": "Grado GS3000e",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 316,
+      "gearId": "ref-e4ec224d97ac1056"
+    },
+    {
+      "id": "775a7604969a745c4cf375c0",
+      "subject": "서브우퍼 붙이면 좋아? 들어봅시다! (feat. 오디오엔진 S8)",
+      "name": "Audioengine S8",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 317,
+      "gearId": "ref-c378e6596def6de0"
+    },
+    {
+      "id": "879485e19e9d287c4abaf1d2",
+      "subject": "믿고 듣는 FAudio 새로운 플래그십 Dark Sky 다크스카이",
+      "name": "FAudio Dark Sky",
+      "brand": "FAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 318,
+      "gearId": "ref-f0305c3d3e8de17e"
+    },
+    {
+      "id": "547c46bad9782330f22099b1",
+      "subject": "수월우 사운드의 정점!? SoftEars 켈베로스 (Cerberus)",
+      "name": "Softears Cerberus",
+      "brand": "Softears",
+      "category": "이어폰",
+      "existingId": "ref-726e004907511817",
+      "_draftIndex": 319,
+      "gearId": "ref-726e004907511817"
+    },
+    {
+      "id": "498f9892f7df6d44d0c8ecd8",
+      "subject": "세계관 최강 측정치 괴물! 헤드폰앰프 겸 프리앰프 Benchmark HPA4 (+ DAC3)",
+      "name": "Benchmark HPA4",
+      "brand": "Benchmark",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 320,
+      "gearId": "ref-abf6e4ec6a01e596"
+    },
+    {
+      "id": "498f9892f7df6d44d0c8ecd8",
+      "subject": "세계관 최강 측정치 괴물! 헤드폰앰프 겸 프리앰프 Benchmark HPA4 (+ DAC3)",
+      "name": "Benchmark DAC3",
+      "brand": "Benchmark",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 321,
+      "gearId": "ref-c9ff7ea8914d658c"
+    },
+    {
+      "id": "e9599c57df64c82ad1811ea4",
+      "subject": "여러분의 추천으로 들어보았습니다! 터틀비치 Stealth 700 Gen2 괜찮은가?",
+      "name": "Turtle Beach Stealth 700 Gen2",
+      "brand": "Turtle Beach",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 322,
+      "gearId": "ref-59fb5d0bbe229e40"
+    },
+    {
+      "id": "cfb557c87ed3b82703b07d68",
+      "subject": "필립스 Fidelio X3 좋으니까 정식 수입 해달라! 물론 세계 최저가로!",
+      "name": "Philips Fidelio X3",
+      "brand": "Philips",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 323,
+      "gearId": "ref-6c9f30f36b9bee52"
+    },
+    {
+      "id": "460e7d7497a1b164360e1454",
+      "subject": "PARTYBOX ON-THE-GO! 이것은 혁신! JBL 미쳤음?",
+      "name": "JBL PARTYBOX ON-THE-GO",
+      "brand": "JBL",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 324,
+      "gearId": "ref-104a10f70c92b6ae"
+    },
+    {
+      "id": "37ca2c680a8602098f8b2793",
+      "subject": "Final + DITA = 사죽관현! 1DD 장인들의 콜라보 한정판!?",
+      "name": "Final x DITA 사죽관현",
+      "brand": "Final",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 325,
+      "gearId": "ref-5baced183eb8b8ec"
+    },
+    {
+      "id": "078b44cb8228f58f52abecf3",
+      "subject": "젠하이저 플래그쉽 이어폰 IE900! 정교한 모니터란 바로 이것!",
+      "name": "Sennheiser IE900",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 326,
+      "gearId": "ref-fe08ebe5b9068840"
+    },
+    {
+      "id": "f9db89feae92385063fcf01a",
+      "subject": "애플뮤직 고음질 무손실 스트리밍 + 공간음향 체크! (feat. Chord Dave / Susvara / 에어팟맥스)",
+      "name": "Chord DAVE",
+      "brand": "Chord",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 327,
+      "gearId": "ref-5eb51ac282e0731a"
+    },
+    {
+      "id": "f9db89feae92385063fcf01a",
+      "subject": "애플뮤직 고음질 무손실 스트리밍 + 공간음향 체크! (feat. Chord Dave / Susvara / 에어팟맥스)",
+      "name": "HIFIMAN Susvara",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": "ref-c46238ef2253aa51",
+      "_draftIndex": 328,
+      "gearId": "ref-c46238ef2253aa51"
+    },
+    {
+      "id": "f9db89feae92385063fcf01a",
+      "subject": "애플뮤직 고음질 무손실 스트리밍 + 공간음향 체크! (feat. Chord Dave / Susvara / 에어팟맥스)",
+      "name": "Apple AirPods Max",
+      "brand": "Apple",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 329,
+      "gearId": "ref-eab9f314aeae668a"
+    },
+    {
+      "id": "3e12a8dbd615fb81f8f13a81",
+      "subject": "600Ω 까지 커버되는 고오급 꼬다리 DAC / Questyle M12 (+런칭할인)",
+      "name": "Questyle M12",
+      "brand": "Questyle",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 330,
+      "gearId": "ref-5159d50733aa4cba"
+    },
+    {
+      "id": "7cf451f3414a670c4cf9848c",
+      "subject": "세계최초 Sony WF-1000XM4 리뷰! 모든 면에서 TWS의 Next Level",
+      "name": "Sony WF-1000XM4",
+      "brand": "Sony",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 331,
+      "gearId": "ref-d1b3d23f478fdafb"
+    },
+    {
+      "id": "e25569cac24b41f6f3ef0a63",
+      "subject": "PS5 헤드셋 Pulse 3D! 플스 전용 아닙니다! 의외의 꿀템",
+      "name": "Sony Pulse 3D",
+      "brand": "Sony",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 332,
+      "gearId": "ref-c342de0ab4e94381"
+    },
+    {
+      "id": "7cddb127f2efe2f72b358649",
+      "subject": "4만원대? 휴대성 최강의 USB DAC 페리오딕 로듐 (feat. Nickel)",
+      "name": "Periodic Audio Rhodium",
+      "brand": "Periodic Audio",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 333,
+      "gearId": "ref-b1a854057882fb80"
+    },
+    {
+      "id": "7cddb127f2efe2f72b358649",
+      "subject": "4만원대? 휴대성 최강의 USB DAC 페리오딕 로듐 (feat. Nickel)",
+      "name": "Periodic Audio Nickel",
+      "brand": "Periodic Audio",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 334,
+      "gearId": "ref-dae802b49e2308c1"
+    },
+    {
+      "id": "7ce6210f827d5b0c84ca89d5",
+      "subject": "하만카돈 오닉스 스튜디오 6 ! 디자인 / 사운드 / 방수 / 가격 Good",
+      "name": "Harman Kardon Onyx Studio 6",
+      "brand": "Harman Kardon",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 335,
+      "gearId": "ref-581d9bc0bb5940f0"
+    },
+    {
+      "id": "f8227c34060179b38d180f5d",
+      "subject": "음악 산업 현장에 딱!? KOSS QZ99 노이즈 차단 헤드폰 (안녕 MDR-7506)",
+      "name": "Koss QZ99",
+      "brand": "Koss",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 336,
+      "gearId": "ref-4025d0972a5c08b2"
+    },
+    {
+      "id": "f8227c34060179b38d180f5d",
+      "subject": "음악 산업 현장에 딱!? KOSS QZ99 노이즈 차단 헤드폰 (안녕 MDR-7506)",
+      "name": "Sony MDR-7506",
+      "brand": "Sony",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 337,
+      "gearId": "ref-0591cc286e2f414e"
+    },
+    {
+      "id": "ed017172c17934dc66e3b6bc",
+      "subject": "세계최초 워크맨을 완벽하게 오마주! Oriolus DPS-L2",
+      "name": "Oriolus DPS-L2",
+      "brand": "Oriolus",
+      "category": "DAP",
+      "existingId": null,
+      "_draftIndex": 338,
+      "gearId": "ref-6a3730b9d4227d7a"
+    },
+    {
+      "id": "f50f051c5dd8e128299367fc",
+      "subject": "Genava XL 스피커 구매 전에 꼭 보셔야 합니다. 1년 사용기!",
+      "name": "Geneva XL",
+      "brand": "Geneva",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 339,
+      "gearId": "ref-a0dafa8267772552"
+    },
+    {
+      "id": "b2f733454a4b131d37eb79a2",
+      "subject": "Kinera NORN 한국판만 특별히 소리가 다른 이유? (누구 때문일까...)",
+      "name": "Kinera NORN (한국판)",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 340,
+      "gearId": "ref-032d9204040133b7"
+    },
+    {
+      "id": "2e480843828764ce394ed5d0",
+      "subject": "소리가 젖어든다 하이파이맨이 다시 만든 소니 헤드폰 HE-R10D",
+      "name": "HIFIMAN HE-R10D",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": "ref-55873f7c3b661464",
+      "_draftIndex": 341,
+      "gearId": "ref-55873f7c3b661464"
+    },
+    {
+      "id": "1e26671e224b9cb2f9104a86",
+      "subject": "QCY T11 절반의 성공? 시리즈 중 베스트?",
+      "name": "QCY T11",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 342,
+      "gearId": "ref-1dbab6c3870d0207"
+    },
+    {
+      "id": "1854e44178ce3c0aa0a87fd4",
+      "subject": "DAC + 헤드폰앰프 + 블루투스 / iFi 올인원 NEO iDSD (런칭 할인)",
+      "name": "iFi NEO iDSD",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 343,
+      "gearId": "ref-76d8f0290b7bec47"
+    },
+    {
+      "id": "2fca3527d18feac24708d9d9",
+      "subject": "10만원 이하 레퍼런스 이어폰? 라이퍼텍 BEVI2 추천! (한국 단독 런칭)",
+      "name": "LYPERTEK BEVI2",
+      "brand": "LYPERTEK",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 344,
+      "gearId": "ref-cccc1359ba372c3c"
+    },
+    {
+      "id": "9658ff53a89a5bb8c0fcf41d",
+      "subject": "싼데 더 좋아? 하이파이맨 다이나믹 헤드폰 HE350",
+      "name": "HIFIMAN HE350",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 345,
+      "gearId": "ref-c979a4ea2bec0acf"
+    },
+    {
+      "id": "287fc3947bb72c88f02369ff",
+      "subject": "수월우 간만에 저렴한 최신작! 뉴 아리아! (New Aria)",
+      "name": "Moondrop Aria (2021)",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 346,
+      "gearId": "ref-13af6588e0b69ad0"
+    },
+    {
+      "id": "81c416679e5d995ae10c58ac",
+      "subject": "LG폰 떠나고 DAP 는 처음이라면? 샨링 M3X 안드로이드 DAP (V50과 비교 녹음)",
+      "name": "Shanling M3X",
+      "brand": "Shanling",
+      "category": "DAP",
+      "existingId": null,
+      "_draftIndex": 347,
+      "gearId": "ref-0d7b220d5379264a"
+    },
+    {
+      "id": "81c416679e5d995ae10c58ac",
+      "subject": "LG폰 떠나고 DAP 는 처음이라면? 샨링 M3X 안드로이드 DAP (V50과 비교 녹음)",
+      "name": "LG V50",
+      "brand": "LG",
+      "category": "스마트폰",
+      "existingId": "ref-560b0303bdeb8c9e",
+      "_draftIndex": 348,
+      "gearId": "ref-560b0303bdeb8c9e"
+    },
+    {
+      "id": "fb193fbea4bbf3431324979e",
+      "subject": "고급 이어폰 Softears 최저가 모델 (이지만 비싼) RSV! 여성 보컬의 숨결을 느껴보자!",
+      "name": "Softears RSV",
+      "brand": "Softears",
+      "category": "이어폰",
+      "existingId": "ref-3a8639709a2a1a0e",
+      "_draftIndex": 349,
+      "gearId": "ref-3a8639709a2a1a0e"
+    },
+    {
+      "id": "fad56508eb1d6426bd00c9fe",
+      "subject": "그라도를 이해해보자! 비싼건 다를까? GS1000e 편",
+      "name": "Grado GS1000e",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 350,
+      "gearId": "ref-2fd746a72c626142"
+    },
+    {
+      "id": "ab5dfa3a6e4b14c68c3b0c97",
+      "subject": "내맘대로 조절하는 사운드? IMR New ATEN 5세대",
+      "name": "IMR New ATEN 5세대",
+      "brand": "IMR",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 351,
+      "gearId": "ref-2ccafb19d8e508dd"
+    },
+    {
+      "id": "edbf47335f414d6773e6d99d",
+      "subject": "$30에 들어보자 소련의 사운드!? 러시아 아님 쏘련임 Амфитон ТДС-17 (Amfiton TDS-17)",
+      "name": "Amfiton TDS-17",
+      "brand": "Amfiton",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 352,
+      "gearId": "ref-279508a412daf27b"
+    },
+    {
+      "id": "63ab3b514a410e400ca7058f",
+      "subject": "오픈형 / 밀폐형 변신 헤드폰! $80에 겟! 하이파이맨 Edition S",
+      "name": "HIFIMAN Edition S",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 353,
+      "gearId": "ref-b88578335758bbcd"
+    },
+    {
+      "id": "589f88ee0018bae93205a234",
+      "subject": "그라도를 이해해보자! 그라도의 무선 헤드폰 GW100 편",
+      "name": "Grado GW100",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 354,
+      "gearId": "ref-ea70ed4f8825ef66"
+    },
+    {
+      "id": "8bcc49201cf9311fa11e86b8",
+      "subject": "크고 강력한 드라이버! DUNU ZEN 에게 사운드로 두들겨 맞았다!",
+      "name": "DUNU ZEN",
+      "brand": "DUNU",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 355,
+      "gearId": "ref-39fa0bd391671196"
+    },
+    {
+      "id": "5188461c8b9b4664ceeb5d62",
+      "subject": "1DD 맛집 어쿠스튠 끝판왕! HS1697TI 싼데 비싼 티타늄 사운드?!",
+      "name": "Acoustune HS1697TI",
+      "brand": "Acoustune",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 356,
+      "gearId": "ref-c8191c94786faaed"
+    },
+    {
+      "id": "1551f885d2a017f414f115c4",
+      "subject": "볼보 + B&W의 특별한 오디오 체험! 신형 S60 을 들어보자! (@Volvo Cars​ + @Bowers & Wilkins​)",
+      "name": "Volvo S60 B&W 오디오",
+      "brand": "Volvo",
+      "category": "차량 오디오",
+      "existingId": null,
+      "_draftIndex": 357,
+      "gearId": "ref-b8457f9c1bcaa4dc"
+    },
+    {
+      "id": "3969b145c6079483c14f69bb",
+      "subject": " 싼데 비싼 HIFIMAN HE6SE / 스피커 앰프에 물리는 헤드폰?",
+      "name": "HIFIMAN HE6SE",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 358,
+      "gearId": "ref-e550b387ba6dd8ee"
+    },
+    {
+      "id": "1816ec0d2416e9b43ead26ee",
+      "subject": "슈어 Aonic 전제품 + SE535 / SE846 까지! 무선 이어폰 끝판왕 조합을 찾아라!",
+      "name": "Shure Aonic 시리즈",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 359,
+      "gearId": "ref-cf14c459ac8e812e"
+    },
+    {
+      "id": "1816ec0d2416e9b43ead26ee",
+      "subject": "슈어 Aonic 전제품 + SE535 / SE846 까지! 무선 이어폰 끝판왕 조합을 찾아라!",
+      "name": "Shure SE535",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 360,
+      "gearId": "ref-5fb324e591dd53ff"
+    },
+    {
+      "id": "1816ec0d2416e9b43ead26ee",
+      "subject": "슈어 Aonic 전제품 + SE535 / SE846 까지! 무선 이어폰 끝판왕 조합을 찾아라!",
+      "name": "Shure SE846",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 361,
+      "gearId": "ref-636371f1d07800d4"
+    },
+    {
+      "id": "bf842c2ff94047f2580564dd",
+      "subject": "그라도를 이해해보자! 대마로 만든 The Hemp 에 취해보자!",
+      "name": "Grado The Hemp",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 362,
+      "gearId": "ref-3e542c22eb1ba82e"
+    },
+    {
+      "id": "ae9cdb84ef8c29ace77bd5f0",
+      "subject": "이숲이 책임진다! 가성비 최강 KOSS KPH7 Wireless 정식 수입!",
+      "name": "Koss KPH7 Wireless",
+      "brand": "Koss",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 363,
+      "gearId": "ref-3a0c188b8a4fc9a8"
+    },
+    {
+      "id": "fdf6de2750d9a1f36b8f031d",
+      "subject": "키네라의 최저가 이어폰 / 오랜 베스트셀러의 후속작 Bd005 Pro",
+      "name": "Kinera Bd005 Pro",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 364,
+      "gearId": "ref-3e77cf88267dc271"
+    },
+    {
+      "id": "8c44934456cdb3ff04848108",
+      "subject": "5V 오디오 장비들을 위한 깨끗한 업그레이드! 클린파워LT 5V",
+      "name": "JAVS Clean Power LT 5V",
+      "brand": "JAVS",
+      "category": "전원장치",
+      "existingId": null,
+      "_draftIndex": 365,
+      "gearId": "ref-2790893feb019d1b"
+    },
+    {
+      "id": "73d3bb5f02a1d5c4a671931d",
+      "subject": "10만원 이하 최고 가성비 노캔 헤드폰 Anker Soundcore Q30 (앤커 사운드코어 Life Q30)",
+      "name": "Anker Q30",
+      "brand": "Anker",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 366,
+      "gearId": "ref-fcdd8855cdfe1580"
+    },
+    {
+      "id": "1358abcf90bbebad19e28a67",
+      "subject": "제일 비싼 블루투스 헤드폰, Hifiman Ananda BT (하이파이맨 아난다BT)",
+      "name": "HIFIMAN Ananda BT",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 367,
+      "gearId": "ref-add3e2ad84b2996f"
+    },
+    {
+      "id": "6ad0633652ebda94cdb06bde",
+      "subject": "Sennheiser IE300 젠하이저의 30만원대 레퍼런스 이어폰",
+      "name": "Sennheiser IE300",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 368,
+      "gearId": "ref-21877ceffb1285cc"
+    },
+    {
+      "id": "bc091ae6e9f50fe7d20098d5",
+      "subject": "그라도를 이해해보자! Head-Fi.org 1등? Grado RS2e 편",
+      "name": "Grado RS2e",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 369,
+      "gearId": "ref-91f182579d3ed17d"
+    },
+    {
+      "id": "845658bed8b0e9e3ecf390d3",
+      "subject": "그라도를 이해해보자! Grado SR325e 편",
+      "name": "Grado SR325e",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 370,
+      "gearId": "ref-7cd170645f540e78"
+    },
+    {
+      "id": "c56e2d23bdf2d3689c55480c",
+      "subject": "HEDDphone 프로 / 하이파이 모두 만족할 역대급 헤드스피커 (+ 역대급 할인)",
+      "name": "HEDD HEDDphone ONE",
+      "brand": "HEDD",
+      "category": "헤드폰",
+      "existingId": "ref-e5e525be8dfece5a",
+      "_draftIndex": 371,
+      "gearId": "ref-e5e525be8dfece5a"
+    },
+    {
+      "id": "084cf57eb12c047d497b31cc",
+      "subject": "1DD 장인 어쿠스튠? 이 가격에? HS1300SS (+ 런칭기념 할인)",
+      "name": "Acoustune HS1300SS",
+      "brand": "Acoustune",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 372,
+      "gearId": "ref-f3d6e20b00e788c5"
+    },
+    {
+      "id": "ee49836b3171dd71e41e4339",
+      "subject": "젠하이저는 하극상이 없다! 과연 HD700 도 그럴...까?",
+      "name": "Sennheiser HD700",
+      "brand": "Sennheiser",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 373,
+      "gearId": "ref-fbf45c1093874011"
+    },
+    {
+      "id": "6308b69161fddf0bb1b5a702",
+      "subject": "갑자기 이럴 수가 있나? 삼성 갤럭시 버즈 프로! (Galaxy Buds Pro)",
+      "name": "Samsung Galaxy Buds Pro",
+      "brand": "Samsung",
+      "category": "이어폰",
+      "existingId": "ref-595cfebc0982abf4",
+      "_draftIndex": 374,
+      "gearId": "ref-595cfebc0982abf4"
+    },
+    {
+      "id": "c2ca5011819f2ccdc308a79c",
+      "subject": "QCY T10 추천한다 / 안한다? 이제 이게 마지막일까?",
+      "name": "QCY T10",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 375,
+      "gearId": "ref-97df78c922677962"
+    },
+    {
+      "id": "8d19cb2d29bea7c452891487",
+      "subject": "내 귀에 맞춤 사운드 누라폰! 정식 수입은 못참지! (+ 누라폰/누라루프/마이크 런칭 이벤트)",
+      "name": "Nura Nuraphone",
+      "brand": "Nura",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 376,
+      "gearId": "ref-b32988f307e5e208"
+    },
+    {
+      "id": "8d19cb2d29bea7c452891487",
+      "subject": "내 귀에 맞춤 사운드 누라폰! 정식 수입은 못참지! (+ 누라폰/누라루프/마이크 런칭 이벤트)",
+      "name": "Nura NuraLoop",
+      "brand": "Nura",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 377,
+      "gearId": "ref-0b651aa9253ffa37"
+    },
+    {
+      "id": "5dde0ed01803ad00594fef9e",
+      "subject": "한국에도 이런 헤드폰이? 응답하라 1988 한음파 HP-580",
+      "name": "한음파 HP-580",
+      "brand": "한음파",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 378,
+      "gearId": "ref-ba6fb6afe7d1412b"
+    },
+    {
+      "id": "f88798962a37958ffa2d9bfe",
+      "subject": "애플 에어팟 맥스 리뷰는 이것으로 종결한다! 과연?",
+      "name": "Apple AirPods Max",
+      "brand": "Apple",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 379,
+      "gearId": "ref-eab9f314aeae668a"
+    },
+    {
+      "id": "5c5f39de9204fb9fb5847ab8",
+      "subject": "Drop의 첫번째 자체제작 무선 헤드폰! Drop + THX + LDAC = Panda",
+      "name": "Drop Panda",
+      "brand": "Drop",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 380,
+      "gearId": "ref-aa9a481d9ce52c62"
+    },
+    {
+      "id": "bda47d0b3caed4a4d62c1a6f",
+      "subject": "작지만 작지 않은 사운드! 탄노이 오토그라프 미니 Tannoy Autograph Mini GR (2세대 OW)",
+      "name": "Tannoy Autograph Mini GR (2세대 OW)",
+      "brand": "Tannoy",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 381,
+      "gearId": "ref-871f640c7939fd3f"
+    },
+    {
+      "id": "754839e7e217a952cf310bab",
+      "subject": "들어봅시다! 오디오엔진 HD6 리뷰 / HD6 창고털이 + HD3 이벤트!",
+      "name": "Audioengine HD6",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 382,
+      "gearId": "ref-87137dc19aaed710"
+    },
+    {
+      "id": "754839e7e217a952cf310bab",
+      "subject": "들어봅시다! 오디오엔진 HD6 리뷰 / HD6 창고털이 + HD3 이벤트!",
+      "name": "Audioengine HD3",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 383,
+      "gearId": "ref-b53e6a7b6df72902"
+    },
+    {
+      "id": "a743373dfb03e50b6650ea54",
+      "subject": "Kinera Baldr 에서는 피아노 / 보컬 / 리얼 사운드가 왜 좋게 들릴까? 설명해드립니다. 키네라 발더!",
+      "name": "Kinera Baldr",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 384,
+      "gearId": "ref-61853bc3edfb1f54"
+    },
+    {
+      "id": "32fd935935ce4a6ae85479dc",
+      "subject": "배터리 차이가 안들려? JAVS 클린파워LT 12V 전원장치",
+      "name": "JAVS Clean Power LT 12V",
+      "brand": "JAVS",
+      "category": "전원장치",
+      "existingId": null,
+      "_draftIndex": 385,
+      "gearId": "ref-377309866b53c525"
+    },
+    {
+      "id": "18bf29ede8cec530e56c1d0e",
+      "subject": "스베트라나 2-SE (2020) 들어봅시다! 국산 고급 진공관 헤드폰 앰프 (Svetlana 2-SE)",
+      "name": "Analog Design Svetlana 2-SE (2020)",
+      "brand": "Analog Design",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 386,
+      "gearId": "ref-b74c53f3ff547ba7"
+    },
+    {
+      "id": "a66f083c5a7a5ffb05a2c0bc",
+      "subject": "전설의 시작? 키네라 난나! 정전형 하이브리드 이어폰 Kinera Nanna",
+      "name": "Kinera Nanna",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 387,
+      "gearId": "ref-73eec44d5de20298"
+    },
+    {
+      "id": "8c20d7f9c78b6ed26dad8784",
+      "subject": "$60짜리 무선 노캔 헤드폰! Anker Soundcore Q20 (앤커 사운드코어)",
+      "name": "Anker Soundcore Q20",
+      "brand": "Anker",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 388,
+      "gearId": "ref-aecb5489f23ffc36"
+    },
+    {
+      "id": "6eb237866ae151c4fdba0dad",
+      "subject": "완전무선 턴테이블? 편리하게 LP 를 듣자! Sony PS-LX310BT",
+      "name": "Sony PS-LX310BT",
+      "brand": "Sony",
+      "category": "턴테이블",
+      "existingId": null,
+      "_draftIndex": 389,
+      "gearId": "ref-ca69ce274e6c67fd"
+    },
+    {
+      "id": "c89c20a80c362d7a8c68d568",
+      "subject": "에어팟의 대안이 될 수 있을까? 1MORE 컴포버즈 출시! (+ 런칭기념 공동구매)",
+      "name": "1MORE ComfoBuds",
+      "brand": "1MORE",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 390,
+      "gearId": "ref-df5ca7ca67bcd1fc"
+    },
+    {
+      "id": "0e26c33830c16973b078a746",
+      "subject": "8만원대에 BA드라이버 20개? 이게 가능해? KZ ASX",
+      "name": "KZ ASX",
+      "brand": "KZ",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 391,
+      "gearId": "ref-96c7721f41194e36"
+    },
+    {
+      "id": "f0692ace2f95e5caf81faa39",
+      "subject": "100% 핸드메이드? 키네라 프레야, 아이폰 유저들 꼭 들어보세요! (Kinera Freya)",
+      "name": "Kinera Freya",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 392,
+      "gearId": "ref-f40bc2b22f80c718"
+    },
+    {
+      "id": "20712eac3638d3a409150e0c",
+      "subject": "건축학개론 수지의 CDP Sony D-777과 90년대 사운드 이야기",
+      "name": "Sony D-777",
+      "brand": "Sony",
+      "category": "CD 플레이어",
+      "existingId": null,
+      "_draftIndex": 393,
+      "gearId": "ref-a623669f39b58a7f"
+    },
+    {
+      "id": "77d797cccb0c63f0b8173a32",
+      "subject": "바쿤 CAP-1001 앰프! 스피커 / 헤드폰 다용도 입문기!",
+      "name": "Bakoon CAP-1001",
+      "brand": "Bakoon",
+      "category": "앰프",
+      "existingId": "ref-bb663c660dbb81c5",
+      "_draftIndex": 394,
+      "gearId": "ref-bb663c660dbb81c5"
+    },
+    {
+      "id": "6b32a833d416f42d009fb489",
+      "subject": "FAudio 5주년 기념 한정판 Project Y 한국엔 50대 밖에 없어?",
+      "name": "FAudio Project Y",
+      "brand": "FAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 395,
+      "gearId": "ref-a7f3313a2bc9356d"
+    },
+    {
+      "id": "d82e8f08f7cc78b5ace7a35e",
+      "subject": "STAX-002 재평가! 이런 업그레이드는 필수! CES-A1",
+      "name": "STAX SRS-002",
+      "brand": "STAX",
+      "category": "이어폰 · 앰프",
+      "existingId": null,
+      "_draftIndex": 396,
+      "gearId": "ref-9a2747cb9abfa026"
+    },
+    {
+      "id": "d82e8f08f7cc78b5ace7a35e",
+      "subject": "STAX-002 재평가! 이런 업그레이드는 필수! CES-A1",
+      "name": "STAX CES-A1",
+      "brand": "STAX",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 397,
+      "gearId": "ref-dbb768c9308d51fa"
+    },
+    {
+      "id": "a19f39cd72b46c69629073ab",
+      "subject": "현실적인 공간감이란? 울트라손 에디션15 (S-Logic EX)",
+      "name": "Ultrasone Edition15",
+      "brand": "Ultrasone",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 398,
+      "gearId": "ref-1fac8e62b0d6c137"
+    },
+    {
+      "id": "8f87cd8f227acd11885f15c2",
+      "subject": "이거 꽂으면 소리가 달라 JAVS Discrete Op-Amp (+ 공동제작 이벤트)",
+      "name": "JAVS Discrete Op-Amp",
+      "brand": "JAVS",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 399,
+      "gearId": "ref-23abaf6d3603bbbf"
+    },
+    {
+      "id": "8716d7910c8c4061ee615aa1",
+      "subject": "1만원도 안되는 앰프로 스피커를 울린다고?! 들어봅시다 TPA3116D2",
+      "name": "TPA3116D2 앰프",
+      "brand": "브랜드 미확인",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 400,
+      "gearId": "ref-105acfa5042ac407"
+    },
+    {
+      "id": "10234950f5eedb819d3a2354",
+      "subject": "[DROP] 현존 가장 작은 아이폰용 DAC? ddHiFi TC35i",
+      "name": "ddHiFi TC35i",
+      "brand": "ddHiFi",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 401,
+      "gearId": "ref-df6d7100061ed5aa"
+    },
+    {
+      "id": "98d4cc0e6fd853765a152665",
+      "subject": "슈어도 전혀 생각치못한 Aonic215 리뷰를 해버렸네?",
+      "name": "Shure Aonic215",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 402,
+      "gearId": "ref-89e4c04d03d56d40"
+    },
+    {
+      "id": "811a7306a3012a3d1d2fafca",
+      "subject": "가장 저렴한 STAX 귓구멍에 때려박는 SRS-002 (SR-002 + SRM-002)",
+      "name": "STAX SRS-002",
+      "brand": "STAX",
+      "category": "이어폰 · 앰프",
+      "existingId": null,
+      "_draftIndex": 403,
+      "gearId": "ref-9a2747cb9abfa026"
+    },
+    {
+      "id": "811a7306a3012a3d1d2fafca",
+      "subject": "가장 저렴한 STAX 귓구멍에 때려박는 SRS-002 (SR-002 + SRM-002)",
+      "name": "STAX SR-002",
+      "brand": "STAX",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 404,
+      "gearId": "ref-4dd15ddd2b3a6280"
+    },
+    {
+      "id": "811a7306a3012a3d1d2fafca",
+      "subject": "가장 저렴한 STAX 귓구멍에 때려박는 SRS-002 (SR-002 + SRM-002)",
+      "name": "STAX SRM-002",
+      "brand": "STAX",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 405,
+      "gearId": "ref-a2c45655c889004f"
+    },
+    {
+      "id": "36f7949f3fccdba348b87613",
+      "subject": "단돈 $90 으로 진공관의 맛을 휴대한다? Little Bear B4X",
+      "name": "Little Bear B4X",
+      "brand": "Little Bear",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 406,
+      "gearId": "ref-90fcca0bc8b67ce5"
+    },
+    {
+      "id": "456f3abe1440c9b23f3f09e5",
+      "subject": "FAudio Minor 하극상인가? 이게 Major 의 절반 가격이라니",
+      "name": "FAudio Minor",
+      "brand": "FAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 407,
+      "gearId": "ref-baa12c12e3106551"
+    },
+    {
+      "id": "456f3abe1440c9b23f3f09e5",
+      "subject": "FAudio Minor 하극상인가? 이게 Major 의 절반 가격이라니",
+      "name": "FAudio Major",
+      "brand": "FAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 408,
+      "gearId": "ref-4ef49661f92e38c1"
+    },
+    {
+      "id": "6976860021d3dd9132a6a798",
+      "subject": "이케아의 미니 스피커 29,900원!? IKEA ENEBY Portable",
+      "name": "IKEA ENEBY Portable",
+      "brand": "IKEA",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 409,
+      "gearId": "ref-c28f724bdbb9bd16"
+    },
+    {
+      "id": "fcb451d4478b825ad72fe157",
+      "subject": "원모어에서 만든 QCY 킬러! 원모어띵 OMThing AirFree (+공동구매)",
+      "name": "omthing AirFree",
+      "brand": "omthing",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 410,
+      "gearId": "ref-57783823f19fc0c2"
+    },
+    {
+      "id": "1d52050c08f6b2493748a9ef",
+      "subject": "엉망진창 대반전의 소니 WH-1000XM4 리뷰! 업그레이드 포인트는?",
+      "name": "Sony WH-1000XM4",
+      "brand": "Sony",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 411,
+      "gearId": "ref-1d92a229dc435869"
+    },
+    {
+      "id": "cf30da03244345300692363f",
+      "subject": "오디오엔진 HD3! 이건 A2+ BT 랑 뭐가 다른가?! 들어봅시다",
+      "name": "Audioengine HD3",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 412,
+      "gearId": "ref-b53e6a7b6df72902"
+    },
+    {
+      "id": "cf30da03244345300692363f",
+      "subject": "오디오엔진 HD3! 이건 A2+ BT 랑 뭐가 다른가?! 들어봅시다",
+      "name": "Audioengine A2+ BT",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 413,
+      "gearId": "ref-bc6a6ed0177076a9"
+    },
+    {
+      "id": "30137d1b9ab11c7a949f700e",
+      "subject": "이게 왜 단종? 중고 10만원대 AUDEZE SINE (오디지 사인)",
+      "name": "Audeze SINE",
+      "brand": "Audeze",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 414,
+      "gearId": "ref-2c6686492ab84283"
+    },
+    {
+      "id": "922b4c8974d73358257c976e",
+      "subject": "1more 최초의 BA 탑재 코드리스! 컬러버즈 ColorBuds",
+      "name": "1MORE ColorBuds",
+      "brand": "1MORE",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 415,
+      "gearId": "ref-fb9f303261e9f8f7"
+    },
+    {
+      "id": "f461dfea9715126f25c5d95d",
+      "subject": "젠하이저 CX400BT 라고 쓰고 모멘텀 트루 와이어리스 SE 라고 읽는다",
+      "name": "Sennheiser CX400BT",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 416,
+      "gearId": "ref-ac647670952be459"
+    },
+    {
+      "id": "0d01151e642b9bb923c9928c",
+      "subject": "저렴한 진공관 헤드폰앰프! 사운드 체험 함께해요! (Aiyima 12au7)",
+      "name": "AIYIMA 12AU7",
+      "brand": "AIYIMA",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 417,
+      "gearId": "ref-8a804853f64d2524"
+    },
+    {
+      "id": "e52ec943f5eaa861d69ce3ee",
+      "subject": "8만원대 정전형 하이브리드 이어폰? BGVP ZERO",
+      "name": "BGVP ZERO",
+      "brand": "BGVP",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 418,
+      "gearId": "ref-c627343c208de0cd"
+    },
+    {
+      "id": "7518dced3c351812a6574140",
+      "subject": "iFi 는 다 계획이 있구나!? 헤드폰앰프 겸 프리앰프 ZEN CAN!",
+      "name": "iFi ZEN CAN",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 419,
+      "gearId": "ref-dec1fd8b793c7883"
+    },
+    {
+      "id": "28ef61eb73355e9edf63d9f7",
+      "subject": "The King of CDP! Sony D-Z555! 왕의 사운드가 궁금하다!",
+      "name": "Sony D-Z555",
+      "brand": "Sony",
+      "category": "CD 플레이어",
+      "existingId": null,
+      "_draftIndex": 420,
+      "gearId": "ref-f952ca2edaf764a0"
+    },
+    {
+      "id": "0825b466dff1ba0059cdd63c",
+      "subject": "명불허전 바쿤 입문기? 최신 포터블 헤드폰앰프 CAP-1003",
+      "name": "Bakoon CAP-1003",
+      "brand": "Bakoon",
+      "category": "앰프",
+      "existingId": "ref-5a780024a3d7c0ef",
+      "_draftIndex": 421,
+      "gearId": "ref-5a780024a3d7c0ef"
+    },
+    {
+      "id": "8c2d8458d9aeb7d22c4ea0a4",
+      "subject": "진공관의 진한 감동! Woo Audio WA8 진공관 헤드폰 앰프",
+      "name": "Woo Audio WA8",
+      "brand": "Woo Audio",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 422,
+      "gearId": "ref-8386b58f895da9c4"
+    },
+    {
+      "id": "f6af4d433c860a622dd12cb2",
+      "subject": "10만원짜리 진공관 인티앰프? 그게 되냐? 되긴 되네! Nobsound MS-10D Mk2",
+      "name": "Nobsound MS-10D Mk2",
+      "brand": "Nobsound",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 423,
+      "gearId": "ref-9feec2760f063146"
+    },
+    {
+      "id": "e02becfd61e6475b5ce4ad88",
+      "subject": "내 귀에 강낭콩! 갤럭시 버즈 라이브 음질 / 통품 평가",
+      "name": "Samsung Galaxy Buds Live",
+      "brand": "Samsung",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 424,
+      "gearId": "ref-0a71af9e13c3a6b8"
+    },
+    {
+      "id": "9682dea1213784d343e80ca8",
+      "subject": "QCY T8은 T7보다 정말 나아졌는데… 그런데…",
+      "name": "QCY T8",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 425,
+      "gearId": "ref-23086853cfba95fc"
+    },
+    {
+      "id": "9682dea1213784d343e80ca8",
+      "subject": "QCY T8은 T7보다 정말 나아졌는데… 그런데…",
+      "name": "QCY T7",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 426,
+      "gearId": "ref-85b65bf366179346"
+    },
+    {
+      "id": "8b7e34e034620b73a7e96d8e",
+      "subject": "방수 / 출력 / 가격 이거 괜찮네! 앤커 사운드코어 모션플러스 (Anker Soundcore Motion+)",
+      "name": "Anker Soundcore Motion+",
+      "brand": "Anker",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 427,
+      "gearId": "ref-c73b035e2b8dfa49"
+    },
+    {
+      "id": "9ea66129d1f28c12f28ae48a",
+      "subject": "1975년산 STAX SR40 이것은 음향 덕후의 길 저렴하게 eBay 로 떠나자",
+      "name": "STAX SR40",
+      "brand": "STAX",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 428,
+      "gearId": "ref-0e041e8dbcde0624"
+    },
+    {
+      "id": "4b57cce975c7cfd258c3560b",
+      "subject": "볼륨은 역시 돌리는 맛이지! 패시브 볼륨 컨트롤러 3종 비교 (Mackie Big Knob Passive / ESI MoCo / Nob Sound)",
+      "name": "Mackie Big Knob Passive",
+      "brand": "Mackie",
+      "category": "음향 프로세서",
+      "existingId": null,
+      "_draftIndex": 429,
+      "gearId": "ref-b03e787a823503db"
+    },
+    {
+      "id": "4b57cce975c7cfd258c3560b",
+      "subject": "볼륨은 역시 돌리는 맛이지! 패시브 볼륨 컨트롤러 3종 비교 (Mackie Big Knob Passive / ESI MoCo / Nob Sound)",
+      "name": "ESI MoCo",
+      "brand": "ESI",
+      "category": "음향 프로세서",
+      "existingId": null,
+      "_draftIndex": 430,
+      "gearId": "ref-15534d6a4f6f9433"
+    },
+    {
+      "id": "d74fc2596af10499938ebb1e",
+      "subject": "QCY T9S 굳이 왜 나왔을까? T1과의 차이가?",
+      "name": "QCY T9S",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 431,
+      "gearId": "ref-c61dba76bec16258"
+    },
+    {
+      "id": "d74fc2596af10499938ebb1e",
+      "subject": "QCY T9S 굳이 왜 나왔을까? T1과의 차이가?",
+      "name": "QCY T1",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 432,
+      "gearId": "ref-b8082c9cbaf032d5"
+    },
+    {
+      "id": "6be108f908b939079add9d85",
+      "subject": "저음 이어폰 최강자 FAudio Major - 1DD 끝판왕 (4)",
+      "name": "FAudio Major",
+      "brand": "FAudio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 433,
+      "gearId": "ref-4ef49661f92e38c1"
+    },
+    {
+      "id": "955f5c931950c79a60dd4d73",
+      "subject": "QCY T7 그냥 나왔으니까 일단 리뷰합니다",
+      "name": "QCY T7",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 434,
+      "gearId": "ref-85b65bf366179346"
+    },
+    {
+      "id": "caa26c886b837e7863ddd748",
+      "subject": "코드리스 세계관 최강의 저음머신 Sony WF-XB700",
+      "name": "Sony WF-XB700",
+      "brand": "Sony",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 435,
+      "gearId": "ref-32085675829cdbb9"
+    },
+    {
+      "id": "d505ad523b3fffa006be0d36",
+      "subject": "VGP2020 대상! 소리를 파헤쳐주는 Final A8000 - 1DD 끝판왕 (3)",
+      "name": "Final A8000",
+      "brand": "Final",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 436,
+      "gearId": "ref-44be34225b9d703c"
+    },
+    {
+      "id": "e078bebe160ea0d0f5bb2b58",
+      "subject": "이 가격에 나올 소리가 아닌데?! 국산 신제품 디비누스 오스티아 (DIVINUS OSTIA) + 런칭기념 공동구매",
+      "name": "DIVINUS OSTIA",
+      "brand": "DIVINUS",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 437,
+      "gearId": "ref-359fc1945839364b"
+    },
+    {
+      "id": "8179cbd66a8f6183c63a289c",
+      "subject": "브라보! 음을 더럽혀주는 진공관 헤드폰 앰프 Bravo V3",
+      "name": "Bravo V3",
+      "brand": "Bravo",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 438,
+      "gearId": "ref-b1a3f68d54367f5e"
+    },
+    {
+      "id": "3795f50f18a9e84704411e8f",
+      "subject": "폼팁의 명가 컴플라이! 에어팟 프로용 드디어! (+런칭기념 공동구매)",
+      "name": "Comply 에어팟 프로용 폼팁",
+      "brand": "Comply",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 439,
+      "gearId": "ref-f4b3a54889bdd911"
+    },
+    {
+      "id": "661ed83659034034c6aa6967",
+      "subject": "$30 짜리 무선 헤드폰! KOSS 니까 가능하다!? KPH7 Wireless",
+      "name": "Koss KPH7 Wireless",
+      "brand": "Koss",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 440,
+      "gearId": "ref-3a0c188b8a4fc9a8"
+    },
+    {
+      "id": "1c09aaf2c69f391e668fe078",
+      "subject": "구글의 애플 에어팟 대항마? 픽셀 버즈 2 써보니...",
+      "name": "Google Pixel Buds 2",
+      "brand": "Google",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 441,
+      "gearId": "ref-325624c7855eeb5e"
+    },
+    {
+      "id": "5373f862b2e0c78538bda29a",
+      "subject": "세계가 놀랄 국산 DAC! 하이파이 가격파괴! JAVS X5 Producer dk Edition",
+      "name": "JAVS X5 Producer dk Edition",
+      "brand": "JAVS",
+      "category": "DAC",
+      "existingId": null,
+      "_draftIndex": 442,
+      "gearId": "ref-1cb9c3a1dae19f6a"
+    },
+    {
+      "id": "db57b79d95524fd16900a65f",
+      "subject": "울트라손의 최고급 끝판왕! 주빌리 25주년 에디션 (Ultrasone Jubilee 25 Edition)",
+      "name": "Ultrasone Jubilee 25 Edition",
+      "brand": "Ultrasone",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 443,
+      "gearId": "ref-9a40009af01ef68e"
+    },
+    {
+      "id": "bcd3e4adc06c553388fc2d13",
+      "subject": "테슬라 모델X 뽑았으니까 사운드 (오디오/소음) 리뷰",
+      "name": "Tesla Model X 오디오",
+      "brand": "Tesla",
+      "category": "차량 오디오",
+      "existingId": null,
+      "_draftIndex": 444,
+      "gearId": "ref-a8996ffe52936f00"
+    },
+    {
+      "id": "aa7b1221474d3fe9f02d1bee",
+      "subject": "스타필드가 펼쳐지는 수월우 스타필드 (Moondrop Starfield)",
+      "name": "Moondrop Starfield",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 445,
+      "gearId": "ref-e45198f994c6c112"
+    },
+    {
+      "id": "e1faeeb249bc358947d8db13",
+      "subject": "(한국이 세계 최저가인) 울트라손 에디션8 EX !! S-Logic EX 만세 !!",
+      "name": "Ultrasone Edition8 EX",
+      "brand": "Ultrasone",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 446,
+      "gearId": "ref-b23f1963772805ad"
+    },
+    {
+      "id": "7f29b0cee131abcd8ffc84ce",
+      "subject": "모멘텀 TW2 데코니 폼팁 리뷰 + 에어팟 프로용 / 모든 코드리스용 공동구매",
+      "name": "Dekoni 모멘텀 TW2용 폼팁",
+      "brand": "Dekoni",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 447,
+      "gearId": "ref-49644eda4ddeeb40"
+    },
+    {
+      "id": "7f29b0cee131abcd8ffc84ce",
+      "subject": "모멘텀 TW2 데코니 폼팁 리뷰 + 에어팟 프로용 / 모든 코드리스용 공동구매",
+      "name": "Dekoni 에어팟 프로용 폼팁",
+      "brand": "Dekoni",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 448,
+      "gearId": "ref-2f40fd7ff5ac03bf"
+    },
+    {
+      "id": "ccd7bac2f8756e3a89014377",
+      "subject": "마샬 스톡웰2 버건디 | 디자인은 역시 마샬? 특별한 용도(?)의 스피커",
+      "name": "Marshall Stockwell 2 Burgundy",
+      "brand": "Marshall",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 449,
+      "gearId": "ref-6ca45025f8333948"
+    },
+    {
+      "id": "a3253ef1636cb656e4b43120",
+      "subject": "이어폰 헤드폰 전체 1등? DITA Dream XLS - 1DD 끝판왕 (2)",
+      "name": "DITA Dream XLS",
+      "brand": "DITA",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 450,
+      "gearId": "ref-b083ba8c8c13ce3a"
+    },
+    {
+      "id": "ee6c36582f8a03973c28b5cb",
+      "subject": "바람을 막아주는 넥밴드 1MORE ANC PRO (노이즈캔슬링 + LDAC 이어폰)",
+      "name": "1MORE ANC PRO",
+      "brand": "1MORE",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 451,
+      "gearId": "ref-698d2973066d4884"
+    },
+    {
+      "id": "2359afe75d919ab834526e94",
+      "subject": "[DROP] 숙녀의 포옹? Dekoni Blue = Fostex T50RP mk3 (feat. 내귀에 하르모니아)",
+      "name": "Dekoni Blue",
+      "brand": "Dekoni",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 452,
+      "gearId": "ref-6eea7985674a2dc3"
+    },
+    {
+      "id": "2359afe75d919ab834526e94",
+      "subject": "[DROP] 숙녀의 포옹? Dekoni Blue = Fostex T50RP mk3 (feat. 내귀에 하르모니아)",
+      "name": "Fostex T50RP mk3",
+      "brand": "Fostex",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 453,
+      "gearId": "ref-a326d4fd81d88944"
+    },
+    {
+      "id": "9dbf21e4b9c71f3b2598ef45",
+      "subject": "내 귀에 피카츄 있다? Razer Hammerhead 중국 한정판 피카츄 에디션",
+      "name": "Razer Hammerhead 피카츄 에디션",
+      "brand": "Razer",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 454,
+      "gearId": "ref-deb9fdb5346730c3"
+    },
+    {
+      "id": "4c85d426044f57e99c12e6dc",
+      "subject": "프로 / 취미 둘 다 만족? Shure AONIC 50 슈어 최초 무선 헤드폰! (LDAC 지원)",
+      "name": "Shure AONIC 50",
+      "brand": "Shure",
+      "category": "헤드폰",
+      "existingId": "ref-bc203b82864aa662",
+      "_draftIndex": 455,
+      "gearId": "ref-bc203b82864aa662"
+    },
+    {
+      "id": "dfbe6840847499bed91ffe22",
+      "subject": "드디어 ifi HIP-DAC 정식 런칭! 가성비 깡패 포터블 DAC 겸 헤드폰 앰프 (+ 공동구매)",
+      "name": "iFi HIP-DAC",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": "ref-4143ebc4b6ccff88",
+      "_draftIndex": 456,
+      "gearId": "ref-4143ebc4b6ccff88"
+    },
+    {
+      "id": "d31e183f99aac5580b3661e5",
+      "subject": "1DD 끝판왕? 나무통 이어폰 JVC HA-FW10000 (삼대장 중 첫번째)",
+      "name": "JVC HA-FW10000",
+      "brand": "JVC",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 457,
+      "gearId": "ref-ee45608b732f2f49"
+    },
+    {
+      "id": "8918398ac6626c7150297fd7",
+      "subject": "[DROP] 독일 수제 숨은 명기? German Maestro GMP 8.35 Mobile Advanced 헤드폰",
+      "name": "German Maestro GMP 8.35 Mobile Advanced",
+      "brand": "German Maestro",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 458,
+      "gearId": "ref-41859f8af923357d"
+    },
+    {
+      "id": "f4fda7d49c2a783b44233370",
+      "subject": "LCD-i4 가격의 1/3 !? Audeze LCD-i3 아이폰 음감 끝판왕의 동생",
+      "name": "Audeze LCD-i3",
+      "brand": "Audeze",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 459,
+      "gearId": "ref-844bc04f591d0e8a"
+    },
+    {
+      "id": "f4fda7d49c2a783b44233370",
+      "subject": "LCD-i4 가격의 1/3 !? Audeze LCD-i3 아이폰 음감 끝판왕의 동생",
+      "name": "Audeze LCD-i4",
+      "brand": "Audeze",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 460,
+      "gearId": "ref-797de086f482c42f"
+    },
+    {
+      "id": "7858afa4094a749c1956138d",
+      "subject": "아남의 추억팔이? 4만원대 레트로 붐박스 ANAM PA-730BTS",
+      "name": "ANAM PA-730BTS",
+      "brand": "ANAM",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 461,
+      "gearId": "ref-45a282614528e657"
+    },
+    {
+      "id": "717340690c69e783f001f0ff",
+      "subject": "에어팟 프로 유저들은 꼭 쓰세요! 빨아쓰는 데코니 Dekoni 폼팁",
+      "name": "Dekoni 에어팟 프로용 폼팁",
+      "brand": "Dekoni",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 462,
+      "gearId": "ref-2f40fd7ff5ac03bf"
+    },
+    {
+      "id": "abfa5f62e831064e8fd6eed6",
+      "subject": "10만원 미만! 대박! 락머신! Koss Pro/4AA ★★★★★",
+      "name": "Koss Pro/4AA",
+      "brand": "Koss",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 463,
+      "gearId": "ref-7cb33c49e3cd4ee1"
+    },
+    {
+      "id": "c285ede6b5ffefe8003e3710",
+      "subject": "어쨌든 손해는 안볼 3만원대 이어폰 Kinera Tyr 키네라 티르 (feat. Final E 팁)",
+      "name": "Kinera Tyr",
+      "brand": "Kinera",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 464,
+      "gearId": "ref-30260f17757183e1"
+    },
+    {
+      "id": "c285ede6b5ffefe8003e3710",
+      "subject": "어쨌든 손해는 안볼 3만원대 이어폰 Kinera Tyr 키네라 티르 (feat. Final E 팁)",
+      "name": "Final E 팁",
+      "brand": "Final",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 465,
+      "gearId": "ref-16c9f6ef5d3bc1b4"
+    },
+    {
+      "id": "9a19b41696cf2731a9b891d2",
+      "subject": "수십년간 판매되는 헤드폰? Beyerdynamic DT-100 우리 동년배들 다 좋아한다",
+      "name": "beyerdynamic DT-100",
+      "brand": "beyerdynamic",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 466,
+      "gearId": "ref-fa9c8c5f79fe5617"
+    },
+    {
+      "id": "11d00bc85cd08c1ca0be71c0",
+      "subject": "이게 ROCK 머신이라고? Grado 그락도 GH3 리미티드 에디션!",
+      "name": "Grado GH3",
+      "brand": "Grado",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 467,
+      "gearId": "ref-40a47f4806e8896f"
+    },
+    {
+      "id": "90fd75293609549c8f00c500",
+      "subject": "이케아 ENEBY 블루투스 스피커 완전 멀쩡하네 (IKEA 에네뷔 20 30)",
+      "name": "IKEA ENEBY 20",
+      "brand": "IKEA",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 468,
+      "gearId": "ref-b321b216bec3b45e"
+    },
+    {
+      "id": "90fd75293609549c8f00c500",
+      "subject": "이케아 ENEBY 블루투스 스피커 완전 멀쩡하네 (IKEA 에네뷔 20 30)",
+      "name": "IKEA ENEBY 30",
+      "brand": "IKEA",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 469,
+      "gearId": "ref-f02265ebe1d5080f"
+    },
+    {
+      "id": "643f50a0920701a975813cba",
+      "subject": "방송 오디오 또 업그레이드! Shure SM7B + FetHead (다이나마이트 비교)",
+      "name": "Shure SM7B",
+      "brand": "Shure",
+      "category": "마이크",
+      "existingId": null,
+      "_draftIndex": 470,
+      "gearId": "ref-fa14c3162e0401bf"
+    },
+    {
+      "id": "643f50a0920701a975813cba",
+      "subject": "방송 오디오 또 업그레이드! Shure SM7B + FetHead (다이나마이트 비교)",
+      "name": "Triton Audio FetHead",
+      "brand": "Triton Audio",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 471,
+      "gearId": "ref-8e0d11bd8dfd7fb0"
+    },
+    {
+      "id": "643f50a0920701a975813cba",
+      "subject": "방송 오디오 또 업그레이드! Shure SM7B + FetHead (다이나마이트 비교)",
+      "name": "sE Electronics DM1 DYNAMITE",
+      "brand": "sE Electronics",
+      "category": "앰프",
+      "existingId": null,
+      "_draftIndex": 472,
+      "gearId": "ref-6869498ca5a5433a"
+    },
+    {
+      "id": "8a413b29f55608afe361e22f",
+      "subject": "[DROP] $20의 행복 KOSS KPH30i 의외의 대박! (+$5 배송비)",
+      "name": "Koss KPH30i",
+      "brand": "Koss",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 473,
+      "gearId": "ref-55ba0aae7e7c3e28"
+    },
+    {
+      "id": "2e9e7b8971a3ff538dec4630",
+      "subject": "젤 비싸고 젤 좋은거! 젠하이저 모멘텀 트루 와이어리스 2 (Momentum True Wireless 2)",
+      "name": "Sennheiser Momentum True Wireless 2",
+      "brand": "Sennheiser",
+      "category": "이어폰",
+      "existingId": "ref-056ad2178f5bb477",
+      "_draftIndex": 474,
+      "gearId": "ref-056ad2178f5bb477"
+    },
+    {
+      "id": "1d74bf132656b476d48b20a2",
+      "subject": "평판형 헤드폰의 명가 오디지? Audeze LCD-1 리뷰 (+공동구매)",
+      "name": "Audeze LCD-1",
+      "brand": "Audeze",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 475,
+      "gearId": "ref-5d44a78e79733c08"
+    },
+    {
+      "id": "2a4a6e0892ce0282f2eb5fd7",
+      "subject": "몽블랑에서 헤드폰을? Montblanc MB01 명품 헤드폰 리뷰 (feat. GQ)",
+      "name": "Montblanc MB 01",
+      "brand": "Montblanc",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 476,
+      "gearId": "ref-393951e519ccfa46"
+    },
+    {
+      "id": "a36b35a82961e7014a92437e",
+      "subject": "전설의 레전드 이어폰 888! 20년만에 Sony MDR-E888 들어봅시다!",
+      "name": "Sony MDR-E888",
+      "brand": "Sony",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 477,
+      "gearId": "ref-d735fd768a6348fb"
+    },
+    {
+      "id": "dba75f6e085bbf6888ce1de3",
+      "subject": "[DROP] 하이파이맨 HE4XX, 10만원대 평판형 헤드폰!? (HIFIMAN 4XX Planar Magnetic)",
+      "name": "HIFIMAN HE4XX",
+      "brand": "HIFIMAN",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 478,
+      "gearId": "ref-eca81fa904b9c4dd"
+    },
+    {
+      "id": "f3615b2d16430dfedea73858",
+      "subject": "애플 비츠 스튜디오 3 리뷰: 맥북프로 사은품?",
+      "name": "Beats Studio 3",
+      "brand": "Beats",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 479,
+      "gearId": "ref-7192b09e2b88ddc8"
+    },
+    {
+      "id": "5b3d865e7800b79ec7984750",
+      "subject": "휴대용인데 휴대하지 못하는? 울트라손 Tribute7",
+      "name": "Ultrasone Tribute7",
+      "brand": "Ultrasone",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 480,
+      "gearId": "ref-2ef4e81fabeee9b8"
+    },
+    {
+      "id": "e94f4e5185ecfcdc93be5887",
+      "subject": "빈자의 LCD-i4? 10만원대 평판형 이어폰 Monolith M350 Planar 세계 최초 리뷰",
+      "name": "Monolith M350 Planar",
+      "brand": "Monolith",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 481,
+      "gearId": "ref-cff14c7711c385e8"
+    },
+    {
+      "id": "c39a71a203df6476b2bfa328",
+      "subject": "딱걸렸다! 우리들의 취향저격! 이어소닉스 스타크 & 블레이드 (Earsonics Stark & Blade)",
+      "name": "EarSonics Stark",
+      "brand": "EarSonics",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 482,
+      "gearId": "ref-c0fcf6fc1bd58c43"
+    },
+    {
+      "id": "c39a71a203df6476b2bfa328",
+      "subject": "딱걸렸다! 우리들의 취향저격! 이어소닉스 스타크 & 블레이드 (Earsonics Stark & Blade)",
+      "name": "EarSonics Blade",
+      "brand": "EarSonics",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 483,
+      "gearId": "ref-b13fc89115df5973"
+    },
+    {
+      "id": "880a6da302eafb752d8f3e2a",
+      "subject": "2만원에 이 정도? 오픈형 이어폰 수월우 시로유키 (水月雨 MoonDrop Shiro-Yuki)",
+      "name": "Moondrop Shiro-Yuki",
+      "brand": "Moondrop",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 484,
+      "gearId": "ref-8e0c44e52d45077d"
+    },
+    {
+      "id": "e5acfc0a660b94efd690bea6",
+      "subject": "생긴 것만 그대로, 갤럭시 버즈 플러스 상세 리뷰! (26분 + α)",
+      "name": "Samsung Galaxy Buds+",
+      "brand": "Samsung",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 485,
+      "gearId": "ref-3097641858231e47"
+    },
+    {
+      "id": "3408ab81bac5dedc31b29c8b",
+      "subject": "[DROP] 정전형 헤드폰 입문? 비싼데 싸다! KOSS ESP/95X",
+      "name": "Koss ESP/95X",
+      "brand": "Koss",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 486,
+      "gearId": "ref-447771fa6910fd21"
+    },
+    {
+      "id": "88080f1796228706c272ab33",
+      "subject": "이어폰에 붙이면 업그레이드? REQST 레조넌스 칩 (진동칩, 공진칩)",
+      "name": "REQST 레조넌스 칩",
+      "brand": "REQST",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 487,
+      "gearId": "ref-6f75e623a7dc502e"
+    },
+    {
+      "id": "b525dfae9e2da412f22fafbc",
+      "subject": "소니의 흑역사? 15년만에 들어본 SA5000 빈티지 헤드폰",
+      "name": "Sony MDR-SA5000",
+      "brand": "Sony",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 488,
+      "gearId": "ref-cd2c0e4b4851cec1"
+    },
+    {
+      "id": "57f0a3440a78a3908eff63f0",
+      "subject": "Noble X 신난다! 학생을 위한 추천 이어폰 2탄!",
+      "name": "Noble Audio Noble X",
+      "brand": "Noble Audio",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 489,
+      "gearId": "ref-476693c5fae66735"
+    },
+    {
+      "id": "946773c3814d2cc5bd93d3a2",
+      "subject": "[DROP] 소떼가 온다고?! Fostex TR-X00 한우인가 흑우인가",
+      "name": "Fostex TR-X00",
+      "brand": "Fostex",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 490,
+      "gearId": "ref-ccc5eb7358490699"
+    },
+    {
+      "id": "202a80fbeaf437cf3c8e326d",
+      "subject": "이런 경험 처음이야! AKG K1000 못사니까 구경만 하세요!",
+      "name": "AKG K1000",
+      "brand": "AKG",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 491,
+      "gearId": "ref-5459df042feb9ac0"
+    },
+    {
+      "id": "2e3500ab0040725a559a479e",
+      "subject": "이런 내용일지 젠하이저도 모르는 PXC550-II 리뷰! 완전 의외의 물건?",
+      "name": "Sennheiser PXC550-II",
+      "brand": "Sennheiser",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 492,
+      "gearId": "ref-a1986e7a1a076c94"
+    },
+    {
+      "id": "6ae6d4dc349e7034055b2068",
+      "subject": "오픈형 코드리스 Sabbat X12 울트라는 과연 프로보다 좋아졌나?",
+      "name": "Sabbat X12 Ultra",
+      "brand": "Sabbat",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 493,
+      "gearId": "ref-a17b7345c679801b"
+    },
+    {
+      "id": "6ae6d4dc349e7034055b2068",
+      "subject": "오픈형 코드리스 Sabbat X12 울트라는 과연 프로보다 좋아졌나?",
+      "name": "Sabbat X12 Pro",
+      "brand": "Sabbat",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 494,
+      "gearId": "ref-0e6cb1bd34c26b94"
+    },
+    {
+      "id": "1646dfbbcfa80a6f3f2830d3",
+      "subject": "QCY T1 + 퀄컴 = T1X !! 추천할까 말까 추천할까 말까",
+      "name": "QCY T1X",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 495,
+      "gearId": "ref-8a4111900ee4fc1c"
+    },
+    {
+      "id": "1646dfbbcfa80a6f3f2830d3",
+      "subject": "QCY T1 + 퀄컴 = T1X !! 추천할까 말까 추천할까 말까",
+      "name": "QCY T1",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 496,
+      "gearId": "ref-b8082c9cbaf032d5"
+    },
+    {
+      "id": "a0893e83ab09a249798257e1",
+      "subject": "모니터링계의 고인물! Shure SE215 파격 공구 + 기부 이벤트! (BT1 + EXS 케이블)",
+      "name": "Shure SE215",
+      "brand": "Shure",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 497,
+      "gearId": "ref-aeff157596495a08"
+    },
+    {
+      "id": "a0893e83ab09a249798257e1",
+      "subject": "모니터링계의 고인물! Shure SE215 파격 공구 + 기부 이벤트! (BT1 + EXS 케이블)",
+      "name": "Shure BT1",
+      "brand": "Shure",
+      "category": "블루투스 리시버",
+      "existingId": null,
+      "_draftIndex": 498,
+      "gearId": "ref-0db6718a18432747"
+    },
+    {
+      "id": "b7566009b7d22ce832cca4d9",
+      "subject": "찰떡 사운드 끝판왕! 셀렌토 와이어리스 / 국내 최초 런칭 + 특가 이벤트!",
+      "name": "beyerdynamic Xelento Wireless",
+      "brand": "beyerdynamic",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 499,
+      "gearId": "ref-5ee9ccce63a548af"
+    },
+    {
+      "id": "9995aab542f7ae678b502d8a",
+      "subject": "에어팟 프로라고 뻥치고 에어팟용 컴플라이 폼팁 리뷰! SoftCONNECT for AirPods",
+      "name": "Comply SoftCONNECT for AirPods",
+      "brand": "Comply",
+      "category": "액세서리",
+      "existingId": null,
+      "_draftIndex": 500,
+      "gearId": "ref-c32b2ec935ccf689"
+    },
+    {
+      "id": "b4baa243db8081d5e67d21a1",
+      "subject": "A2+ BT 공동구매 2차 / 관련 궁금한 점들 물어보세요!",
+      "name": "Audioengine A2+ BT",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 501,
+      "gearId": "ref-bc6a6ed0177076a9"
+    },
+    {
+      "id": "b525e6849d584b3a79f5acbd",
+      "subject": "에어팟 프로 살까말까? 음질 / 노캔 / 통화 얘기만 함",
+      "name": "Apple AirPods Pro",
+      "brand": "Apple",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 502,
+      "gearId": "ref-b806fe87b59b1046"
+    },
+    {
+      "id": "99313300649fb94d66f4e7bd",
+      "subject": "작지만 프로급? 역대급 강추! AudioEngine A2+ BT 스피커 (+스탠드) 공동구매",
+      "name": "Audioengine A2+ BT",
+      "brand": "Audioengine",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 503,
+      "gearId": "ref-bc6a6ed0177076a9"
+    },
+    {
+      "id": "bfb6d7624b076d0da95875c9",
+      "subject": "아이폰도 이런거 있다! Fiio i1 DAC 라이트닝 3.5mm 오디오잭",
+      "name": "FiiO i1",
+      "brand": "FiiO",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 504,
+      "gearId": "ref-ac166d2511e1c7ba"
+    },
+    {
+      "id": "abc184c87c59a6b9e82a0f00",
+      "subject": "이게 아이폰 음감 종결자래...(LCD - i4)",
+      "name": "Audeze LCD-i4",
+      "brand": "Audeze",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 505,
+      "gearId": "ref-797de086f482c42f"
+    },
+    {
+      "id": "6231cfa34cba186f21c6aafe",
+      "subject": "이어폰의 교과서 에티모틱! ER3 ER4 공동구매",
+      "name": "Etymotic ER3",
+      "brand": "Etymotic",
+      "category": "이어폰",
+      "existingId": "ref-2586a8d31486630a",
+      "_draftIndex": 506,
+      "gearId": "ref-2586a8d31486630a"
+    },
+    {
+      "id": "6231cfa34cba186f21c6aafe",
+      "subject": "이어폰의 교과서 에티모틱! ER3 ER4 공동구매",
+      "name": "Etymotic ER4 시리즈",
+      "brand": "Etymotic",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 507,
+      "gearId": "ref-4248848be3a6c3fe"
+    },
+    {
+      "id": "006c7b0cbce986ab00300e9b",
+      "subject": "최고급 게이밍 헤드셋 MMX300 2세대! 이것이 월드컵의 기술?! (공동구매)",
+      "name": "beyerdynamic MMX 300 (2nd Generation)",
+      "brand": "beyerdynamic",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 508,
+      "gearId": "ref-7e8ef5ef4562f139"
+    },
+    {
+      "id": "a4913134419768c87e9ccee9",
+      "subject": "게이밍 헤드셋 리뷰의 시작! Razer ELECTRA V2 USB",
+      "name": "Razer ELECTRA V2 USB",
+      "brand": "Razer",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 509,
+      "gearId": "ref-d33fff2414fea569"
+    },
+    {
+      "id": "ba905255de03e6db36cab0ca",
+      "subject": "1more 스타일리쉬 상세 리뷰 + 스페셜 한정 공동구매",
+      "name": "1MORE Stylish",
+      "brand": "1MORE",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 510,
+      "gearId": "ref-9fde9501f6b0ef65"
+    },
+    {
+      "id": "6aaed1ca3e840f406426e9d5",
+      "subject": "국산 최고 가성비 코드리스! T90 상세 리뷰 + 공동구매",
+      "name": "Bluecom DECIBEL BCS-T90",
+      "brand": "Bluecom",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 511,
+      "gearId": "ref-0510774f6b478bda"
+    },
+    {
+      "id": "d3f13dfaaad09740b5461202",
+      "subject": "Westone B 시리즈 / UM1 들어보자! 웨스톤 대기획 마지막편!",
+      "name": "Westone B 시리즈",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 512,
+      "gearId": "ref-65cb0eb47c8fbdee"
+    },
+    {
+      "id": "d3f13dfaaad09740b5461202",
+      "subject": "Westone B 시리즈 / UM1 들어보자! 웨스톤 대기획 마지막편!",
+      "name": "Westone UM1",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 513,
+      "gearId": "ref-a3f3c901fa57cd4d"
+    },
+    {
+      "id": "f1d8d77d7291b120f6fdc717",
+      "subject": "Westone AMPro 시리즈 몽땅 들어보자! / 이압 제로의 오픈형 사운드!",
+      "name": "Westone AM Pro 시리즈",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 514,
+      "gearId": "ref-9295d3a0dbfce269"
+    },
+    {
+      "id": "af876f645ccc9361512f38a3",
+      "subject": "리뷰대방출! QCY T3, 레드미 에어닷, GT1, IP010-Plus, TP1 등수놀이?!",
+      "name": "QCY T3",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 515,
+      "gearId": "ref-4142f22a2d3976ae"
+    },
+    {
+      "id": "af876f645ccc9361512f38a3",
+      "subject": "리뷰대방출! QCY T3, 레드미 에어닷, GT1, IP010-Plus, TP1 등수놀이?!",
+      "name": "Redmi AirDots",
+      "brand": "Redmi",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 516,
+      "gearId": "ref-3d4437fc85b0f324"
+    },
+    {
+      "id": "af876f645ccc9361512f38a3",
+      "subject": "리뷰대방출! QCY T3, 레드미 에어닷, GT1, IP010-Plus, TP1 등수놀이?!",
+      "name": "Haylou GT1",
+      "brand": "Haylou",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 517,
+      "gearId": "ref-fa263ed56d8c9148"
+    },
+    {
+      "id": "af876f645ccc9361512f38a3",
+      "subject": "리뷰대방출! QCY T3, 레드미 에어닷, GT1, IP010-Plus, TP1 등수놀이?!",
+      "name": "ANOMOIBUDS IP010-Plus",
+      "brand": "ANOMOIBUDS",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 518,
+      "gearId": "ref-ee875e2a7fdacbdc"
+    },
+    {
+      "id": "af876f645ccc9361512f38a3",
+      "subject": "리뷰대방출! QCY T3, 레드미 에어닷, GT1, IP010-Plus, TP1 등수놀이?!",
+      "name": "Whizzer TP1",
+      "brand": "Whizzer",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 519,
+      "gearId": "ref-eab731a94ceb9138"
+    },
+    {
+      "id": "f34eb5dc4272dbd47ffd18f0",
+      "subject": "Westone UMPro 시리즈 몽땅 들어보자! / 이벤트 예고 + 전제품 훑어보기 대기획!",
+      "name": "Westone UM Pro 시리즈",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 520,
+      "gearId": "ref-8624934512790d56"
+    },
+    {
+      "id": "f8c8ef0fbc72ba224a690d28",
+      "subject": "코드리스의 새로운 기준, 라이퍼텍 TEVI 리뷰 + 예판 이벤트",
+      "name": "LYPERTEK TEVI",
+      "brand": "LYPERTEK",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 521,
+      "gearId": "ref-a82448895b5f693a"
+    },
+    {
+      "id": "24a3cb612dc61a87f7a26374",
+      "subject": "젊은 럭셔리, 쏘나타 DN8 풀옵션 리뷰! 보스 오디오 스피커 12개는 어떨까?",
+      "name": "Hyundai 쏘나타 DN8 BOSE 오디오",
+      "brand": "Hyundai",
+      "category": "차량 오디오",
+      "existingId": null,
+      "_draftIndex": 522,
+      "gearId": "ref-dbbb9f066ef3eb9f"
+    },
+    {
+      "id": "e49f60355b0a4ccf2c1a6439",
+      "subject": "G8 ThinQ, 기본기 탄탄한 음악감상용 폰! 블라인드 테스트까지?",
+      "name": "LG G8 ThinQ",
+      "brand": "LG",
+      "category": "스마트폰",
+      "existingId": null,
+      "_draftIndex": 523,
+      "gearId": "ref-866dae548133dcf7"
+    },
+    {
+      "id": "002c50d494265443e60b33a8",
+      "subject": "Westone W 시리즈 (2019 신형) 몽땅 들어보자! 프로듀서 / 엔지니어가 놀란 이유는? 웨스톤 이어폰",
+      "name": "Westone W 시리즈 (2019)",
+      "brand": "Westone",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 524,
+      "gearId": "ref-647aa7acff2b6700"
+    },
+    {
+      "id": "1f5200edf84f04a122bb215f",
+      "subject": "파이널 E 시리즈 이어폰 전부 다 들어보자! + 공동구매 + xDSD/xCAN",
+      "name": "Final E 시리즈",
+      "brand": "Final",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 525,
+      "gearId": "ref-82edc84bddcb1272"
+    },
+    {
+      "id": "1f5200edf84f04a122bb215f",
+      "subject": "파이널 E 시리즈 이어폰 전부 다 들어보자! + 공동구매 + xDSD/xCAN",
+      "name": "iFi xDSD",
+      "brand": "iFi",
+      "category": "DAC / 앰프",
+      "existingId": "ref-fedc0ce409c04ab6",
+      "_draftIndex": 526,
+      "gearId": "ref-fedc0ce409c04ab6"
+    },
+    {
+      "id": "1f5200edf84f04a122bb215f",
+      "subject": "파이널 E 시리즈 이어폰 전부 다 들어보자! + 공동구매 + xDSD/xCAN",
+      "name": "iFi xCAN",
+      "brand": "iFi",
+      "category": "앰프",
+      "existingId": "ref-f7b59fa206b5fc8a",
+      "_draftIndex": 527,
+      "gearId": "ref-f7b59fa206b5fc8a"
+    },
+    {
+      "id": "bc0a8c9fc3095d4d72931839",
+      "subject": "dk + 엔지니어 강추! 5만원 최고의 이어폰 2종! 돌피니어 / 베비 (+공동구매 이벤트)",
+      "name": "돌피니어 JDR-100",
+      "brand": "제이디솔루션",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 528,
+      "gearId": "ref-0d78f30c5314e0d4"
+    },
+    {
+      "id": "bc0a8c9fc3095d4d72931839",
+      "subject": "dk + 엔지니어 강추! 5만원 최고의 이어폰 2종! 돌피니어 / 베비 (+공동구매 이벤트)",
+      "name": "LYPERTEK BEVI",
+      "brand": "LYPERTEK",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 529,
+      "gearId": "ref-b4893dade921f43c"
+    },
+    {
+      "id": "036e266732b6424bb2c604dc",
+      "subject": "T1 Pro는 T1 보다 좋을까? 여러분도 함께! 재미있는 이어폰 저음 테스트",
+      "name": "QCY T1 Pro",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 532,
+      "gearId": "ref-1c2894d5f9aa7fc2"
+    },
+    {
+      "id": "036e266732b6424bb2c604dc",
+      "subject": "T1 Pro는 T1 보다 좋을까? 여러분도 함께! 재미있는 이어폰 저음 테스트",
+      "name": "QCY T1",
+      "brand": "QCY",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 533,
+      "gearId": "ref-b8082c9cbaf032d5"
+    },
+    {
+      "id": "9f24f319516267a01af9fb5a",
+      "subject": "V40 ThinQ, 카메라 5개 달린 음악감상용 폰! 블라인드 테스트까지?",
+      "name": "LG V40 ThinQ",
+      "brand": "LG",
+      "category": "스마트폰",
+      "existingId": null,
+      "_draftIndex": 535,
+      "gearId": "ref-4f7fd5e0ebd94344"
+    },
+    {
+      "id": "149780674628a714701d6b22",
+      "subject": "B&O E8 (한정판 핑크) 갑자기 리뷰! 네가 코드리스의 끝판왕? 정말?",
+      "name": "Bang & Olufsen E8 (한정판 핑크)",
+      "brand": "Bang & Olufsen",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 536,
+      "gearId": "ref-9afc2e669ec9dab9"
+    },
+    {
+      "id": "a73bd1ef8f694a3c68355033",
+      "subject": "550만원짜리 초고가 이어폰(EmpireEars Arthur)을 들어보자! (feat. 노라조 조빈)",
+      "name": "Empire Ears Arthur",
+      "brand": "Empire Ears",
+      "category": "이어폰",
+      "existingId": null,
+      "_draftIndex": 540,
+      "gearId": "ref-f1aa82a002ebc1fd"
+    },
+    {
+      "id": "5634a4360955a5152ad16e50",
+      "subject": "붐붐! G7 ThinQ 붐박스 원리? 1등 상금 500만원 콘테스트에 참여하세요! 소리 진짜 크네…",
+      "name": "LG G7 ThinQ",
+      "brand": "LG",
+      "category": "스마트폰",
+      "existingId": null,
+      "_draftIndex": 541,
+      "gearId": "ref-a333cec8f593dfa2"
+    },
+    {
+      "id": "bb16ff171394016de124cfd1",
+      "subject": "지금 당장 꼭 들어봐야하는 DAP / Zishan DSD 799! 구독자 특별 할인까지?",
+      "name": "Zishan DSD 799",
+      "brand": "Zishan",
+      "category": "DAP",
+      "existingId": null,
+      "_draftIndex": 542,
+      "gearId": "ref-53c7d84e54dae051"
+    },
+    {
+      "id": "b917c9134ba61cb1d3146f90",
+      "subject": "USB 출력되는 턴테이블, Sony PS-HX500 / LP로 들으면 왜 좋을까?",
+      "name": "Sony PS-HX500",
+      "brand": "Sony",
+      "category": "턴테이블",
+      "existingId": null,
+      "_draftIndex": 543,
+      "gearId": "ref-6f1241f954c7c17a"
+    },
+    {
+      "id": "adb56971d2f41cfbe3749178",
+      "subject": "고음질 블루투스 리시버 3종 비교 (XB10 / ES100 / Aqua+ / 아이폰 / 갤럭시 노트8)",
+      "name": "Astell&Kern XB10",
+      "brand": "Astell&Kern",
+      "category": "DAC / 앰프",
+      "existingId": "ref-fd0efb0cf42a1ee9",
+      "_draftIndex": 544,
+      "gearId": "ref-fd0efb0cf42a1ee9"
+    },
+    {
+      "id": "adb56971d2f41cfbe3749178",
+      "subject": "고음질 블루투스 리시버 3종 비교 (XB10 / ES100 / Aqua+ / 아이폰 / 갤럭시 노트8)",
+      "name": "EarStudio ES100",
+      "brand": "EarStudio",
+      "category": "DAC / 앰프",
+      "existingId": "ref-a51903c075a93774",
+      "_draftIndex": 545,
+      "gearId": "ref-a51903c075a93774"
+    },
+    {
+      "id": "adb56971d2f41cfbe3749178",
+      "subject": "고음질 블루투스 리시버 3종 비교 (XB10 / ES100 / Aqua+ / 아이폰 / 갤럭시 노트8)",
+      "name": "NEXUM AQUA+",
+      "brand": "NEXUM",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 546,
+      "gearId": "ref-c81ff0a43f9fbf6f"
+    },
+    {
+      "id": "adb56971d2f41cfbe3749178",
+      "subject": "고음질 블루투스 리시버 3종 비교 (XB10 / ES100 / Aqua+ / 아이폰 / 갤럭시 노트8)",
+      "name": "Samsung Galaxy Note8",
+      "brand": "Samsung",
+      "category": "스마트폰",
+      "existingId": null,
+      "_draftIndex": 547,
+      "gearId": "ref-1865b03dd950b1ec"
+    },
+    {
+      "id": "3a0529bb689a08938f40009a",
+      "subject": "거실용 음악감상 기기 추천, 하이파이로즈 RS-301!! 럭셔리로의 첫단계?",
+      "name": "HiFi Rose RS-301",
+      "brand": "HiFi Rose",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 548,
+      "gearId": "ref-9aba7893df27ee60"
+    },
+    {
+      "id": "7e45e5c4801b7cc1ca97457e",
+      "subject": "내 귀에 딱 맞는 소리를 찾아주는, 누라폰 Nuraphone 체험! 충격!",
+      "name": "Nura Nuraphone",
+      "brand": "Nura",
+      "category": "헤드폰",
+      "existingId": null,
+      "_draftIndex": 551,
+      "gearId": "ref-b32988f307e5e208"
+    },
+    {
+      "id": "452340ac3ed7b5b497928890",
+      "subject": "아이폰 이어폰 젠더 한국판 / 미국판 음질은 다를까? (아이패드에선 또 달라?)",
+      "name": "Apple 아이폰 이어폰 젠더 한국판",
+      "brand": "Apple",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 552,
+      "gearId": "ref-b901a86419150b1b"
+    },
+    {
+      "id": "452340ac3ed7b5b497928890",
+      "subject": "아이폰 이어폰 젠더 한국판 / 미국판 음질은 다를까? (아이패드에선 또 달라?)",
+      "name": "Apple 아이폰 이어폰 젠더 미국판",
+      "brand": "Apple",
+      "category": "DAC / 앰프",
+      "existingId": null,
+      "_draftIndex": 553,
+      "gearId": "ref-c3bb459eaa2b1716"
+    },
+    {
+      "id": "527ba2fb3a36e3a6cac7870c",
+      "subject": "라인 클로버 VS 기가지니 LTE, 인공지능 필요없고, 스피커로 쓴다면?! (feat. 리브라톤 ZIP MINI)",
+      "name": "LINE Clova WAVE",
+      "brand": "LINE",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 554,
+      "gearId": "ref-fdd35f46790a8510"
+    },
+    {
+      "id": "527ba2fb3a36e3a6cac7870c",
+      "subject": "라인 클로버 VS 기가지니 LTE, 인공지능 필요없고, 스피커로 쓴다면?! (feat. 리브라톤 ZIP MINI)",
+      "name": "KT 기가지니 LTE",
+      "brand": "KT",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 555,
+      "gearId": "ref-df7bea29dbae7b39"
+    },
+    {
+      "id": "527ba2fb3a36e3a6cac7870c",
+      "subject": "라인 클로버 VS 기가지니 LTE, 인공지능 필요없고, 스피커로 쓴다면?! (feat. 리브라톤 ZIP MINI)",
+      "name": "Libratone ZIPP MINI",
+      "brand": "Libratone",
+      "category": "스피커",
+      "existingId": null,
+      "_draftIndex": 556,
+      "gearId": "ref-cfb45b312abb90eb"
+    },
+    {
+      "id": "f418a6da7fa8b607385cded6",
+      "subject": "아이폰의 구린 음질, AK XB10 이 구원할 수 있을까? (feat. 갤럭시 노트8, 아이패드 프로)",
+      "name": "Astell&Kern XB10",
+      "brand": "Astell&Kern",
+      "category": "DAC / 앰프",
+      "existingId": "ref-fd0efb0cf42a1ee9",
+      "_draftIndex": 557,
+      "gearId": "ref-fd0efb0cf42a1ee9"
+    },
+    {
+      "id": "f418a6da7fa8b607385cded6",
+      "subject": "아이폰의 구린 음질, AK XB10 이 구원할 수 있을까? (feat. 갤럭시 노트8, 아이패드 프로)",
+      "name": "Samsung Galaxy Note8",
+      "brand": "Samsung",
+      "category": "스마트폰",
+      "existingId": null,
+      "_draftIndex": 558,
+      "gearId": "ref-1865b03dd950b1ec"
+    },
+    {
+      "id": "f418a6da7fa8b607385cded6",
+      "subject": "아이폰의 구린 음질, AK XB10 이 구원할 수 있을까? (feat. 갤럭시 노트8, 아이패드 프로)",
+      "name": "Apple 아이패드 프로",
+      "brand": "Apple",
+      "category": "태블릿",
+      "existingId": null,
+      "_draftIndex": 559,
+      "gearId": "ref-bbc52e185f3918ba"
+    }
+  ],
+  "repairedTracks": [
+    {
+      "sourceId": "c38dded20935ace5ce6cfa5b",
+      "originalVideo": "r3mIpbGD",
+      "video": "r3mIpbGD-xw",
+      "evidence": "https://www.youtube.com/watch?v=r3mIpbGD-xw"
+    }
+  ],
+  "actualAddedEntries": 1604,
+  "betaTotals": {
+    "linkedBroadcasts": 847,
+    "ignoredBroadcasts": 58,
+    "pendingBroadcasts": 0,
+    "gears": 1026,
+    "entries": 3524
+  },
+  "approval": "User approved shared DB and the 448-broadcast catalog import. This is NOT approval to deploy website code to production.",
+  "sharedCatalogImportApproved": true,
+  "productionCodeReleaseApproved": false
+}
