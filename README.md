@@ -45,3 +45,32 @@ server record. Existing valid short-lived cookies migrate on /auth/me.
 
 Checks: node tests/sessions.cjs; node tests/personal-list.cjs;
 node tests/browsing.cjs.
+
+
+## Public catalog caching
+
+`GET /api/catalog` uses Cloudflare Cache API for 60 seconds per location.
+Only the public catalog is cached: charts (including `mine`), participants,
+account/session APIs, admin APIs and personal recommendations remain `no-store`.
+Cache keys exclude cookies and unused query parameters and include the origin
+and `CATALOG_CACHE_VERSION`; bump that version when changing catalog projection
+or `SONG_CORRECTIONS`. No new KV/D1 table or paid resource is required.
+
+Catalog responses carry ETags and use private browser revalidation. An edge hit
+requires no D1 queries; matching `If-None-Match` returns an empty 304 response.
+The browser coalesces concurrent catalog loads and reuses data for up to 30s,
+bounded by the remaining edge lifetime. Successful recommendations/admin edits
+clear the editing browser's memo and the local caches for production/beta host
+aliases. Its next read explicitly bypasses the edge cache. Other locations and
+already open tabs can remain stale until their TTL expires; Cache API deletion
+is not global. Direct SQL imports also rely on the TTL (or an explicit purge).
+Concurrent pre-edit fills may remain until TTL expiry; bypass ensures the editor
+reads its write. Cache failures fall back to D1, and errors are never stored.
+
+HTML is reusable in the browser for 60s and also emits a body-derived ETag
+(distinct for beta). Cloudflare HTML transformations may strip that ETag;
+the 60s browser freshness still avoids repeated page downloads. Compression
+remains enabled. A newly deployed page may take up to 60s to reach a browser. Inspect
+`X-DK-Cache: MISS/HIT/BYPASS` and `X-DK-Catalog-TTL` on catalog responses.
+This reduces DB reads and response bytes; edge Cache API hits still invoke a
+Worker. Check with `node tests/cache.cjs` and the existing `tests/*.cjs` suite.
