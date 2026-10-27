@@ -1,22 +1,16 @@
 {
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
-  "linkedBroadcasts": 390,
-  "pendingBroadcasts": 506,
+  "linkedBroadcasts": 391,
+  "pendingBroadcasts": 505,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "음향 교육·소프트웨어·코덱 설명": 5,
+    "음향 교육·소프트웨어·코덱 설명": 4,
     "모델·대상 확인 필요": 15,
     "일반 라이브 추천곡": 38
   },
   "remainingBroadcasts": [
-    {
-      "id": "edf447aa26d7a08a2b8f4571",
-      "subject": "[음향] EQ 퀴즈! 당신의 주파수 감각을 테스트 해보세요!",
-      "reason": "음향 교육·소프트웨어·코덱 설명",
-      "tracks": 4
-    },
     {
       "id": "626a3ff5f72cc5a8a5ddc1e9",
       "subject": "저음에 미친 회사 FATfreq x HBB 콜라보 = 저음 찍먹왕 탄생!",
