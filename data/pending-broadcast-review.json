@@ -1,15 +1,14 @@
 {
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
-  "linkedBroadcasts": 389,
-  "pendingBroadcasts": 507,
+  "linkedBroadcasts": 390,
+  "pendingBroadcasts": 506,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
     "음향 교육·소프트웨어·코덱 설명": 5,
     "모델·대상 확인 필요": 15,
-    "일반 라이브 추천곡": 38,
-    "SoundCloud 곡·제품 연결 대기": 1
+    "일반 라이브 추천곡": 38
   },
   "remainingBroadcasts": [
     {
@@ -256,12 +255,6 @@
       "id": "25039a7a84f46ab904fa0fa2",
       "subject": "실시간 라이브방송 추천곡",
       "reason": "일반 라이브 추천곡",
-      "tracks": 1
-    },
-    {
-      "id": "9102a5b84f7996054b5f940d",
-      "subject": "[음향#6] 입문용 헤드폰 앰프 겸 DAC 추천! (드래곤플라이 / Q1 mk2) 휴대성 & 가성비 최고!",
-      "reason": "SoundCloud 곡·제품 연결 대기",
       "tracks": 1
     },
     {
