@@ -2,13 +2,12 @@
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
   "linkedBroadcasts": 389,
-  "pendingBroadcasts": 513,
+  "pendingBroadcasts": 507,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
     "음향 교육·소프트웨어·코덱 설명": 5,
     "모델·대상 확인 필요": 15,
-    "곡 없음": 6,
     "일반 라이브 추천곡": 38,
     "SoundCloud 곡·제품 연결 대기": 1
   },
@@ -60,12 +59,6 @@
       "subject": "[특별기획] 디아블로 VS 피카츄 !! 블라인드 대결",
       "reason": "모델·대상 확인 필요",
       "tracks": 4
-    },
-    {
-      "id": "a516027065191a7b6c76723b",
-      "subject": "반값! 갓성비 헤드폰 앰프 원픽! iFi ZEN CAN Air 특히 오인페에는 꼭! 붙여주세요",
-      "reason": "곡 없음",
-      "tracks": 0
     },
     {
       "id": "58854cb2792af066bc171978",
@@ -158,18 +151,6 @@
       "tracks": 4
     },
     {
-      "id": "bd19029caaf3c1016b853a56",
-      "subject": "펜더 인디오 상세리뷰, 스테레오의 맛을 보시죠! (+ 몬트레이 신형) Fender Indio",
-      "reason": "곡 없음",
-      "tracks": 0
-    },
-    {
-      "id": "17394c0a822bb08100f9a918",
-      "subject": "1인 방송에 필요한 모든 기능을 한방에!! 사운드블라스터 K3+ (2인 모니터 / 효과음 / 보이스오버 / 오토튠)",
-      "reason": "곡 없음",
-      "tracks": 0
-    },
-    {
       "id": "0ae8a461bacc53425cd73b50",
       "subject": "실시간 라이브방송 추천곡",
       "reason": "일반 라이브 추천곡",
@@ -186,24 +167,6 @@
       "subject": "실시간 라이브방송 추천곡",
       "reason": "일반 라이브 추천곡",
       "tracks": 4
-    },
-    {
-      "id": "4fff582006aca0546fde666b",
-      "subject": "Fender 블루투스 스피커 리뷰 + 파격적인 펜더 최초 공식 프로모션 이벤트! (한정수량)",
-      "reason": "곡 없음",
-      "tracks": 0
-    },
-    {
-      "id": "73919a43b22cde89adfd85cf",
-      "subject": "LG + 메리디안 엑스붐Go PK7 블루투스 스피커! 있는 그대로 들려드립니다! 드루와 들으러와",
-      "reason": "곡 없음",
-      "tracks": 0
-    },
-    {
-      "id": "a6250d9c6d03dd7e33b80a0b",
-      "subject": "같은 DAC라고 같은 소리가 아닙니다! Zishan DSD 699 개조판! (+ 799 특가 구매방법)",
-      "reason": "곡 없음",
-      "tracks": 0
     },
     {
       "id": "0d8184d1eeea93e280e5a4b5",
@@ -422,6 +385,42 @@
       "subject": "[아무말] 때려쳐도 괜찮아",
       "reason": "방문기·리믹스 콘테스트·잡담",
       "tracks": 1
+    },
+    {
+      "id": "a516027065191a7b6c76723b",
+      "subject": "반값! 갓성비 헤드폰 앰프 원픽! iFi ZEN CAN Air 특히 오인페에는 꼭! 붙여주세요",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "bd19029caaf3c1016b853a56",
+      "subject": "펜더 인디오 상세리뷰, 스테레오의 맛을 보시죠! (+ 몬트레이 신형) Fender Indio",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "17394c0a822bb08100f9a918",
+      "subject": "1인 방송에 필요한 모든 기능을 한방에!! 사운드블라스터 K3+ (2인 모니터 / 효과음 / 보이스오버 / 오토튠)",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "4fff582006aca0546fde666b",
+      "subject": "Fender 블루투스 스피커 리뷰 + 파격적인 펜더 최초 공식 프로모션 이벤트! (한정수량)",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "73919a43b22cde89adfd85cf",
+      "subject": "LG + 메리디안 엑스붐Go PK7 블루투스 스피커! 있는 그대로 들려드립니다! 드루와 들으러와",
+      "reason": "곡 없음",
+      "tracks": 0
+    },
+    {
+      "id": "a6250d9c6d03dd7e33b80a0b",
+      "subject": "같은 DAC라고 같은 소리가 아닙니다! Zishan DSD 699 개조판! (+ 799 특가 구매방법)",
+      "reason": "곡 없음",
+      "tracks": 0
     }
   ],
   "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)"
