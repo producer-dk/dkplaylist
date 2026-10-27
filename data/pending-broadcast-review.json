@@ -2,11 +2,11 @@
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
   "linkedBroadcasts": 394,
-  "pendingBroadcasts": 501,
+  "pendingBroadcasts": 500,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "모델·대상 확인 필요": 15,
+    "모델·대상 확인 필요": 14,
     "일반 라이브 추천곡": 38
   },
   "remainingBroadcasts": [
@@ -93,12 +93,6 @@
       "subject": "내일 출근 안하니까 심야 라이브",
       "reason": "일반 라이브 추천곡",
       "tracks": 2
-    },
-    {
-      "id": "c9b9badb0def0671155d5700",
-      "subject": "영디비 + 이숲 + dk 특별 라이브 / 무저항잭 무엇이든 물어보세요!?",
-      "reason": "모델·대상 확인 필요",
-      "tracks": 4
     },
     {
       "id": "2258b35f01b4df4ee4791ebb",
@@ -389,6 +383,12 @@
       "subject": "[노잼주의] 이어폰 평가 기준과 방법 / 마이파이 안됩니다!",
       "reason": "음향 교육·소프트웨어·코덱 설명",
       "tracks": 2
+    },
+    {
+      "id": "c9b9badb0def0671155d5700",
+      "subject": "영디비 + 이숲 + dk 특별 라이브 / 무저항잭 무엇이든 물어보세요!?",
+      "reason": "모델·대상 확인 필요",
+      "tracks": 4
     }
   ],
   "ignoredReason": "사용자 요청으로 가져오기 제외 (2026-10-27)"
