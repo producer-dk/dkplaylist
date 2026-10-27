@@ -1,12 +1,12 @@
 {
   "reviewedAt": "2026-10-27",
   "archivedBroadcasts": 905,
-  "linkedBroadcasts": 393,
-  "pendingBroadcasts": 503,
+  "linkedBroadcasts": 394,
+  "pendingBroadcasts": 502,
   "preparedCandidateBroadcasts": 448,
   "candidateStatus": "Draft mappings only; not imported. Canonical brand/model and duplicate checks remain.",
   "remainingBreakdown": {
-    "음향 교육·소프트웨어·코덱 설명": 2,
+    "음향 교육·소프트웨어·코덱 설명": 1,
     "모델·대상 확인 필요": 15,
     "일반 라이브 추천곡": 38
   },
@@ -208,12 +208,6 @@
       "subject": "실시간 라이브방송 추천곡",
       "reason": "일반 라이브 추천곡",
       "tracks": 4
-    },
-    {
-      "id": "1e2d234d8e917536f469e354",
-      "subject": "소니의 고음질 LDAC, 삼성 (혹은 다른 회사) 폰에서도 똑같을까? 무선 고음질 블루투스 코덱의 끝판왕!",
-      "reason": "음향 교육·소프트웨어·코덱 설명",
-      "tracks": 1
     },
     {
       "id": "3208125f1cef643387d16184",
