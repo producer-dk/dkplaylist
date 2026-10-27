@@ -4,7 +4,7 @@ Use after the base import. Never alters votes, users, or existing entries.
 """
 import json,sys,hashlib,re
 from pathlib import Path
-from import_reference import IGNORED_BROADCASTS,clean_song_text,key,video
+from import_reference import normalize_date,IGNORED_BROADCASTS,clean_song_text,key,video
 
 def canonical(name):
  name=re.sub(r'^Bowers & Wilkins\b','B&W',name,flags=re.I)
@@ -36,7 +36,7 @@ def prepare(source,existing,mapping):
     pair=(g['gear_id'],v)
     if pair in pairs:continue
     pairs.add(pair)
-    batch.append({'sql':'INSERT OR IGNORE INTO entries(id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES (?,?,?,?,?,?,?,?,?)','params':[g['gear_id']+'-'+v,g['gear_id'],g['gear_name'],g['category'],v,title,artist,video(d.get('url')),d['date']]})
+    batch.append({'sql':'INSERT OR IGNORE INTO entries(id,gear_id,gear_name,category,video,title,artist,broadcast,source_date) VALUES (?,?,?,?,?,?,?,?,?)','params':[g['gear_id']+'-'+v,g['gear_id'],g['gear_name'],g['category'],v,title,artist,video(d.get('url')),normalize_date(d['date'])]})
   batch.append({'sql':"UPDATE reference_sources SET status='matched_multi',gear_id=? WHERE id=?",'params':[ids[0],sid]})
  return {'batch':batch,'broadcasts':len(mapping),'new_products':len(new),'proposed_pairs':len(pairs)}
 
