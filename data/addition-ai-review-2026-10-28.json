@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-28",
+  "reviews": [
+    {
+      "entryId": "addbe8df-eb77-426f-aa7f-1bcf8832989d",
+      "eventId": 1,
+      "before": {
+        "title": "Tell me Tell me",
+        "artist": "가리나 프로젝트",
+        "video": "mr_oupxvZ8o"
+      },
+      "after": {
+        "title": "Tell Me Tell Me",
+        "artist": "가리나 프로젝트 (Garina Project)",
+        "video": "mr_oupxvZ8o"
+      },
+      "verdict": "verified",
+      "note": "Apple Music의 곡명·아티스트 표기와 Producer dk의 등록 영상 제목을 대조했습니다. 제목의 대소문자와 아티스트 영문 병기를 정리했습니다. 연결 음원은 dk Remaster 영상이며 기존 영상과 추천표는 유지했습니다.",
+      "sources": [
+        {
+          "label": "Apple Music · 곡 정보",
+          "url": "https://music.apple.com/us/song/tell-me-tell-me/413438310"
+        },
+        {
+          "label": "Producer dk · dk Remaster",
+          "url": "https://www.youtube.com/watch?v=mr_oupxvZ8o"
+        }
+      ]
+    },
+    {
+      "entryId": "04d0c760-156e-4324-a1c3-2b0a1da7a084",
+      "eventId": 2,
+      "before": {
+        "title": "Swing baby",
+        "artist": "박진영",
+        "video": "KVFiva6mT64"
+      },
+      "after": {
+        "title": "Swing Baby",
+        "artist": "박진영",
+        "video": "KVFiva6mT64"
+      },
+      "verdict": "verified",
+      "note": "벅스의 Game 앨범 수록곡 표기와 J.Y. Park - Topic 등록 영상을 대조했습니다. 제목의 Baby를 대문자로 정리했으며 아티스트 표기는 정확합니다.",
+      "sources": [
+        {
+          "label": "벅스 · 곡 정보",
+          "url": "https://music.bugs.co.kr/track/20224"
+        },
+        {
+          "label": "J.Y. Park - Topic · 음원",
+          "url": "https://www.youtube.com/watch?v=KVFiva6mT64"
+        }
+      ]
+    }
+  ]
+}

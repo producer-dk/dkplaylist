@@ -74,3 +74,30 @@ remains enabled. A newly deployed page may take up to 60s to reach a browser. In
 `X-DK-Cache: MISS/HIT/BYPASS` and `X-DK-Catalog-TTL` on catalog responses.
 This reduces DB reads and response bytes; edge Cache API hits still invoke a
 Worker. Check with `node tests/cache.cjs` and the existing `tests/*.cjs` suite.
+
+## User addition review queue
+
+Apply `migrations/0026_addition_review_workflow.sql` before deploying the review UI.
+The migration adds tables/triggers only and backfills existing user additions.
+Every real title, artist or recording change to a tracked entry appends a new
+revision, including changes made through the old Worker or direct SQL. No-op
+edits do not reopen a review. Historical revisions, AI evidence and owner
+confirmations are retained. Songs and votes are never deleted by confirmation.
+
+Only the owner can view the queue/history or confirm revisions. Individual
+confirmation requires the exact event/review IDs. Bulk confirmation includes
+all pages, but only the latest unchanged verified revisions whose AI review ID
+is no newer than the list snapshot. A concurrent edit, re-review or prior
+confirmation is skipped. An A→B→A edit still needs a fresh review.
+
+AI status is not exposed as a user-writable endpoint. After actually verifying
+against official artist/label/streaming sources and checking the linked recording,
+prepare an evidence manifest with before/after snapshots, exact current event ID,
+verdict, note and source URLs. `node scripts/record_addition_review.cjs manifest.json`
+produces guarded D1 batch statements. Execute them through an authorized D1
+connection, then verify the inserted review and current snapshot. Never label
+unverified/ambiguous results complete; use `needs_attention` with the reason.
+There is no unattended model or scheduled review job in this change. New or
+edited entries remain pending until an actual review is recorded.
+
+Checks: `node tests/addition-review.cjs` plus the existing Node test suite.
