@@ -10,4 +10,7 @@ r=await call('/api/music-search',{title:'No One Else',artist:'카바티나 스�
 r=await call('/api/recommend',{mode:'gear',target:'g0',video,title:'No One Else',artist:'카바티나 스토리',reviewed:true});assert.equal(r.status,409);
 r=await call('/api/recommend',{mode:'gear',target:'g2',video:'https://soundcloud.com.evil/a/b',title:'bad',artist:'bad',reviewed:true});assert.equal(r.status,400);
 r=await call('/api/admin',{kind:'entry',id,video,date:'2018-05-03'});assert.equal(r.status,200,JSON.stringify(r));
+for(const body of [{title:'No One Else'},{artist:'카바티나 스토리'},{title:'No One'},{artist:'카바티나'}]){r=await call('/api/music-search',body);assert.equal(r.status,200);assert(r.body.tracks.some(t=>t.video===video),JSON.stringify(body));}
+for(const body of [{},{title:' ',artist:' '},{title:'!!!'}])assert.equal((await call('/api/music-search',body)).status,400);
+assert.equal((await call('/api/video-search',{artist:'카바티나'})).status,400);
 console.log('PASS SoundCloud recommendation, vote, local search/selection, duplicate prevention, admin edit and hostile host rejection');})().catch(e=>{console.error(e);process.exit(1)});
