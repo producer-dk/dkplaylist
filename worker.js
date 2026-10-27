@@ -178,7 +178,7 @@ try{
  const db=env.DB;
  if(url.pathname==='/api/admin')return await adminApi(req,env,url);
  if(req.method==='GET'&&url.pathname==='/api/catalog'){
-  return catalogResponse(req,env,async()=>{
+  return await catalogResponse(req,env,async()=>{
   const {results}=await db.prepare('SELECT gear_id,gear_name,category,video,title,artist,broadcast,source_date FROM entries ORDER BY created_at,id').all();const grouped=new Map();for(const e of results){if(!grouped.has(e.gear_id))grouped.set(e.gear_id,{id:e.gear_id,gear:e.gear_name,category:e.category,date:e.source_date,broadcast:e.broadcast||'',songs:[]});grouped.get(e.gear_id).songs.push(correctedSong({video:e.video,title:e.title,artist:e.artist}))}const dates=await db.prepare("SELECT gear_id,MAX(source_date) AS latest FROM (SELECT gear_id,source_date FROM entries WHERE broadcast IS NOT NULL AND broadcast<>'' UNION ALL SELECT p.gear_id,s.source_date FROM reference_products p JOIN reference_sources s ON s.id=p.source_id WHERE s.broadcast IS NOT NULL AND s.broadcast<>'') WHERE source_date GLOB '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]' GROUP BY gear_id").all();const latest=new Map(dates.results.map(r=>[r.gear_id,r.latest]));const metadata=await db.prepare('SELECT gear_id,brand FROM gear_metadata').all();const brands=new Map(metadata.results.map(r=>[r.gear_id,r.brand]));return json({gears:[...grouped.values()].map(g=>({...g,brand:brands.get(g.id)||null,latestBroadcastDate:latest.get(g.id)||null}))});
   });
  }
